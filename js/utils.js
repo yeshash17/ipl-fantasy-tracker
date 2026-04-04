@@ -113,10 +113,11 @@ async function fetchJSON(url, cacheTTL = 0) {
 
 /**
  * Fetch a match scorecard.
- * Completed match scorecards are stored in localStorage forever.
- * Live match scorecards are re-fetched every time.
+ * Priority: 1) localStorage cache  2) static file in data/scorecards/  3) API call
+ * Completed matches are cached permanently. Only live matches hit the API.
  */
 async function fetchScorecard(matchId) {
+  // 1. Check localStorage (browser cache from previous visits)
   const lsKey = `sc_${matchId}`;
   const cached = localStorage.getItem(lsKey);
   if (cached) {
@@ -124,21 +125,56 @@ async function fetchScorecard(matchId) {
     if (parsed._completed) return parsed;
   }
 
-  const data = await fetchJSON(`/api/scorecard?matchId=${matchId}`);
-  const sc = data?.data ?? data;
+  // 2. Try static cached file (committed to repo — 0 API calls)
+  try {
+    const staticData = await fetch(`data/scorecards/${matchId}.json`);
+    if (staticData.ok) {
+      const sc = await staticData.json();
+      sc._completed = true;
+      localStorage.setItem(lsKey, JSON.stringify(sc));
+      return sc;
+    }
+  } catch (e) { /* static file doesn't exist, fall through to API */ }
 
-  if (sc?.matchEnded === true || sc?.status?.toLowerCase?.().includes('won')) {
-    sc._completed = true;
-    localStorage.setItem(lsKey, JSON.stringify(sc));
+  // 3. Live API call (only for matches not yet cached)
+  try {
+    const data = await fetchJSON(`/api/scorecard?matchId=${matchId}`);
+    const sc = data?.data ?? data;
+
+    if (sc?.matchEnded === true || sc?.status?.toLowerCase?.().includes('won')) {
+      sc._completed = true;
+      localStorage.setItem(lsKey, JSON.stringify(sc));
+    }
+    return sc;
+  } catch (e) {
+    console.warn(`Could not fetch scorecard for ${matchId}:`, e.message);
+    return null;
   }
-  return sc;
 }
 
 /** Fetch all IPL 2026 match IDs and their statuses from the series info endpoint. */
 async function fetchSeriesMatches() {
   if (!IPL_SERIES_ID) return [];
-  const data = await fetchJSON(`/api/series-info?seriesId=${IPL_SERIES_ID}`, SESSION_TTL_MS);
-  return data?.data?.matchList ?? [];
+  try {
+    const data = await fetchJSON(`/api/series-info?seriesId=${IPL_SERIES_ID}`, SESSION_TTL_MS);
+    if (data?.status === 'failure') {
+      console.warn('Series API blocked:', data.reason);
+      // Fall back to static match list if API is rate-limited
+      try {
+        const fallback = await fetch('data/matches.json');
+        if (fallback.ok) return await fallback.json();
+      } catch (e) {}
+      return [];
+    }
+    return data?.data?.matchList ?? [];
+  } catch (e) {
+    console.warn('Series fetch error:', e.message);
+    try {
+      const fallback = await fetch('data/matches.json');
+      if (fallback.ok) return await fallback.json();
+    } catch (e2) {}
+    return [];
+  }
 }
 
 // ── Formatting ─────────────────────────────────────────────────────────────
