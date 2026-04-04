@@ -155,10 +155,19 @@ def main():
 
         for slug, match_id in matches:
             out_file = os.path.join(SCORECARDS_DIR, f"{match_id}.json")
+
+            # Skip completed matches (already have final scorecard)
             if os.path.exists(out_file):
-                print(f"[SKIP] {match_id}")
-                success += 1
-                continue
+                try:
+                    existing = json.load(open(out_file, encoding="utf-8"))
+                    if existing.get("completed"):
+                        print(f"[SKIP] {match_id} (completed)")
+                        success += 1
+                        continue
+                    # File exists but not marked completed — re-scrape (live match)
+                    print(f"[LIVE] Re-scraping {match_id}...")
+                except Exception:
+                    pass
 
             url = f"https://www.espncricinfo.com/series/{SERIES_SLUG}/{slug}/full-scorecard"
             print(f"[FETCH] {match_id}: {url}")
@@ -170,18 +179,32 @@ def main():
                 time.sleep(2)  # Extra wait for JS rendering
 
                 scorecard = parse_scorecard(page)
+
+                # Check if match is completed (status text contains "won" or "tied")
+                is_completed = False
+                try:
+                    page_text = page.inner_text("body")[:2000].lower()
+                    if "won by" in page_text or "match tied" in page_text or "no result" in page_text:
+                        is_completed = True
+                except Exception:
+                    # If both innings are fully bowled out (20 overs each), likely completed
+                    if scorecard and len(scorecard.get("innings", [])) >= 2:
+                        is_completed = True
+
                 page.close()
 
                 if scorecard:
                     scorecard["matchId"] = match_id
                     scorecard["scrapedAt"] = time.strftime("%Y-%m-%dT%H:%M:%S")
+                    scorecard["completed"] = is_completed
                     with open(out_file, "w", encoding="utf-8") as f:
                         json.dump(scorecard, f, indent=2, ensure_ascii=False)
 
                     bat_count = sum(len(inn["batting"]) for inn in scorecard["innings"])
                     bowl_count = sum(len(inn["bowling"]) for inn in scorecard["innings"])
                     wkt_count = sum(b["w"] for inn in scorecard["innings"] for b in inn["bowling"])
-                    print(f"  [OK] {bat_count} batters, {bowl_count} bowlers, {wkt_count} wickets")
+                    tag = "FINAL" if is_completed else "LIVE"
+                    print(f"  [{tag}] {bat_count} batters, {bowl_count} bowlers, {wkt_count} wickets")
                     success += 1
                 else:
                     print(f"  [WARN] No scorecard data")
