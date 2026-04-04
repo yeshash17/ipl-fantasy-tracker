@@ -10,7 +10,6 @@ Usage:
 import json
 import os
 import re
-import sys
 import time
 
 SERIES_SLUG = "ipl-2026-1510719"
@@ -19,7 +18,43 @@ PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 SCORECARDS_DIR = os.path.join(PROJECT_DIR, "data", "scorecards")
 os.makedirs(SCORECARDS_DIR, exist_ok=True)
 
-KNOWN_MATCHES = [
+def discover_matches(context):
+    """Auto-discover all completed IPL 2026 match URLs from the results page."""
+    print("[DISCOVER] Fetching match results page...")
+    page = context.new_page()
+    try:
+        page.goto(
+            f"https://www.espncricinfo.com/series/{SERIES_SLUG}/match-results",
+            timeout=30000,
+        )
+        page.wait_for_selector("a[href*='full-scorecard']", timeout=15000)
+        time.sleep(2)
+
+        matches = []
+        seen = set()
+        for link in page.query_selector_all(f"a[href*='{SERIES_SLUG}']"):
+            href = link.get_attribute("href") or ""
+            if "/full-scorecard" not in href:
+                continue
+            # Extract match ID (last number in slug)
+            m = re.search(r"-(\d+)/full-scorecard", href)
+            if m and m.group(1) not in seen:
+                match_id = m.group(1)
+                slug = href.split(f"{SERIES_SLUG}/")[1].replace("/full-scorecard", "") if SERIES_SLUG in href else ""
+                seen.add(match_id)
+                matches.append((slug, match_id))
+
+        print(f"[DISCOVER] Found {len(matches)} completed matches")
+        return matches
+    except Exception as e:
+        print(f"[DISCOVER] Failed: {e}")
+        return []
+    finally:
+        page.close()
+
+
+# Fallback: hardcoded matches in case auto-discovery fails
+FALLBACK_MATCHES = [
     ("royal-challengers-bengaluru-vs-sunrisers-hyderabad-1st-match-1527674", "1527674"),
     ("mumbai-indians-vs-kolkata-knight-riders-2nd-match-1527675", "1527675"),
     ("rajasthan-royals-vs-chennai-super-kings-3rd-match-1527676", "1527676"),
@@ -115,7 +150,10 @@ def main():
             user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
         )
 
-        for slug, match_id in KNOWN_MATCHES:
+        # Auto-discover matches, fall back to hardcoded list
+        matches = discover_matches(context) or FALLBACK_MATCHES
+
+        for slug, match_id in matches:
             out_file = os.path.join(SCORECARDS_DIR, f"{match_id}.json")
             if os.path.exists(out_file):
                 print(f"[SKIP] {match_id}")
@@ -153,7 +191,7 @@ def main():
 
         browser.close()
 
-    print(f"\nDone. {success}/{len(KNOWN_MATCHES)} matches.")
+    print(f"\nDone. {success}/{len(matches)} matches.")
 
 
 if __name__ == "__main__":
