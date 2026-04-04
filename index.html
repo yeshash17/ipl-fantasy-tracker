@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPL 2026 Fantasy Tracker</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-ipl">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <i class="bi bi-trophy-fill me-2 text-warning"></i>IPL 2026 Fantasy
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html"><i class="bi bi-bar-chart-fill me-1"></i>Leaderboard</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            <i class="bi bi-people-fill me-1"></i>Teams
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="teams.html?team=dk">DK</a></li>
+            <li><a class="dropdown-item" href="teams.html?team=anand">Anand</a></li>
+            <li><a class="dropdown-item" href="teams.html?team=shash">Shash</a></li>
+            <li><a class="dropdown-item" href="teams.html?team=naveen-sujeeth">Naveen &amp; Sujeeth</a></li>
+            <li><a class="dropdown-item" href="teams.html?team=roshan">Roshan</a></li>
+            <li><a class="dropdown-item" href="teams.html?team=yesh">Yesh</a></li>
+            <li><a class="dropdown-item" href="teams.html?team=siddharth">Siddharth</a></li>
+            <li><a class="dropdown-item" href="teams.html?team=na">NA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="players.html"><i class="bi bi-person-fill me-1"></i>Players</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="bg-ipl-light py-3 border-bottom">
+  <div class="container d-flex align-items-center justify-content-between flex-wrap gap-2">
+    <div>
+      <h5 class="mb-0 fw-bold">Leaderboard</h5>
+      <small class="text-muted">IPL 2026 · Points: 1 run = 1pt · 1 wicket = 25pts</small>
+    </div>
+    <div class="d-flex align-items-center gap-3">
+      <span id="live-badge" class="badge bg-danger d-none">
+        <i class="bi bi-broadcast me-1"></i>LIVE
+      </span>
+      <small class="text-muted" id="last-updated"></small>
+      <button class="btn btn-sm btn-outline-secondary" onclick="location.reload()">
+        <i class="bi bi-arrow-clockwise me-1"></i>Refresh
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="container my-4">
+
+  <!-- Loading -->
+  <div id="loading" class="text-center py-5">
+    <div class="spinner-border text-primary" role="status"></div>
+    <p class="mt-3 text-muted">Loading standings...</p>
+  </div>
+
+  <!-- Error -->
+  <div id="error-box" class="alert alert-warning d-none">
+    <i class="bi bi-exclamation-triangle-fill me-2"></i>
+    <span id="error-msg"></span>
+  </div>
+
+  <!-- Leaderboard Table -->
+  <div id="leaderboard-section" class="d-none">
+    <div class="card shadow-sm">
+      <div class="card-body p-0">
+        <div class="table-responsive">
+          <table class="table table-hover mb-0 align-middle">
+            <thead class="table-dark">
+              <tr>
+                <th class="ps-3" style="width:50px">#</th>
+                <th>Team</th>
+                <th class="text-end">Total Points</th>
+                <th class="text-end d-none d-md-table-cell">Matches</th>
+                <th class="text-end d-none d-md-table-cell">Players</th>
+                <th class="text-end pe-3 d-none d-sm-table-cell">Budget Spent</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Performers -->
+    <div class="row mt-4 g-3">
+      <div class="col-12">
+        <h6 class="fw-bold text-muted text-uppercase small mb-3">
+          <i class="bi bi-star-fill text-warning me-1"></i>Top Performers
+        </h6>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-header bg-white fw-semibold">
+            <i class="bi bi-bat me-2 text-primary"></i>Top Run Scorers
+          </div>
+          <ul class="list-group list-group-flush" id="top-batters"></ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="card-header bg-white fw-semibold">
+            <i class="bi bi-record-circle me-2 text-danger"></i>Top Wicket Takers
+          </div>
+          <ul class="list-group list-group-flush" id="top-bowlers"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- API Key Missing Notice -->
+<div id="api-key-notice" class="d-none">
+  <div class="container">
+    <div class="alert alert-info">
+      <i class="bi bi-info-circle-fill me-2"></i>
+      <strong>Setup needed:</strong> Add your CricAPI key as <code>CRICAPI_KEY</code> in Netlify environment variables to enable live points.
+      Get a free key at <a href="https://cricketdata.org" target="_blank">cricketdata.org</a>.
+    </div>
+  </div>
+</div>
+
+<footer class="text-center text-muted small py-4 mt-5 border-top">
+  IPL 2026 Fantasy Tracker &mdash; Private League
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/leaderboard.js"></script>
+</body>
+</html>

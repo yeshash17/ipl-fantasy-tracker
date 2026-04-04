@@ -1,0 +1,148 @@
+{
+  "teamId": "roshan",
+  "teamName": "Roshan",
+  "budgetTotal": 2000,
+  "budgetSpent": 1980,
+  "players": [
+    {
+      "name": "MS Dhoni",
+      "price": 40,
+      "role": "Wkt Keeper",
+      "team": "roshan",
+      "cricApiPlayerId": "b6e7aa41-b0bb-4b0f-8f59-59f729283be5"
+    },
+    {
+      "name": "Nithish Rana",
+      "price": 80,
+      "role": "All rounder",
+      "team": "roshan",
+      "cricApiPlayerId": "64360dd6-a8db-47ae-8837-638a5bbbaae6"
+    },
+    {
+      "name": "Kuldeep Yadav",
+      "price": 220,
+      "role": "Bowler",
+      "team": "roshan",
+      "cricApiPlayerId": "1e651cfb-57f1-48da-bf9d-83cbff1733d1"
+    },
+    {
+      "name": "V Nigam",
+      "price": 70,
+      "role": "All rounder",
+      "team": "roshan",
+      "cricApiPlayerId": "6d4e7d4a-4fae-4958-bc15-a063c09508eb"
+    },
+    {
+      "name": "K Rabada",
+      "price": 70,
+      "role": "Bowler",
+      "team": "roshan",
+      "cricApiPlayerId": "a81da20a-e420-476a-baf6-204fc219dbdd"
+    },
+    {
+      "name": "Rashid Khan",
+      "price": 200,
+      "role": "All rounder",
+      "team": "roshan",
+      "cricApiPlayerId": "f0687183-ad9a-44f7-9cbf-4f7eb0cbfb5a"
+    },
+    {
+      "name": "Rajat Patidhar",
+      "price": 190,
+      "role": "Batsman",
+      "team": "roshan",
+      "cricApiPlayerId": "88215ee9-ca67-48af-a3f0-6b38718bd830"
+    },
+    {
+      "name": "T David",
+      "price": 40,
+      "role": "All rounder",
+      "team": "roshan",
+      "cricApiPlayerId": "69718248-2a3a-45d4-9a2a-6f4dfc6942a5"
+    },
+    {
+      "name": "D Ferreira",
+      "price": 40,
+      "role": "All rounder",
+      "team": "roshan",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Jaishwal",
+      "price": 270,
+      "role": "Batsman",
+      "team": "roshan",
+      "cricApiPlayerId": "a254feed-0d7c-4f04-a2ab-7bf9ceef156b"
+    },
+    {
+      "name": "R Sharma",
+      "price": 140,
+      "role": "Batsman",
+      "team": "roshan",
+      "cricApiPlayerId": "03bda674-3916-4d64-952e-00a6c19c01e1"
+    },
+    {
+      "name": "S Yadav",
+      "price": 210,
+      "role": "Batsman",
+      "team": "roshan",
+      "cricApiPlayerId": "8c579447-bfbd-4cf6-a283-db4dc1d5ac33"
+    },
+    {
+      "name": "Arshdeep Singh",
+      "price": 180,
+      "role": "Bowler",
+      "team": "roshan",
+      "cricApiPlayerId": "607ff10c-5619-411d-a822-06ba28992230"
+    },
+    {
+      "name": "Rahane",
+      "price": 60,
+      "role": "Batsman",
+      "team": "roshan",
+      "cricApiPlayerId": "cdc2646c-1fe7-4bc2-b26e-42453f45a212"
+    },
+    {
+      "name": "Avesh Khan",
+      "price": 10,
+      "role": "Bowler",
+      "team": "roshan",
+      "cricApiPlayerId": "332200ad-d1f8-4035-95c5-b33bd1c9a939"
+    },
+    {
+      "name": "I Sharma",
+      "price": 10,
+      "role": "Bowler",
+      "team": "roshan",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "A Raghuvanshi",
+      "price": 120,
+      "role": "Batsman",
+      "team": "roshan",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "R Tripathi",
+      "price": 10,
+      "role": "Batsman",
+      "team": "roshan",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "S Mavi",
+      "price": 10,
+      "role": "Bowler",
+      "team": "roshan",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Mohsin Khan",
+      "price": 10,
+      "role": "Bowler",
+      "team": "roshan",
+      "cricApiPlayerId": "0a4bb087-ec55-4131-89a1-70f14153dbd9"
+    }
+  ]
+}

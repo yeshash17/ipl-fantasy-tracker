@@ -1,0 +1,148 @@
+{
+  "teamId": "naveen-sujeeth",
+  "teamName": "Naveen & Sujeeth",
+  "budgetTotal": 2000,
+  "budgetSpent": 1860,
+  "players": [
+    {
+      "name": "Brewis",
+      "price": 220,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Dube",
+      "price": 200,
+      "role": "All rounder",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Abhishek Porel",
+      "price": 150,
+      "role": "Wkt Keeper",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "T Stubbs",
+      "price": 80,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "de19a93e-06df-4597-9186-7a53c1613552"
+    },
+    {
+      "name": "Shah Rukh Khan",
+      "price": 10,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "d0f69230-16e0-4a79-92aa-f9f7c588d5d3"
+    },
+    {
+      "name": "D Padikal",
+      "price": 50,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "74c6584a-45a5-4781-a5e7-c0c9340da954"
+    },
+    {
+      "name": "R Shepard",
+      "price": 20,
+      "role": "All rounder",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "7fd4fa20-bc49-4337-ae8a-540b67cb011d"
+    },
+    {
+      "name": "Sandeep Sharma",
+      "price": 70,
+      "role": "Bowler",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "3f18b02d-0e1a-49be-aec4-c2fc11503505"
+    },
+    {
+      "name": "V Suryavanshi",
+      "price": 200,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "R Bishnoi",
+      "price": 80,
+      "role": "Bowler",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "9a71201c-c377-45aa-a355-1af6d2c4bae3"
+    },
+    {
+      "name": "T Varma",
+      "price": 200,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "aefd9074-da5a-408d-94f1-3be0e79d3b82"
+    },
+    {
+      "name": "Mayank Markande",
+      "price": 10,
+      "role": "Bowler",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "c06c697c-9575-4bb0-b1f0-27a56a2f3898"
+    },
+    {
+      "name": "Y Chahal",
+      "price": 200,
+      "role": "Bowler",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "0d704a13-518a-40a7-bb93-0fc0d92af9e2"
+    },
+    {
+      "name": "S Narine",
+      "price": 50,
+      "role": "All rounder",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "ef2e9c01-41f2-4349-a945-45d8b11dbd19"
+    },
+    {
+      "name": "C Green",
+      "price": 150,
+      "role": "All rounder",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "abe58090-e933-4888-8538-64f4611ee259"
+    },
+    {
+      "name": "M Chowdary",
+      "price": 10,
+      "role": "Bowler",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "D Miller",
+      "price": 40,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "2f50df2f-809d-44f9-b5be-ccb846515861"
+    },
+    {
+      "name": "Auqib nabi",
+      "price": 10,
+      "role": "Bowler",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Rickleton",
+      "price": 10,
+      "role": "Batsman",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": "a6686871-5bcd-4aae-8bfc-8298f878b6a9"
+    },
+    {
+      "name": "A Omarzai",
+      "price": 100,
+      "role": "All rounder",
+      "team": "naveen-sujeeth",
+      "cricApiPlayerId": null
+    }
+  ]
+}

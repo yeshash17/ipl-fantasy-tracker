@@ -1,0 +1,426 @@
+[
+  {
+    "name": "Jamie Overton",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Ramakrishna Ghosh",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Gurjapneet",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Shreyas",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Karthik Sharma",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Matthew Short",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Aman Khan",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Sarfaraz Khan",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Rahul Chahar",
+    "originalTeam": "CSK"
+  },
+  {
+    "name": "Ajay Mandal",
+    "originalTeam": "DC"
+  },
+  {
+    "name": "Madhav Tiwari",
+    "originalTeam": "DC"
+  },
+  {
+    "name": "Tripurna Vijay",
+    "originalTeam": "DC"
+  },
+  {
+    "name": "Ben Duckket",
+    "originalTeam": "DC"
+  },
+  {
+    "name": "Sahil Parakh",
+    "originalTeam": "DC"
+  },
+  {
+    "name": "Shaw",
+    "originalTeam": "DC"
+  },
+  {
+    "name": "Kyle Jamieson",
+    "originalTeam": "DC"
+  },
+  {
+    "name": "Kushagara",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "Anuj Rawat",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "N Sindhu",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "Arshad khan",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "GS Brar",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "M Suthar",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "J Yadav",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "T Banton",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "Pritiv Raj Yarra",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "Luke Wood",
+    "originalTeam": "GT"
+  },
+  {
+    "name": "Swapnil Singh",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "Yash Dayal",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "N Thusara",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "Rashik Salam",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "M Yadaz",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "A Singh",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "S Deshwal",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "J Cox",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "V Ostwal",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "Vihaan Malhotra",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "Kanishk Chouhan",
+    "originalTeam": "RCB"
+  },
+  {
+    "name": "Shubham Dubey",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "L D Pretorious",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Y S Charak",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Mphaka",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Sushant Mishra",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Yash Raj Punja",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "V Puthur",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Ravi Singh",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Aman Rao",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Brijesh Sharma",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "Adam Milne",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "K Sen",
+    "originalTeam": "RR"
+  },
+  {
+    "name": "R Minz",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "Raj Bawa",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "Raghu Sharma",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "A Ghafankar",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "Rutherford",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "D Malewar",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "M Izhar",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "Ankolekar",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "Mayank Rawat",
+    "originalTeam": "MI"
+  },
+  {
+    "name": "Musheer Khan",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "Pyala Avinash",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "H Pannu",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "Suryash Shedge",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "M Owen",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "Vishnu Vinod",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "Ben Dwarshus",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "Pravin Dubey",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "Vishal Nishad",
+    "originalTeam": "PK"
+  },
+  {
+    "name": "Anukul Roy",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "R Singh",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "R Powell",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "I Malik",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "Pathirana",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "T Singh",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "Karthik Tyagi",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "p Solanki",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "R Tripathi",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "Sm Ranjan",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "D Kamra",
+    "originalTeam": "KKR"
+  },
+  {
+    "name": "A Varma",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "R Smaran",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Kamindu Mendis",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Baydon Carse",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "J Udankat",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Malinga",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Z Ansari",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Shivang Kumar",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Arora",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Sakuib Hussain",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "O Tarmale",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Amit Kumar",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "p Hinge",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "K Fuletra",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "Liam Livingston",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "S Mavi",
+    "originalTeam": "SRH"
+  },
+  {
+    "name": "M Breetzke",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "H Singh",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "Arshin Kulkarni",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "Mayank Yadav",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "M Siddharth",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "P Yadav",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "Akash Singh",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "A Tendulkar",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "Mukul Choudary",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "Naman Tiwari",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "A Raghuwanshi",
+    "originalTeam": "LSG"
+  },
+  {
+    "name": "J Inglis",
+    "originalTeam": "LSG"
+  }
+]

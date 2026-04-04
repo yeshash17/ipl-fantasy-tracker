@@ -1,0 +1,148 @@
+{
+  "teamId": "siddharth",
+  "teamName": "Siddharth",
+  "budgetTotal": 2000,
+  "budgetSpent": 1950,
+  "players": [
+    {
+      "name": "Sanju Samson",
+      "price": 360,
+      "role": "Wkt Keeper",
+      "team": "siddharth",
+      "cricApiPlayerId": "35ed1b20-38f3-4013-be2e-dc28ffbecfd6"
+    },
+    {
+      "name": "Anshul Kamboj",
+      "price": 70,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": "cbe808da-727a-4d9c-b3be-6eb431217483"
+    },
+    {
+      "name": "Starc",
+      "price": 200,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Rizvi",
+      "price": 60,
+      "role": "Batsman",
+      "team": "siddharth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Natrajan",
+      "price": 70,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": "d8826d0d-ef95-4dce-a47a-b09b97f49f07"
+    },
+    {
+      "name": "Rahul Tewatia",
+      "price": 50,
+      "role": "All rounder",
+      "team": "siddharth",
+      "cricApiPlayerId": "085d49b0-d5e5-4fc5-955b-39758a134545"
+    },
+    {
+      "name": "P Krishna",
+      "price": 100,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": "99eb6b5c-379f-46da-bab7-dc8fd31ba435"
+    },
+    {
+      "name": "J Holder",
+      "price": 40,
+      "role": "All rounder",
+      "team": "siddharth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "J Bethell",
+      "price": 110,
+      "role": "Batsman",
+      "team": "siddharth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "V Iyer",
+      "price": 70,
+      "role": "Batsman",
+      "team": "siddharth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "D Jurel",
+      "price": 90,
+      "role": "Batsman",
+      "team": "siddharth",
+      "cricApiPlayerId": "21d693c2-b4dd-4d24-b747-90dfc8357ef5"
+    },
+    {
+      "name": "T Deshpande",
+      "price": 50,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Satner",
+      "price": 10,
+      "role": "All rounder",
+      "team": "siddharth",
+      "cricApiPlayerId": "16ec245b-022d-4104-bd8f-ccc780428390"
+    },
+    {
+      "name": "D Chahar",
+      "price": 130,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": "237a1ef2-1eae-4877-8b94-d20d84faf635"
+    },
+    {
+      "name": "T Head",
+      "price": 170,
+      "role": "Batsman",
+      "team": "siddharth",
+      "cricApiPlayerId": "d6720897-e81d-4703-bf33-d2b60c973d30"
+    },
+    {
+      "name": "S Thakur",
+      "price": 110,
+      "role": "All rounder",
+      "team": "siddharth",
+      "cricApiPlayerId": "c1257351-51ca-446f-b7f5-01fe92e75076"
+    },
+    {
+      "name": "Yash Thakur",
+      "price": 10,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Rinku Singh",
+      "price": 120,
+      "role": "Batsman",
+      "team": "siddharth",
+      "cricApiPlayerId": "11864f31-b766-4766-9cbc-5026015ace48"
+    },
+    {
+      "name": "Harshal Patel",
+      "price": 70,
+      "role": "Bowler",
+      "team": "siddharth",
+      "cricApiPlayerId": "15bccb4f-8c3c-4da6-acd9-551782278bfd"
+    },
+    {
+      "name": "Abdul Samad",
+      "price": 60,
+      "role": "Batsman",
+      "team": "siddharth",
+      "cricApiPlayerId": "dd665f5d-04e8-436b-b376-8fd2a9b8bf8a"
+    }
+  ]
+}

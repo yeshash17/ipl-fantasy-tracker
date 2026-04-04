@@ -1,0 +1,982 @@
+[
+  {
+    "name": "Khaleel Ahmed",
+    "price": 160,
+    "role": "Bowler",
+    "team": "dk",
+    "cricApiPlayerId": "8df6183b-1c95-46d2-85c0-e185792d03f1"
+  },
+  {
+    "name": "Axar Patel",
+    "price": 300,
+    "role": "All rounder",
+    "team": "dk",
+    "cricApiPlayerId": "670ae8ac-4fe9-4f0c-84ee-320b13039f34"
+  },
+  {
+    "name": "Rahul KL",
+    "price": 350,
+    "role": "Wkt Keeper",
+    "team": "dk",
+    "cricApiPlayerId": "a034346c-b408-4d29-a0f0-8b12430be28e"
+  },
+  {
+    "name": "S Gill",
+    "price": 360,
+    "role": "Batsman",
+    "team": "dk",
+    "cricApiPlayerId": "7263e990-a9e9-4829-8adf-760d18d1315c"
+  },
+  {
+    "name": "W Sundar",
+    "price": 160,
+    "role": "All rounder",
+    "team": "dk",
+    "cricApiPlayerId": "309d3ffd-3d06-460d-9427-c559a604d471"
+  },
+  {
+    "name": "J Hazlewood",
+    "price": 10,
+    "role": "Bowler",
+    "team": "dk",
+    "cricApiPlayerId": "2190c28d-1712-4fd2-ae44-9ac54319fc21"
+  },
+  {
+    "name": "J Archer",
+    "price": 90,
+    "role": "Bowler",
+    "team": "dk",
+    "cricApiPlayerId": "19758cd7-4cce-47d8-b1fe-5975609de802"
+  },
+  {
+    "name": "Naman Dhir",
+    "price": 10,
+    "role": "Batsman",
+    "team": "dk",
+    "cricApiPlayerId": "71add5ac-55f9-4eb7-9e0c-d51208ae20c0"
+  },
+  {
+    "name": "Bumrah",
+    "price": 260,
+    "role": "Bowler",
+    "team": "dk",
+    "cricApiPlayerId": "6602d875-cf56-46a3-866c-de80aaa006bc"
+  },
+  {
+    "name": "Shashank Singh",
+    "price": 10,
+    "role": "Batsman",
+    "team": "dk",
+    "cricApiPlayerId": "9d6cb002-6b9f-4795-a9bf-ea1a6e27ed08"
+  },
+  {
+    "name": "H Brar",
+    "price": 10,
+    "role": "All rounder",
+    "team": "dk",
+    "cricApiPlayerId": "e3005322-b01a-4c58-9b26-a2ca150ad1d1"
+  },
+  {
+    "name": "V Chakaravarthy",
+    "price": 150,
+    "role": "Bowler",
+    "team": "dk",
+    "cricApiPlayerId": "702254aa-2764-4fe4-b28e-20336a0ab069"
+  },
+  {
+    "name": "NKR",
+    "price": 10,
+    "role": "All rounder",
+    "team": "dk",
+    "cricApiPlayerId": "4e8ab9cd-c5af-430e-887b-d22bf74ad052"
+  },
+  {
+    "name": "N Pooran",
+    "price": 60,
+    "role": "Batsman",
+    "team": "dk",
+    "cricApiPlayerId": "4e8ab9cd-c5af-430e-887b-d22bf74ad052"
+  },
+  {
+    "name": "A Badoni",
+    "price": 10,
+    "role": "Batsman",
+    "team": "dk",
+    "cricApiPlayerId": "151d6979-05d3-4c1f-ae30-0e58af0e8613"
+  },
+  {
+    "name": "Prashant Veer",
+    "price": 10,
+    "role": "All rounder",
+    "team": "dk",
+    "cricApiPlayerId": "fb46a43c-3deb-489d-8641-5d1744dfbf81"
+  },
+  {
+    "name": "Glenn Philips",
+    "price": 10,
+    "role": "All rounder",
+    "team": "dk",
+    "cricApiPlayerId": "9e6fa482-3ad3-4831-b05d-4fed2510cdf5"
+  },
+  {
+    "name": "Harsh Dubey",
+    "price": 10,
+    "role": "All rounder",
+    "team": "dk",
+    "cricApiPlayerId": "cc7c9a0b-b6ac-4109-84c8-dd9b1704308f"
+  },
+  {
+    "name": "Matt Henry",
+    "price": 10,
+    "role": "Bowler",
+    "team": "dk",
+    "cricApiPlayerId": "36e929d1-32f1-4d41-96c2-7df1364d0bab"
+  },
+  {
+    "name": "Ashutosh Sharma",
+    "price": 10,
+    "role": "Batsman",
+    "team": "dk",
+    "cricApiPlayerId": "cd5a9124-db0b-4cf8-b541-4f8830e02c0c"
+  },
+  {
+    "name": "Ruturaj",
+    "price": 300,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "50b70c71-1535-41c0-87fd-c12883105ede"
+  },
+  {
+    "name": "Chameera",
+    "price": 10,
+    "role": "Bowler",
+    "team": "anand",
+    "cricApiPlayerId": "75fb3972-0436-40ee-bf45-73b1dba7b53e"
+  },
+  {
+    "name": "Nissanka",
+    "price": 90,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "bbbf3b4e-dbc3-4f2a-986d-1a0227ea5a06"
+  },
+  {
+    "name": "Jos Butler",
+    "price": 330,
+    "role": "Wkt Keeper",
+    "team": "anand",
+    "cricApiPlayerId": "7567e305-1b40-4eee-9290-e2fcb8804496"
+  },
+  {
+    "name": "Jitesh Sharma",
+    "price": 210,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "e28de73b-f5df-49eb-bdf6-c50471319404"
+  },
+  {
+    "name": "B Kumar",
+    "price": 100,
+    "role": "Bowler",
+    "team": "anand",
+    "cricApiPlayerId": "3f3ecf51-8411-4046-9477-18c0fe3da6ac"
+  },
+  {
+    "name": "H Pandya",
+    "price": 240,
+    "role": "All rounder",
+    "team": "anand",
+    "cricApiPlayerId": "a90b2371-5c53-4c29-a382-9b52d40a7548"
+  },
+  {
+    "name": "QDC",
+    "price": 70,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "000f9f7c-cc24-4a85-8638-b013b0f4760e"
+  },
+  {
+    "name": "Nehal Wadhera",
+    "price": 110,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "9713a0a1-b885-4221-9812-23b0b73c6657"
+  },
+  {
+    "name": "Vyshak Vijaykumar",
+    "price": 10,
+    "role": "Bowler",
+    "team": "anand",
+    "cricApiPlayerId": "eff809fc-9841-4825-a89f-381db15ad0a2"
+  },
+  {
+    "name": "Tim Seifert",
+    "price": 10,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "812fc568-a932-4f29-a1c4-b7c929e6a248"
+  },
+  {
+    "name": "I Kishan",
+    "price": 250,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "9ae68636-48d9-488f-8adc-e62a19815d85"
+  },
+  {
+    "name": "H Klassen",
+    "price": 90,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Hasaranga",
+    "price": 10,
+    "role": "All rounder",
+    "team": "anand",
+    "cricApiPlayerId": "ba4ba8aa-3ebb-431a-83a9-a78844a68e26"
+  },
+  {
+    "name": "M Shami",
+    "price": 10,
+    "role": "Bowler",
+    "team": "anand",
+    "cricApiPlayerId": "11d06633-aa20-469c-8fbb-676a1ae33eed"
+  },
+  {
+    "name": "Karun nair",
+    "price": 10,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": "367b54a9-80a5-40f6-bed6-086bbcd90899"
+  },
+  {
+    "name": "Ngidi",
+    "price": 10,
+    "role": "Bowler",
+    "team": "anand",
+    "cricApiPlayerId": "a1782393-3479-4caa-9c27-79cb87df9abc"
+  },
+  {
+    "name": "Lockie Ferguson",
+    "price": 100,
+    "role": "Bowler",
+    "team": "anand",
+    "cricApiPlayerId": "604d7c88-4f5d-40d9-b08b-330420964d87"
+  },
+  {
+    "name": "M Pandey",
+    "price": 10,
+    "role": "Batsman",
+    "team": "anand",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "A Nortje",
+    "price": 10,
+    "role": "Bowler",
+    "team": "anand",
+    "cricApiPlayerId": "a8c7ce67-5862-4acb-9297-97eafd0ea3d5"
+  },
+  {
+    "name": "Noor Ahmed",
+    "price": 300,
+    "role": "Bowler",
+    "team": "shash",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "M Siraj",
+    "price": 110,
+    "role": "Bowler",
+    "team": "shash",
+    "cricApiPlayerId": "2a8d8640-2213-4cf6-ac7e-309d8b733e96"
+  },
+  {
+    "name": "Sai Kishore",
+    "price": 70,
+    "role": "Bowler",
+    "team": "shash",
+    "cricApiPlayerId": "7d6bbd6c-c5bb-4e1c-9374-aaa829e77611"
+  },
+  {
+    "name": "V Kohli",
+    "price": 360,
+    "role": "Batsman",
+    "team": "shash",
+    "cricApiPlayerId": "c61d247d-7f77-452c-b495-2813a9cd0ac4"
+  },
+  {
+    "name": "P Salt",
+    "price": 250,
+    "role": "Wkt Keeper",
+    "team": "shash",
+    "cricApiPlayerId": "6db25d60-ff96-4d8d-8d22-dedeeb5ffa29"
+  },
+  {
+    "name": "S Hetmyer",
+    "price": 80,
+    "role": "Batsman",
+    "team": "shash",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "R Parag",
+    "price": 130,
+    "role": "All rounder",
+    "team": "shash",
+    "cricApiPlayerId": "b51bb4e5-acdf-423b-abb3-7a1e6694d2c2"
+  },
+  {
+    "name": "Ashwini Kumar",
+    "price": 10,
+    "role": "Bowler",
+    "team": "shash",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Shreyas Iyer",
+    "price": 230,
+    "role": "Batsman",
+    "team": "shash",
+    "cricApiPlayerId": "77791963-6c1b-4979-b07a-f910dee28cd9"
+  },
+  {
+    "name": "Marco Jansen",
+    "price": 40,
+    "role": "All rounder",
+    "team": "shash",
+    "cricApiPlayerId": "d3c53885-7016-4228-8a20-1dd98214489d"
+  },
+  {
+    "name": "Cooper Connolly",
+    "price": 50,
+    "role": "All rounder",
+    "team": "shash",
+    "cricApiPlayerId": "615b1dc1-8f64-4e26-90c4-04999321fd52"
+  },
+  {
+    "name": "Finn Allen",
+    "price": 50,
+    "role": "Batsman",
+    "team": "shash",
+    "cricApiPlayerId": "08924d57-b4d3-4ed0-903d-087a8384be12"
+  },
+  {
+    "name": "Aiden Markram",
+    "price": 10,
+    "role": "Batsman",
+    "team": "shash",
+    "cricApiPlayerId": "3fef81b0-c1e9-45eb-954f-519f3b33d640"
+  },
+  {
+    "name": "R Pant",
+    "price": 60,
+    "role": "Batsman",
+    "team": "shash",
+    "cricApiPlayerId": "a52b2d20-7c98-4238-9ba4-ec78419a5cc2"
+  },
+  {
+    "name": "Marsh",
+    "price": 100,
+    "role": "All rounder",
+    "team": "shash",
+    "cricApiPlayerId": "6eaac800-13e7-4a07-8ee2-14acd04cc53f"
+  },
+  {
+    "name": "Xavier Bartlett",
+    "price": 10,
+    "role": "Bowler",
+    "team": "shash",
+    "cricApiPlayerId": "cba19be9-7aec-4083-ba61-26f0aee31721"
+  },
+  {
+    "name": "V Arora",
+    "price": 30,
+    "role": "Bowler",
+    "team": "shash",
+    "cricApiPlayerId": "82de5824-b29b-4737-9e9d-44f5796ef227"
+  },
+  {
+    "name": "Rachin Ravindra",
+    "price": 40,
+    "role": "Batsman",
+    "team": "shash",
+    "cricApiPlayerId": "e6d28951-8524-43ca-95cf-9e73ae68bc12"
+  },
+  {
+    "name": "S Ahmed",
+    "price": 20,
+    "role": "All rounder",
+    "team": "shash",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "D Rathi",
+    "price": 10,
+    "role": "Bowler",
+    "team": "shash",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Brewis",
+    "price": 220,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Dube",
+    "price": 200,
+    "role": "All rounder",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Abhishek Porel",
+    "price": 150,
+    "role": "Wkt Keeper",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "T Stubbs",
+    "price": 80,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "de19a93e-06df-4597-9186-7a53c1613552"
+  },
+  {
+    "name": "Shah Rukh Khan",
+    "price": 10,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "d0f69230-16e0-4a79-92aa-f9f7c588d5d3"
+  },
+  {
+    "name": "D Padikal",
+    "price": 50,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "74c6584a-45a5-4781-a5e7-c0c9340da954"
+  },
+  {
+    "name": "R Shepard",
+    "price": 20,
+    "role": "All rounder",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "7fd4fa20-bc49-4337-ae8a-540b67cb011d"
+  },
+  {
+    "name": "Sandeep Sharma",
+    "price": 70,
+    "role": "Bowler",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "3f18b02d-0e1a-49be-aec4-c2fc11503505"
+  },
+  {
+    "name": "V Suryavanshi",
+    "price": 200,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "R Bishnoi",
+    "price": 80,
+    "role": "Bowler",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "9a71201c-c377-45aa-a355-1af6d2c4bae3"
+  },
+  {
+    "name": "T Varma",
+    "price": 200,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "aefd9074-da5a-408d-94f1-3be0e79d3b82"
+  },
+  {
+    "name": "Mayank Markande",
+    "price": 10,
+    "role": "Bowler",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "c06c697c-9575-4bb0-b1f0-27a56a2f3898"
+  },
+  {
+    "name": "Y Chahal",
+    "price": 200,
+    "role": "Bowler",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "0d704a13-518a-40a7-bb93-0fc0d92af9e2"
+  },
+  {
+    "name": "S Narine",
+    "price": 50,
+    "role": "All rounder",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "ef2e9c01-41f2-4349-a945-45d8b11dbd19"
+  },
+  {
+    "name": "C Green",
+    "price": 150,
+    "role": "All rounder",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "abe58090-e933-4888-8538-64f4611ee259"
+  },
+  {
+    "name": "M Chowdary",
+    "price": 10,
+    "role": "Bowler",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "D Miller",
+    "price": 40,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "2f50df2f-809d-44f9-b5be-ccb846515861"
+  },
+  {
+    "name": "Auqib nabi",
+    "price": 10,
+    "role": "Bowler",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Rickleton",
+    "price": 10,
+    "role": "Batsman",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": "a6686871-5bcd-4aae-8bfc-8298f878b6a9"
+  },
+  {
+    "name": "A Omarzai",
+    "price": 100,
+    "role": "All rounder",
+    "team": "naveen-sujeeth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "MS Dhoni",
+    "price": 40,
+    "role": "Wkt Keeper",
+    "team": "roshan",
+    "cricApiPlayerId": "b6e7aa41-b0bb-4b0f-8f59-59f729283be5"
+  },
+  {
+    "name": "Nithish Rana",
+    "price": 80,
+    "role": "All rounder",
+    "team": "roshan",
+    "cricApiPlayerId": "64360dd6-a8db-47ae-8837-638a5bbbaae6"
+  },
+  {
+    "name": "Kuldeep Yadav",
+    "price": 220,
+    "role": "Bowler",
+    "team": "roshan",
+    "cricApiPlayerId": "1e651cfb-57f1-48da-bf9d-83cbff1733d1"
+  },
+  {
+    "name": "V Nigam",
+    "price": 70,
+    "role": "All rounder",
+    "team": "roshan",
+    "cricApiPlayerId": "6d4e7d4a-4fae-4958-bc15-a063c09508eb"
+  },
+  {
+    "name": "K Rabada",
+    "price": 70,
+    "role": "Bowler",
+    "team": "roshan",
+    "cricApiPlayerId": "a81da20a-e420-476a-baf6-204fc219dbdd"
+  },
+  {
+    "name": "Rashid Khan",
+    "price": 200,
+    "role": "All rounder",
+    "team": "roshan",
+    "cricApiPlayerId": "f0687183-ad9a-44f7-9cbf-4f7eb0cbfb5a"
+  },
+  {
+    "name": "Rajat Patidhar",
+    "price": 190,
+    "role": "Batsman",
+    "team": "roshan",
+    "cricApiPlayerId": "88215ee9-ca67-48af-a3f0-6b38718bd830"
+  },
+  {
+    "name": "T David",
+    "price": 40,
+    "role": "All rounder",
+    "team": "roshan",
+    "cricApiPlayerId": "69718248-2a3a-45d4-9a2a-6f4dfc6942a5"
+  },
+  {
+    "name": "D Ferreira",
+    "price": 40,
+    "role": "All rounder",
+    "team": "roshan",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Jaishwal",
+    "price": 270,
+    "role": "Batsman",
+    "team": "roshan",
+    "cricApiPlayerId": "a254feed-0d7c-4f04-a2ab-7bf9ceef156b"
+  },
+  {
+    "name": "R Sharma",
+    "price": 140,
+    "role": "Batsman",
+    "team": "roshan",
+    "cricApiPlayerId": "03bda674-3916-4d64-952e-00a6c19c01e1"
+  },
+  {
+    "name": "S Yadav",
+    "price": 210,
+    "role": "Batsman",
+    "team": "roshan",
+    "cricApiPlayerId": "8c579447-bfbd-4cf6-a283-db4dc1d5ac33"
+  },
+  {
+    "name": "Arshdeep Singh",
+    "price": 180,
+    "role": "Bowler",
+    "team": "roshan",
+    "cricApiPlayerId": "607ff10c-5619-411d-a822-06ba28992230"
+  },
+  {
+    "name": "Rahane",
+    "price": 60,
+    "role": "Batsman",
+    "team": "roshan",
+    "cricApiPlayerId": "cdc2646c-1fe7-4bc2-b26e-42453f45a212"
+  },
+  {
+    "name": "Avesh Khan",
+    "price": 10,
+    "role": "Bowler",
+    "team": "roshan",
+    "cricApiPlayerId": "332200ad-d1f8-4035-95c5-b33bd1c9a939"
+  },
+  {
+    "name": "I Sharma",
+    "price": 10,
+    "role": "Bowler",
+    "team": "roshan",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "A Raghuvanshi",
+    "price": 120,
+    "role": "Batsman",
+    "team": "roshan",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "R Tripathi",
+    "price": 10,
+    "role": "Batsman",
+    "team": "roshan",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "S Mavi",
+    "price": 10,
+    "role": "Bowler",
+    "team": "roshan",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Mohsin Khan",
+    "price": 10,
+    "role": "Bowler",
+    "team": "roshan",
+    "cricApiPlayerId": "0a4bb087-ec55-4131-89a1-70f14153dbd9"
+  },
+  {
+    "name": "Ayush Mhatre",
+    "price": 130,
+    "role": "Batsman",
+    "team": "yesh",
+    "cricApiPlayerId": "679f3d10-ac62-4f5b-89b2-7010935b9985"
+  },
+  {
+    "name": "Urvil Patel",
+    "price": 10,
+    "role": "Wkt Keeper",
+    "team": "yesh",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Sai Sudharasan",
+    "price": 390,
+    "role": "Batsman",
+    "team": "yesh",
+    "cricApiPlayerId": "79f582a1-f5ab-4d30-8f5f-b05d4143608c"
+  },
+  {
+    "name": "Ashok Sharma",
+    "price": 40,
+    "role": "Bowler",
+    "team": "yesh",
+    "cricApiPlayerId": "4b661541-36cf-4dbe-96f0-3d58f971a2a9"
+  },
+  {
+    "name": "K Pandya",
+    "price": 110,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": "81c09c1b-1b1d-4e87-9eaa-d7d0a89a6159"
+  },
+  {
+    "name": "Suyash Sharma",
+    "price": 40,
+    "role": "Bowler",
+    "team": "yesh",
+    "cricApiPlayerId": "2bf2258f-f35e-4831-884e-f88ef46968f5"
+  },
+  {
+    "name": "J Duffy",
+    "price": 50,
+    "role": "Bowler",
+    "team": "yesh",
+    "cricApiPlayerId": "6e05cbea-6a4b-42ef-8e2e-b44e4b434c2f"
+  },
+  {
+    "name": "Jadeja",
+    "price": 150,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": "81b446e1-bfea-45a7-a15e-062b8157a323"
+  },
+  {
+    "name": "Nandre Burger",
+    "price": 10,
+    "role": "Bowler",
+    "team": "yesh",
+    "cricApiPlayerId": "3545d689-5166-440e-9eaf-1409e554a547"
+  },
+  {
+    "name": "T Boult",
+    "price": 90,
+    "role": "Bowler",
+    "team": "yesh",
+    "cricApiPlayerId": "6004fd3f-2264-470d-b39f-340d530b19b3"
+  },
+  {
+    "name": "W Jacks",
+    "price": 40,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "P Singh",
+    "price": 100,
+    "role": "Batsman",
+    "team": "yesh",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "P Arya",
+    "price": 80,
+    "role": "Batsman",
+    "team": "yesh",
+    "cricApiPlayerId": "4ff68cf3-d3a7-489f-bf37-4ac233f41a15"
+  },
+  {
+    "name": "M Stoinis",
+    "price": 60,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": "11340697-6443-4c3e-ab27-d9d30ba95671"
+  },
+  {
+    "name": "Abishek Sharma",
+    "price": 260,
+    "role": "Batsman",
+    "team": "yesh",
+    "cricApiPlayerId": "83fe6ab6-d63c-420e-9416-a93d59a9a964"
+  },
+  {
+    "name": "Pat Cummins",
+    "price": 170,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Liam Livingstone",
+    "price": 70,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Akeal Hosein",
+    "price": 10,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Zak Foulkes",
+    "price": 10,
+    "role": "Bowler",
+    "team": "yesh",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "C Bosch",
+    "price": 10,
+    "role": "All rounder",
+    "team": "yesh",
+    "cricApiPlayerId": "f1dea685-fa68-4339-b582-ba70839e5ca9"
+  },
+  {
+    "name": "Sanju Samson",
+    "price": 360,
+    "role": "Wkt Keeper",
+    "team": "siddharth",
+    "cricApiPlayerId": "35ed1b20-38f3-4013-be2e-dc28ffbecfd6"
+  },
+  {
+    "name": "Anshul Kamboj",
+    "price": 70,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": "cbe808da-727a-4d9c-b3be-6eb431217483"
+  },
+  {
+    "name": "Starc",
+    "price": 200,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Rizvi",
+    "price": 60,
+    "role": "Batsman",
+    "team": "siddharth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Natrajan",
+    "price": 70,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": "d8826d0d-ef95-4dce-a47a-b09b97f49f07"
+  },
+  {
+    "name": "Rahul Tewatia",
+    "price": 50,
+    "role": "All rounder",
+    "team": "siddharth",
+    "cricApiPlayerId": "085d49b0-d5e5-4fc5-955b-39758a134545"
+  },
+  {
+    "name": "P Krishna",
+    "price": 100,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": "99eb6b5c-379f-46da-bab7-dc8fd31ba435"
+  },
+  {
+    "name": "J Holder",
+    "price": 40,
+    "role": "All rounder",
+    "team": "siddharth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "J Bethell",
+    "price": 110,
+    "role": "Batsman",
+    "team": "siddharth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "V Iyer",
+    "price": 70,
+    "role": "Batsman",
+    "team": "siddharth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "D Jurel",
+    "price": 90,
+    "role": "Batsman",
+    "team": "siddharth",
+    "cricApiPlayerId": "21d693c2-b4dd-4d24-b747-90dfc8357ef5"
+  },
+  {
+    "name": "T Deshpande",
+    "price": 50,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Satner",
+    "price": 10,
+    "role": "All rounder",
+    "team": "siddharth",
+    "cricApiPlayerId": "16ec245b-022d-4104-bd8f-ccc780428390"
+  },
+  {
+    "name": "D Chahar",
+    "price": 130,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": "237a1ef2-1eae-4877-8b94-d20d84faf635"
+  },
+  {
+    "name": "T Head",
+    "price": 170,
+    "role": "Batsman",
+    "team": "siddharth",
+    "cricApiPlayerId": "d6720897-e81d-4703-bf33-d2b60c973d30"
+  },
+  {
+    "name": "S Thakur",
+    "price": 110,
+    "role": "All rounder",
+    "team": "siddharth",
+    "cricApiPlayerId": "c1257351-51ca-446f-b7f5-01fe92e75076"
+  },
+  {
+    "name": "Yash Thakur",
+    "price": 10,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": null
+  },
+  {
+    "name": "Rinku Singh",
+    "price": 120,
+    "role": "Batsman",
+    "team": "siddharth",
+    "cricApiPlayerId": "11864f31-b766-4766-9cbc-5026015ace48"
+  },
+  {
+    "name": "Harshal Patel",
+    "price": 70,
+    "role": "Bowler",
+    "team": "siddharth",
+    "cricApiPlayerId": "15bccb4f-8c3c-4da6-acd9-551782278bfd"
+  },
+  {
+    "name": "Abdul Samad",
+    "price": 60,
+    "role": "Batsman",
+    "team": "siddharth",
+    "cricApiPlayerId": "dd665f5d-04e8-436b-b376-8fd2a9b8bf8a"
+  }
+]

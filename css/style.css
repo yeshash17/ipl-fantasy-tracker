@@ -1,0 +1,85 @@
+/* IPL 2026 Fantasy Tracker — Custom Styles */
+
+:root {
+  --ipl-blue:  #003087;
+  --ipl-gold:  #f7a800;
+  --ipl-light: #f0f4ff;
+}
+
+/* Navbar */
+.bg-ipl {
+  background: linear-gradient(135deg, var(--ipl-blue) 0%, #0052cc 100%);
+}
+.bg-ipl-light {
+  background-color: var(--ipl-light);
+}
+
+/* Role badges */
+.role-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Wkt Keeper purple (Bootstrap doesn't have this) */
+.bg-purple {
+  background-color: #6f42c1 !important;
+  color: #fff !important;
+}
+
+/* Leaderboard rank-1 row highlight */
+.table-warning td {
+  font-weight: 600;
+}
+
+/* Progress bar */
+.progress {
+  border-radius: 8px;
+  background-color: #e9ecef;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.08);
+}
+.card-header {
+  border-radius: 12px 12px 0 0 !important;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  padding: 0.75rem 1rem;
+}
+
+/* Tables */
+.table thead th {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: none;
+}
+.table tbody td {
+  vertical-align: middle;
+}
+.table-hover tbody tr:hover {
+  background-color: #f5f8ff;
+}
+
+/* Live badge pulse */
+#live-badge {
+  animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+}
+
+/* Mobile tweaks */
+@media (max-width: 576px) {
+  .navbar-brand { font-size: 1rem; }
+  .fs-5 { font-size: 1rem !important; }
+}

@@ -1,0 +1,148 @@
+{
+  "teamId": "shash",
+  "teamName": "Shash",
+  "budgetTotal": 2000,
+  "budgetSpent": 1960,
+  "players": [
+    {
+      "name": "Noor Ahmed",
+      "price": 300,
+      "role": "Bowler",
+      "team": "shash",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "M Siraj",
+      "price": 110,
+      "role": "Bowler",
+      "team": "shash",
+      "cricApiPlayerId": "2a8d8640-2213-4cf6-ac7e-309d8b733e96"
+    },
+    {
+      "name": "Sai Kishore",
+      "price": 70,
+      "role": "Bowler",
+      "team": "shash",
+      "cricApiPlayerId": "7d6bbd6c-c5bb-4e1c-9374-aaa829e77611"
+    },
+    {
+      "name": "V Kohli",
+      "price": 360,
+      "role": "Batsman",
+      "team": "shash",
+      "cricApiPlayerId": "c61d247d-7f77-452c-b495-2813a9cd0ac4"
+    },
+    {
+      "name": "P Salt",
+      "price": 250,
+      "role": "Wkt Keeper",
+      "team": "shash",
+      "cricApiPlayerId": "6db25d60-ff96-4d8d-8d22-dedeeb5ffa29"
+    },
+    {
+      "name": "S Hetmyer",
+      "price": 80,
+      "role": "Batsman",
+      "team": "shash",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "R Parag",
+      "price": 130,
+      "role": "All rounder",
+      "team": "shash",
+      "cricApiPlayerId": "b51bb4e5-acdf-423b-abb3-7a1e6694d2c2"
+    },
+    {
+      "name": "Ashwini Kumar",
+      "price": 10,
+      "role": "Bowler",
+      "team": "shash",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "Shreyas Iyer",
+      "price": 230,
+      "role": "Batsman",
+      "team": "shash",
+      "cricApiPlayerId": "77791963-6c1b-4979-b07a-f910dee28cd9"
+    },
+    {
+      "name": "Marco Jansen",
+      "price": 40,
+      "role": "All rounder",
+      "team": "shash",
+      "cricApiPlayerId": "d3c53885-7016-4228-8a20-1dd98214489d"
+    },
+    {
+      "name": "Cooper Connolly",
+      "price": 50,
+      "role": "All rounder",
+      "team": "shash",
+      "cricApiPlayerId": "615b1dc1-8f64-4e26-90c4-04999321fd52"
+    },
+    {
+      "name": "Finn Allen",
+      "price": 50,
+      "role": "Batsman",
+      "team": "shash",
+      "cricApiPlayerId": "08924d57-b4d3-4ed0-903d-087a8384be12"
+    },
+    {
+      "name": "Aiden Markram",
+      "price": 10,
+      "role": "Batsman",
+      "team": "shash",
+      "cricApiPlayerId": "3fef81b0-c1e9-45eb-954f-519f3b33d640"
+    },
+    {
+      "name": "R Pant",
+      "price": 60,
+      "role": "Batsman",
+      "team": "shash",
+      "cricApiPlayerId": "a52b2d20-7c98-4238-9ba4-ec78419a5cc2"
+    },
+    {
+      "name": "Marsh",
+      "price": 100,
+      "role": "All rounder",
+      "team": "shash",
+      "cricApiPlayerId": "6eaac800-13e7-4a07-8ee2-14acd04cc53f"
+    },
+    {
+      "name": "Xavier Bartlett",
+      "price": 10,
+      "role": "Bowler",
+      "team": "shash",
+      "cricApiPlayerId": "cba19be9-7aec-4083-ba61-26f0aee31721"
+    },
+    {
+      "name": "V Arora",
+      "price": 30,
+      "role": "Bowler",
+      "team": "shash",
+      "cricApiPlayerId": "82de5824-b29b-4737-9e9d-44f5796ef227"
+    },
+    {
+      "name": "Rachin Ravindra",
+      "price": 40,
+      "role": "Batsman",
+      "team": "shash",
+      "cricApiPlayerId": "e6d28951-8524-43ca-95cf-9e73ae68bc12"
+    },
+    {
+      "name": "S Ahmed",
+      "price": 20,
+      "role": "All rounder",
+      "team": "shash",
+      "cricApiPlayerId": null
+    },
+    {
+      "name": "D Rathi",
+      "price": 10,
+      "role": "Bowler",
+      "team": "shash",
+      "cricApiPlayerId": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ipl-fantasy-tracker",
+  "version": "1.0.0",
+  "description": "IPL 2026 Fantasy Cricket Tracker",
+  "scripts": {
+    "excel-to-json": "node scripts/excel-to-json.js",
+    "map-players": "node scripts/map-player-ids.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "xlsx": "^0.18.5"
+  }
+}
