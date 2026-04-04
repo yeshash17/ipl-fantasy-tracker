@@ -1,0 +1,160 @@
+"""
+scrape-lite.py — Lightweight scraper for GitHub Actions
+Uses Playwright directly (no Scrapling/patchright dependency).
+ESPNCricinfo doesn't block GitHub Actions IPs as aggressively as residential ones.
+
+Usage:
+  python scripts/scrape-lite.py
+"""
+
+import json
+import os
+import re
+import sys
+import time
+
+SERIES_SLUG = "ipl-2026-1510719"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
+SCORECARDS_DIR = os.path.join(PROJECT_DIR, "data", "scorecards")
+os.makedirs(SCORECARDS_DIR, exist_ok=True)
+
+KNOWN_MATCHES = [
+    ("royal-challengers-bengaluru-vs-sunrisers-hyderabad-1st-match-1527674", "1527674"),
+    ("mumbai-indians-vs-kolkata-knight-riders-2nd-match-1527675", "1527675"),
+    ("rajasthan-royals-vs-chennai-super-kings-3rd-match-1527676", "1527676"),
+    ("punjab-kings-vs-gujarat-titans-4th-match-1527677", "1527677"),
+    ("lucknow-super-giants-vs-delhi-capitals-5th-match-1527678", "1527678"),
+    ("kolkata-knight-riders-vs-sunrisers-hyderabad-6th-match-1527679", "1527679"),
+    ("chennai-super-kings-vs-punjab-kings-7th-match-1527680", "1527680"),
+    ("delhi-capitals-vs-mumbai-indians-8th-match-1527681", "1527681"),
+]
+
+
+def get_cell_value(cell):
+    """Get text from a cell, checking inner spans if direct text is empty."""
+    text = cell.inner_text().strip()
+    if text:
+        return text
+    # Check spans
+    spans = cell.query_selector_all("span")
+    for s in spans:
+        t = s.inner_text().strip()
+        if t:
+            return t
+    return ""
+
+
+def parse_scorecard(page):
+    """Parse batting and bowling from the rendered page."""
+    tables = page.query_selector_all("table")
+    if not tables:
+        return None
+
+    result = {"innings": []}
+
+    for ti in range(0, len(tables), 2):
+        batting_table = tables[ti] if ti < len(tables) else None
+        bowling_table = tables[ti + 1] if ti + 1 < len(tables) else None
+        innings = {"batting": [], "bowling": []}
+
+        if batting_table:
+            for row in batting_table.query_selector_all("tr"):
+                link = row.query_selector("a[title]")
+                tds = row.query_selector_all("td")
+                if link and len(tds) >= 7:
+                    name = link.get_attribute("title") or link.inner_text().strip()
+                    try:
+                        r = get_cell_value(tds[2])
+                        b = get_cell_value(tds[3])
+                        fours = get_cell_value(tds[5])
+                        sixes = get_cell_value(tds[6])
+                        innings["batting"].append({
+                            "name": name,
+                            "r": int(r) if r.isdigit() else 0,
+                            "b": int(b) if b.isdigit() else 0,
+                            "4s": int(fours) if fours.isdigit() else 0,
+                            "6s": int(sixes) if sixes.isdigit() else 0,
+                        })
+                    except (IndexError, ValueError):
+                        pass
+
+        if bowling_table:
+            for row in bowling_table.query_selector_all("tr"):
+                link = row.query_selector("a[title]")
+                tds = row.query_selector_all("td")
+                if link and len(tds) >= 5:
+                    name = link.get_attribute("title") or link.inner_text().strip()
+                    name = re.sub(r"^View full profile of\s+", "", name)
+                    try:
+                        overs = get_cell_value(tds[1])
+                        runs = get_cell_value(tds[3])
+                        wickets = get_cell_value(tds[4])
+                        innings["bowling"].append({
+                            "name": name,
+                            "o": overs,
+                            "r": int(runs) if runs.isdigit() else 0,
+                            "w": int(wickets) if wickets.isdigit() else 0,
+                        })
+                    except (IndexError, ValueError):
+                        pass
+
+        if innings["batting"] or innings["bowling"]:
+            result["innings"].append(innings)
+
+    return result if result["innings"] else None
+
+
+def main():
+    from playwright.sync_api import sync_playwright
+
+    success = 0
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        )
+
+        for slug, match_id in KNOWN_MATCHES:
+            out_file = os.path.join(SCORECARDS_DIR, f"{match_id}.json")
+            if os.path.exists(out_file):
+                print(f"[SKIP] {match_id}")
+                success += 1
+                continue
+
+            url = f"https://www.espncricinfo.com/series/{SERIES_SLUG}/{slug}/full-scorecard"
+            print(f"[FETCH] {match_id}: {url}")
+
+            try:
+                page = context.new_page()
+                page.goto(url, timeout=30000)
+                page.wait_for_selector("table", timeout=15000)
+                time.sleep(2)  # Extra wait for JS rendering
+
+                scorecard = parse_scorecard(page)
+                page.close()
+
+                if scorecard:
+                    scorecard["matchId"] = match_id
+                    scorecard["scrapedAt"] = time.strftime("%Y-%m-%dT%H:%M:%S")
+                    with open(out_file, "w", encoding="utf-8") as f:
+                        json.dump(scorecard, f, indent=2, ensure_ascii=False)
+
+                    bat_count = sum(len(inn["batting"]) for inn in scorecard["innings"])
+                    bowl_count = sum(len(inn["bowling"]) for inn in scorecard["innings"])
+                    wkt_count = sum(b["w"] for inn in scorecard["innings"] for b in inn["bowling"])
+                    print(f"  [OK] {bat_count} batters, {bowl_count} bowlers, {wkt_count} wickets")
+                    success += 1
+                else:
+                    print(f"  [WARN] No scorecard data")
+            except Exception as e:
+                print(f"  [ERROR] {e}")
+            time.sleep(2)
+
+        browser.close()
+
+    print(f"\nDone. {success}/{len(KNOWN_MATCHES)} matches.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,55 @@
+name: Scrape IPL Scorecards
+
+on:
+  # Run every 10 minutes during IPL match hours (IST 2pm-11:30pm = UTC 8:30am-6pm)
+  schedule:
+    - cron: '*/10 8-18 * 3-5 *'  # Every 10 min, 8am-6pm UTC, March-May
+  # Also allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          python -m playwright install chromium
+          python -m playwright install-deps
+
+      - name: Run scraper
+        run: python scripts/scrape-lite.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Update manifest
+        run: |
+          node -e "
+          const fs = require('fs');
+          const dir = 'data/scorecards';
+          const files = fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== 'manifest.json');
+          fs.writeFileSync(dir + '/manifest.json', JSON.stringify(files.map(f => f.replace('.json', '')), null, 2));
+          console.log('Manifest updated:', files.length, 'scorecards');
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/scorecards/
+          if git diff --staged --quiet; then
+            echo "No new scorecards to commit"
+          else
+            git commit -m "Auto-update: scraped latest IPL scorecards"
+            git push
+          fi
