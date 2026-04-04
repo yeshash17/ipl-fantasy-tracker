@@ -82,28 +82,28 @@ async function init() {
 }
 
 async function loadPointsForPlayers(teamPlayers, allPlayers) {
-  if (!IPL_SERIES_ID) return {};
-
-  let matches = [];
-  try { matches = await fetchSeriesMatches(); } catch (e) { return {}; }
-
-  const allMatchIds = matches
-    .filter(m => m.matchStarted)
-    .map(m => m.id);
-
-  const scorecards = await Promise.allSettled(allMatchIds.map(id => fetchScorecard(id)));
-
   const globalPts = {};
-  for (const result of scorecards) {
-    if (result.status !== 'fulfilled' || !result.value) continue;
-    const pts = calcPoints(result.value, allPlayers);
-    for (const [pid, stat] of Object.entries(pts)) {
-      if (!globalPts[pid]) globalPts[pid] = { runs: 0, wickets: 0, points: 0 };
-      globalPts[pid].runs     += stat.runs;
-      globalPts[pid].wickets  += stat.wickets;
-      globalPts[pid].points   += stat.points;
+
+  // Load scraped scorecards
+  let manifest = [];
+  try { manifest = await fetchJSON('data/scorecards/manifest.json'); } catch (e) {}
+
+  if (manifest.length > 0) {
+    const scorecards = await Promise.allSettled(
+      manifest.map(id => fetchJSON(`data/scorecards/${id}.json`))
+    );
+    for (const result of scorecards) {
+      if (result.status !== 'fulfilled' || !result.value) continue;
+      const pts = calcPoints(result.value, allPlayers);
+      for (const [name, stat] of Object.entries(pts)) {
+        if (!globalPts[name]) globalPts[name] = { runs: 0, wickets: 0, points: 0 };
+        globalPts[name].runs     += stat.runs;
+        globalPts[name].wickets  += stat.wickets;
+        globalPts[name].points   += stat.points;
+      }
     }
   }
+
   return globalPts;
 }
 

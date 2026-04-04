@@ -1,0 +1,210 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Travis Head",
+          "r": 11,
+          "b": 9,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Abhishek Sharma",
+          "r": 7,
+          "b": 8,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 80,
+          "b": 38,
+          "4s": 8,
+          "6s": 5
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "r": 1,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 31,
+          "b": 22,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Salil Arora",
+          "r": 9,
+          "b": 6,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Aniket Verma",
+          "r": 43,
+          "b": 18,
+          "4s": 3,
+          "6s": 4
+        },
+        {
+          "name": "Harsh Dubey",
+          "r": 3,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Harshal Patel",
+          "r": 0,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "David Payne",
+          "r": 6,
+          "b": 5,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Jaydev Unadkat",
+          "r": 4,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jacob Duffy",
+          "o": "4",
+          "r": 22,
+          "w": 1
+        },
+        {
+          "name": "Bhuvneshwar Kumar",
+          "o": "4",
+          "r": 31,
+          "w": 2
+        },
+        {
+          "name": "Abhinandan Singh",
+          "o": "3",
+          "r": 38,
+          "w": 0
+        },
+        {
+          "name": "Romario Shepherd",
+          "o": "4",
+          "r": 54,
+          "w": 1
+        },
+        {
+          "name": "Suyash Sharma",
+          "o": "3",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "Krunal Pandya",
+          "o": "2",
+          "r": 26,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Phil Salt",
+          "r": 8,
+          "b": 7,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 69,
+          "b": 38,
+          "4s": 5,
+          "6s": 5
+        },
+        {
+          "name": "Devdutt Padikkal",
+          "r": 61,
+          "b": 26,
+          "4s": 7,
+          "6s": 4
+        },
+        {
+          "name": "Rajat Patidar",
+          "r": 31,
+          "b": 12,
+          "4s": 2,
+          "6s": 3
+        },
+        {
+          "name": "Jitesh Sharma",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tim David",
+          "r": 16,
+          "b": 10,
+          "4s": 1,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Nitish Kumar Reddy",
+          "o": "2",
+          "r": 19,
+          "w": 0
+        },
+        {
+          "name": "Jaydev Unadkat",
+          "o": "3",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "David Payne",
+          "o": "3",
+          "r": 35,
+          "w": 1
+        },
+        {
+          "name": "Harsh Dubey",
+          "o": "3",
+          "r": 35,
+          "w": 0
+        },
+        {
+          "name": "Eshan Malinga",
+          "o": "2",
+          "r": 35,
+          "w": 4
+        },
+        {
+          "name": "Harshal Patel",
+          "o": "2.4",
+          "r": 39,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1527674",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/royal-challengers-bengaluru-vs-sunrisers-hyderabad-1st-match-1527674/full-scorecard",
+  "scrapedAt": "2026-04-04T19:25:19"
+}

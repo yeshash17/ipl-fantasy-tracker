@@ -31,43 +31,71 @@ const ROLE_BADGE = {
 // ── Points Calculation ─────────────────────────────────────────────────────
 
 /**
- * Given a CricAPI scorecard response and the master players array,
- * returns an object: { [cricApiPlayerId]: { runs, wickets, points } }
+ * Given a scorecard (scraped or CricAPI) and the master players array,
+ * returns an object keyed by player name: { [name]: { runs, wickets, points } }
+ * Supports both scraped format (innings[].batting/bowling) and CricAPI format (scorecard[]).
  */
 function calcPoints(scorecardData, players) {
   const result = {};
 
-  // Build a quick lookup: cricApiPlayerId → player
-  const playerById = {};
+  // Build name lookup: normalised name → player
+  const playerByName = {};
   for (const p of players) {
-    if (p.cricApiPlayerId) playerById[p.cricApiPlayerId] = p;
+    playerByName[normName(p.name)] = p;
   }
 
-  const innings = scorecardData?.scorecard ?? [];
+  // Support both scraped format and CricAPI format
+  const innings = scorecardData?.innings ?? scorecardData?.scorecard ?? [];
 
   for (const inn of innings) {
     // Batting: 1 run = 1 pt
     for (const batter of (inn.batting ?? [])) {
-      const pid = batter?.batsman?.id;
-      if (!pid || !playerById[pid]) continue;
-      if (!result[pid]) result[pid] = { runs: 0, wickets: 0, points: 0 };
+      const name = batter?.name ?? batter?.batsman?.name ?? '';
+      const player = findPlayer(name, playerByName);
+      if (!player) continue;
+      const key = player.name;
+      if (!result[key]) result[key] = { runs: 0, wickets: 0, points: 0 };
       const runs = Number(batter.r) || 0;
-      result[pid].runs += runs;
-      result[pid].points += runs;
+      result[key].runs += runs;
+      result[key].points += runs;
     }
 
     // Bowling: 1 wicket = 25 pts
     for (const bowler of (inn.bowling ?? [])) {
-      const pid = bowler?.bowler?.id;
-      if (!pid || !playerById[pid]) continue;
-      if (!result[pid]) result[pid] = { runs: 0, wickets: 0, points: 0 };
+      const name = bowler?.name ?? bowler?.bowler?.name ?? '';
+      const player = findPlayer(name, playerByName);
+      if (!player) continue;
+      const key = player.name;
+      if (!result[key]) result[key] = { runs: 0, wickets: 0, points: 0 };
       const wkts = Number(bowler.w) || 0;
-      result[pid].wickets += wkts;
-      result[pid].points += wkts * 25;
+      result[key].wickets += wkts;
+      result[key].points += wkts * 25;
     }
   }
 
   return result;
+}
+
+/** Normalise a name for matching: lowercase, remove dots/hyphens/extra spaces */
+function normName(s) {
+  return String(s ?? '').toLowerCase().replace(/[.\-']/g, '').replace(/\s+/g, ' ').trim();
+}
+
+/** Find a player in the lookup by fuzzy name matching */
+function findPlayer(scrapedName, playerByName) {
+  const n = normName(scrapedName);
+  if (playerByName[n]) return playerByName[n];
+  // Try partial match: every word of shorter name found in longer
+  for (const [key, player] of Object.entries(playerByName)) {
+    if (key.includes(n) || n.includes(key)) return player;
+    // Last name match (for abbreviated Excel names like "Bumrah")
+    const keyLast = key.split(' ').pop();
+    const nLast = n.split(' ').pop();
+    if (keyLast.length >= 5 && nLast.length >= 5 && (keyLast === nLast || key.includes(nLast) || n.includes(keyLast))) {
+      return player;
+    }
+  }
+  return null;
 }
 
 /**
@@ -77,7 +105,8 @@ function calcPoints(scorecardData, players) {
 function aggregateTeamPoints(teamPlayers, allScorecardPoints) {
   let totalPoints = 0, totalRuns = 0, totalWickets = 0;
   const playerStats = teamPlayers.map(p => {
-    const s = allScorecardPoints[p.cricApiPlayerId] ?? { runs: 0, wickets: 0, points: 0 };
+    // Try match by name (scraped data) or by cricApiPlayerId (legacy)
+    const s = allScorecardPoints[p.name] ?? allScorecardPoints[p.cricApiPlayerId] ?? { runs: 0, wickets: 0, points: 0 };
     totalPoints  += s.points;
     totalRuns    += s.runs;
     totalWickets += s.wickets;

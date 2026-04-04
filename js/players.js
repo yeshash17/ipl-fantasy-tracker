@@ -29,23 +29,27 @@ async function init() {
 }
 
 async function loadGlobalPoints(players) {
-  let matches = [];
-  try { matches = await fetchSeriesMatches(); } catch (e) { return {}; }
-
-  const allMatchIds = matches.filter(m => m.matchStarted).map(m => m.id);
-  const scorecards = await Promise.allSettled(allMatchIds.map(id => fetchScorecard(id)));
-
   const pts = {};
-  for (const result of scorecards) {
-    if (result.status !== 'fulfilled' || !result.value) continue;
-    const sc = calcPoints(result.value, players);
-    for (const [pid, stat] of Object.entries(sc)) {
-      if (!pts[pid]) pts[pid] = { runs: 0, wickets: 0, points: 0 };
-      pts[pid].runs     += stat.runs;
-      pts[pid].wickets  += stat.wickets;
-      pts[pid].points   += stat.points;
+
+  let manifest = [];
+  try { manifest = await fetchJSON('data/scorecards/manifest.json'); } catch (e) {}
+
+  if (manifest.length > 0) {
+    const scorecards = await Promise.allSettled(
+      manifest.map(id => fetchJSON(`data/scorecards/${id}.json`))
+    );
+    for (const result of scorecards) {
+      if (result.status !== 'fulfilled' || !result.value) continue;
+      const sc = calcPoints(result.value, players);
+      for (const [name, stat] of Object.entries(sc)) {
+        if (!pts[name]) pts[name] = { runs: 0, wickets: 0, points: 0 };
+        pts[name].runs     += stat.runs;
+        pts[name].wickets  += stat.wickets;
+        pts[name].points   += stat.points;
+      }
     }
   }
+
   return pts;
 }
 

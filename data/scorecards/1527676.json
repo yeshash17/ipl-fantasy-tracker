@@ -1,0 +1,196 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 6,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 6,
+          "b": 11,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Ayush Mhatre",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Matthew Short",
+          "r": 2,
+          "b": 7,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Sarfaraz Khan",
+          "r": 17,
+          "b": 12,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Kartik Sharma",
+          "r": 18,
+          "b": 15,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Shivam Dube",
+          "r": 6,
+          "b": 4,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Jamie Overton",
+          "r": 43,
+          "b": 36,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Noor Ahmad",
+          "r": 1,
+          "b": 9,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Matt Henry",
+          "r": 5,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Anshul Kamboj",
+          "r": 7,
+          "b": 10,
+          "4s": 1,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 19,
+          "w": 1
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "4",
+          "r": 26,
+          "w": 3
+        },
+        {
+          "name": "Brijesh Sharma",
+          "o": "3",
+          "r": 17,
+          "w": 2
+        },
+        {
+          "name": "Sandeep Sharma",
+          "o": "2.4",
+          "r": 22,
+          "w": 0
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "o": "3",
+          "r": 16,
+          "w": 0
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "3",
+          "r": 18,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 38,
+          "b": 36,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 52,
+          "b": 17,
+          "4s": 4,
+          "6s": 5
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 18,
+          "b": 9,
+          "4s": 4,
+          "6s": 0
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 14,
+          "b": 11,
+          "4s": 1,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Matt Henry",
+          "o": "3",
+          "r": 40,
+          "w": 1
+        },
+        {
+          "name": "Khaleel Ahmed",
+          "o": "3",
+          "r": 17,
+          "w": 0
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "3",
+          "r": 27,
+          "w": 0
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "2",
+          "r": 24,
+          "w": 0
+        },
+        {
+          "name": "Jamie Overton",
+          "o": "1",
+          "r": 14,
+          "w": 0
+        },
+        {
+          "name": "Matthew Short",
+          "o": "0.1",
+          "r": 1,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1527676",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/rajasthan-royals-vs-chennai-super-kings-3rd-match-1527676/full-scorecard",
+  "scrapedAt": "2026-04-04T19:25:48"
+}

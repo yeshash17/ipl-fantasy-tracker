@@ -1,0 +1,175 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Ajinkya Rahane",
+          "r": 67,
+          "b": 40,
+          "4s": 3,
+          "6s": 5
+        },
+        {
+          "name": "Finn Allen",
+          "r": 37,
+          "b": 17,
+          "4s": 6,
+          "6s": 2
+        },
+        {
+          "name": "Cameron Green",
+          "r": 18,
+          "b": 10,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 51,
+          "b": 29,
+          "4s": 6,
+          "6s": 2
+        },
+        {
+          "name": "Rinku Singh",
+          "r": 33,
+          "b": 21,
+          "4s": 4,
+          "6s": 0
+        },
+        {
+          "name": "Ramandeep Singh",
+          "r": 4,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Trent Boult",
+          "o": "4",
+          "r": 38,
+          "w": 3
+        },
+        {
+          "name": "Hardik Pandya",
+          "o": "3",
+          "r": 39,
+          "w": 2
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "4",
+          "r": 51,
+          "w": 1
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 35,
+          "w": 1
+        },
+        {
+          "name": "Shardul Thakur",
+          "o": "4",
+          "r": 39,
+          "w": 0
+        },
+        {
+          "name": "Mayank Markande",
+          "o": "1",
+          "r": 16,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Ryan Rickelton",
+          "r": 81,
+          "b": 43,
+          "4s": 4,
+          "6s": 8
+        },
+        {
+          "name": "Rohit Sharma",
+          "r": 78,
+          "b": 38,
+          "4s": 6,
+          "6s": 6
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 16,
+          "b": 8,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 20,
+          "b": 14,
+          "4s": 4,
+          "6s": 0
+        },
+        {
+          "name": "Hardik Pandya",
+          "r": 18,
+          "b": 11,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 5,
+          "b": 2,
+          "4s": 1,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Vaibhav Arora",
+          "o": "4",
+          "r": 52,
+          "w": 1
+        },
+        {
+          "name": "Blessing Muzarabani",
+          "o": "3",
+          "r": 34,
+          "w": 0
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "o": "4",
+          "r": 48,
+          "w": 1
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "4",
+          "r": 43,
+          "w": 0
+        },
+        {
+          "name": "Sunil Narine",
+          "o": "3",
+          "r": 30,
+          "w": 0
+        },
+        {
+          "name": "Anukul Roy",
+          "o": "1.1",
+          "r": 15,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1527675",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/mumbai-indians-vs-kolkata-knight-riders-2nd-match-1527675/full-scorecard",
+  "scrapedAt": "2026-04-04T19:25:34"
+}

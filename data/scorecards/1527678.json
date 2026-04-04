@@ -1,0 +1,216 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Mitchell Marsh",
+          "r": 35,
+          "b": 28,
+          "4s": 2,
+          "6s": 3
+        },
+        {
+          "name": "Rishabh Pant",
+          "r": 7,
+          "b": 9,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Aiden Markram",
+          "r": 11,
+          "b": 8,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Ayush Badoni",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Nicholas Pooran",
+          "r": 8,
+          "b": 8,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Abdul Samad",
+          "r": 36,
+          "b": 25,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Mukul Choudhary",
+          "r": 14,
+          "b": 11,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Shahbaz Ahmed",
+          "r": 15,
+          "b": 16,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Mohammed Shami",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Anrich Nortje",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Mohsin Khan",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mukesh Kumar",
+          "o": "3",
+          "r": 17,
+          "w": 2
+        },
+        {
+          "name": "Lungi Ngidi",
+          "o": "3.4",
+          "r": 27,
+          "w": 0
+        },
+        {
+          "name": "Axar Patel",
+          "o": "3",
+          "r": 17,
+          "w": 0
+        },
+        {
+          "name": "T Natarajan",
+          "o": "4",
+          "r": 29,
+          "w": 0
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "4",
+          "r": 31,
+          "w": 0
+        },
+        {
+          "name": "Vipraj Nigam",
+          "o": "1",
+          "r": 8,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "KL Rahul",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Pathum Nissanka",
+          "r": 1,
+          "b": 5,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Nitish Rana",
+          "r": 15,
+          "b": 17,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Sameer Rizvi",
+          "r": 70,
+          "b": 47,
+          "4s": 5,
+          "6s": 4
+        },
+        {
+          "name": "Axar Patel",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 39,
+          "b": 32,
+          "4s": 3,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Shami",
+          "o": "4",
+          "r": 28,
+          "w": 4
+        },
+        {
+          "name": "Prince Yadav",
+          "o": "3",
+          "r": 20,
+          "w": 4
+        },
+        {
+          "name": "Mohsin Khan",
+          "o": "4",
+          "r": 19,
+          "w": 1
+        },
+        {
+          "name": "Anrich Nortje",
+          "o": "4",
+          "r": 39,
+          "w": 3
+        },
+        {
+          "name": "Shahbaz Ahmed",
+          "o": "1",
+          "r": 16,
+          "w": 0
+        },
+        {
+          "name": "Aiden Markram",
+          "o": "1",
+          "r": 13,
+          "w": 0
+        },
+        {
+          "name": "Abdul Samad",
+          "o": "0.1",
+          "r": 6,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1527678",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/lucknow-super-giants-vs-delhi-capitals-5th-match-1527678/full-scorecard",
+  "scrapedAt": "2026-04-04T19:26:13"
+}

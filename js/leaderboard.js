@@ -49,45 +49,58 @@ async function init() {
 async function loadAllScorecards() {
   globalPlayerPoints = {};
 
-  if (!IPL_SERIES_ID) {
-    // No series ID set yet — show zeroed leaderboard
-    return;
-  }
-
-  let matches = [];
+  // 1. Try loading scraped scorecards from manifest (no API needed)
+  let manifest = [];
   try {
-    matches = await fetchSeriesMatches();
+    manifest = await fetchJSON('data/scorecards/manifest.json');
   } catch (e) {
-    console.warn('Could not fetch series matches:', e.message);
-    return;
+    console.warn('No scraped scorecard manifest found:', e.message);
   }
 
-  liveMatchIds = [];
-  const completedIds = [];
+  if (manifest.length > 0) {
+    // Load all scraped scorecards in parallel
+    const scorecards = await Promise.allSettled(
+      manifest.map(id => fetchJSON(`data/scorecards/${id}.json`))
+    );
 
-  for (const match of matches) {
-    const status = (match.matchStarted ? 'started' : '') + ' ' + (match.status ?? '');
-    if (match.matchEnded) {
-      completedIds.push(match.id);
-    } else if (match.matchStarted) {
-      liveMatchIds.push(match.id);
+    for (const result of scorecards) {
+      if (result.status !== 'fulfilled' || !result.value) continue;
+      const pts = calcPoints(result.value, allPlayers);
+      for (const [name, stat] of Object.entries(pts)) {
+        if (!globalPlayerPoints[name]) globalPlayerPoints[name] = { runs: 0, wickets: 0, points: 0 };
+        globalPlayerPoints[name].runs     += stat.runs;
+        globalPlayerPoints[name].wickets  += stat.wickets;
+        globalPlayerPoints[name].points   += stat.points;
+      }
     }
   }
 
-  // Fetch all scorecards (completed ones served from localStorage cache)
-  const allMatchIds = [...completedIds, ...liveMatchIds];
-  const scorecards = await Promise.allSettled(allMatchIds.map(id => fetchScorecard(id)));
-
-  for (const result of scorecards) {
-    if (result.status !== 'fulfilled') continue;
-    const sc = result.value;
-    if (!sc) continue;
-    const pts = calcPoints(sc, allPlayers);
-    for (const [pid, stat] of Object.entries(pts)) {
-      if (!globalPlayerPoints[pid]) globalPlayerPoints[pid] = { runs: 0, wickets: 0, points: 0 };
-      globalPlayerPoints[pid].runs     += stat.runs;
-      globalPlayerPoints[pid].wickets  += stat.wickets;
-      globalPlayerPoints[pid].points   += stat.points;
+  // 2. Also try CricAPI for any live matches (if series ID is set)
+  if (IPL_SERIES_ID) {
+    try {
+      const matches = await fetchSeriesMatches();
+      liveMatchIds = [];
+      for (const match of matches) {
+        if (match.matchStarted && !match.matchEnded) {
+          liveMatchIds.push(match.id);
+        }
+      }
+      // Only fetch live matches from API (completed ones come from scraped files)
+      const liveScorecards = await Promise.allSettled(
+        liveMatchIds.map(id => fetchScorecard(id))
+      );
+      for (const result of liveScorecards) {
+        if (result.status !== 'fulfilled' || !result.value) continue;
+        const pts = calcPoints(result.value, allPlayers);
+        for (const [name, stat] of Object.entries(pts)) {
+          if (!globalPlayerPoints[name]) globalPlayerPoints[name] = { runs: 0, wickets: 0, points: 0 };
+          globalPlayerPoints[name].runs     += stat.runs;
+          globalPlayerPoints[name].wickets  += stat.wickets;
+          globalPlayerPoints[name].points   += stat.points;
+        }
+      }
+    } catch (e) {
+      console.warn('CricAPI unavailable:', e.message);
     }
   }
 }

@@ -1,0 +1,215 @@
+"""
+scrape-scorecards.py — Scrapes IPL 2026 scorecards from ESPNCricinfo using Scrapling.
+No API key needed. No rate limits. Run anytime.
+
+Usage:
+  python scripts/scrape-scorecards.py              # scrape all completed matches
+  python scripts/scrape-scorecards.py --push        # scrape + git commit + push
+
+Saves to data/scorecards/ as JSON files. Frontend reads these as static files (0 API calls).
+"""
+
+import json
+import os
+import sys
+import time
+import subprocess
+import re
+
+# ESPNCricinfo IPL 2026 match URLs
+# Format: https://www.espncricinfo.com/series/ipl-2026-{seriesId}/{slug}-{matchId}/full-scorecard
+SERIES_SLUG = "ipl-2026-1510719"
+
+# Match list: add new matches here as the tournament progresses
+# Or auto-discover from the schedule page
+MATCHES = {}  # Will be populated from schedule page
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
+SCORECARDS_DIR = os.path.join(PROJECT_DIR, "data", "scorecards")
+MATCHES_FILE = os.path.join(PROJECT_DIR, "data", "matches_espn.json")
+
+os.makedirs(SCORECARDS_DIR, exist_ok=True)
+
+
+def fetch_page(url):
+    """Fetch a page using Scrapling's StealthyFetcher (bypasses anti-bot)."""
+    from scrapling.fetchers import StealthyFetcher
+    return StealthyFetcher.fetch(url, headless=True, wait=5000, wait_selector="table")
+
+
+def parse_scorecard(page):
+    """Parse batting and bowling data from an ESPNCricinfo scorecard page."""
+    tables = page.css("table")
+    if not tables:
+        return None
+
+    result = {"innings": []}
+
+    for ti in range(0, len(tables), 2):
+        batting_table = tables[ti] if ti < len(tables) else None
+        bowling_table = tables[ti + 1] if ti + 1 < len(tables) else None
+
+        innings = {"batting": [], "bowling": []}
+
+        # Parse batting
+        if batting_table:
+            for row in batting_table.css("tr"):
+                link = row.css("a[title]")
+                tds = row.css("td")
+                if link and len(tds) >= 7:
+                    name = link[0].attrib.get("title", "").strip()
+                    if not name:
+                        name = link[0].text.strip()
+                    try:
+                        runs = int(tds[2].text.strip()) if tds[2].text.strip().isdigit() else 0
+                        balls = int(tds[3].text.strip()) if tds[3].text.strip().isdigit() else 0
+                        fours = int(tds[5].text.strip()) if tds[5].text.strip().isdigit() else 0
+                        sixes = int(tds[6].text.strip()) if tds[6].text.strip().isdigit() else 0
+                        innings["batting"].append({
+                            "name": name, "r": runs, "b": balls, "4s": fours, "6s": sixes
+                        })
+                    except (IndexError, ValueError):
+                        pass
+
+        # Parse bowling
+        if bowling_table:
+            for row in bowling_table.css("tr"):
+                link = row.css("a[title]")
+                tds = row.css("td")
+                if link and len(tds) >= 8:
+                    name = link[0].attrib.get("title", "").strip()
+                    if not name:
+                        name = link[0].text.strip()
+                    # Clean "View full profile of ..." prefix
+                    name = re.sub(r"^View full profile of\s+", "", name)
+                    try:
+                        overs = tds[1].text.strip()
+                        runs = int(tds[3].text.strip()) if tds[3].text.strip().isdigit() else 0
+                        wickets = int(tds[7].text.strip()) if tds[7].text.strip().isdigit() else 0
+                        innings["bowling"].append({
+                            "name": name, "o": overs, "r": runs, "w": wickets
+                        })
+                    except (IndexError, ValueError):
+                        pass
+
+        if innings["batting"] or innings["bowling"]:
+            result["innings"].append(innings)
+
+    return result if result["innings"] else None
+
+
+def fetch_schedule():
+    """Fetch IPL 2026 match schedule from ESPNCricinfo."""
+    print("Fetching IPL 2026 schedule...")
+    from scrapling.fetchers import StealthyFetcher
+    page = StealthyFetcher.fetch(
+        f"https://www.espncricinfo.com/series/{SERIES_SLUG}/match-results",
+        headless=True, wait=5000
+    )
+
+    matches = []
+    links = page.css("a[href*='/full-scorecard']")
+    if not links:
+        # Try finding match links differently
+        links = page.css(f"a[href*='{SERIES_SLUG}']")
+
+    seen = set()
+    for link in links:
+        href = link.attrib.get("href", "")
+        if "/full-scorecard" in href or "match" in href.lower():
+            # Extract match slug from URL
+            if href not in seen:
+                seen.add(href)
+                title = link.attrib.get("title", link.text.strip())
+                matches.append({"url": href, "title": title})
+
+    return matches
+
+
+def scrape_match(url, match_id):
+    """Scrape a single match scorecard."""
+    out_file = os.path.join(SCORECARDS_DIR, f"{match_id}.json")
+
+    # Skip if already cached
+    if os.path.exists(out_file):
+        print(f"  [SKIP] Already cached: {match_id}")
+        return True
+
+    full_url = f"https://www.espncricinfo.com{url}" if url.startswith("/") else url
+    if "/full-scorecard" not in full_url:
+        full_url = full_url.rstrip("/") + "/full-scorecard"
+
+    print(f"  [FETCH] {full_url}")
+    page = fetch_page(full_url)
+    scorecard = parse_scorecard(page)
+
+    if scorecard:
+        # Add match metadata
+        scorecard["matchId"] = match_id
+        scorecard["url"] = full_url
+        scorecard["scrapedAt"] = time.strftime("%Y-%m-%dT%H:%M:%S")
+
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump(scorecard, f, indent=2, ensure_ascii=False)
+        print(f"  [OK] Saved {len(scorecard['innings'])} innings -> {match_id}.json")
+        return True
+    else:
+        print(f"  [WARN] No scorecard data found")
+        return False
+
+
+def get_match_id_from_url(url):
+    """Extract a match ID from an ESPNCricinfo URL."""
+    # URL pattern: /series/slug/team1-vs-team2-Nth-match-MATCHID/full-scorecard
+    parts = url.rstrip("/").split("/")
+    for part in reversed(parts):
+        if part == "full-scorecard":
+            continue
+        # The match slug contains the numeric ID at the end
+        match = re.search(r"-(\d+)$", part)
+        if match:
+            return match.group(1)
+        return part
+    return None
+
+
+def main():
+    auto_push = "--push" in sys.argv
+
+    # Known completed match URLs (ESPNCricinfo)
+    # Add more as the tournament progresses
+    known_matches = [
+        ("/series/ipl-2026-1510719/royal-challengers-bengaluru-vs-sunrisers-hyderabad-1st-match-1527674/full-scorecard", "1527674"),
+        ("/series/ipl-2026-1510719/mumbai-indians-vs-kolkata-knight-riders-2nd-match-1527675/full-scorecard", "1527675"),
+        ("/series/ipl-2026-1510719/rajasthan-royals-vs-chennai-super-kings-3rd-match-1527676/full-scorecard", "1527676"),
+        ("/series/ipl-2026-1510719/punjab-kings-vs-gujarat-titans-4th-match-1527677/full-scorecard", "1527677"),
+        ("/series/ipl-2026-1510719/lucknow-super-giants-vs-delhi-capitals-5th-match-1527678/full-scorecard", "1527678"),
+        ("/series/ipl-2026-1510719/kolkata-knight-riders-vs-sunrisers-hyderabad-6th-match-1527679/full-scorecard", "1527679"),
+        ("/series/ipl-2026-1510719/chennai-super-kings-vs-punjab-kings-7th-match-1527680/full-scorecard", "1527680"),
+        ("/series/ipl-2026-1510719/delhi-capitals-vs-mumbai-indians-8th-match-1527681/full-scorecard", "1527681"),
+    ]
+
+    print(f"Scraping {len(known_matches)} IPL 2026 matches...\n")
+    success = 0
+    for url, match_id in known_matches:
+        try:
+            if scrape_match(url, match_id):
+                success += 1
+            time.sleep(2)  # Be nice to the server
+        except Exception as e:
+            print(f"  [ERROR] {match_id}: {e}")
+
+    print(f"\nDone. {success}/{len(known_matches)} matches scraped.")
+
+    if auto_push and success > 0:
+        print("\nCommitting and pushing...")
+        os.chdir(PROJECT_DIR)
+        subprocess.run(["git", "add", "data/scorecards/"], check=True)
+        subprocess.run(["git", "commit", "-m", "Update cached scorecards"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("Pushed to GitHub. Netlify will auto-deploy.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,189 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Ryan Rickelton",
+          "r": 9,
+          "b": 11,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Rohit Sharma",
+          "r": 35,
+          "b": 26,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 0,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 51,
+          "b": 36,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Sherfane Rutherford",
+          "r": 5,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 28,
+          "b": 21,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Mitchell Santner",
+          "r": 18,
+          "b": 13,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Corbin Bosch",
+          "r": 11,
+          "b": 4,
+          "4s": 2,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mukesh Kumar",
+          "o": "3",
+          "r": 26,
+          "w": 1
+        },
+        {
+          "name": "Lungi Ngidi",
+          "o": "4",
+          "r": 34,
+          "w": 1
+        },
+        {
+          "name": "Axar Patel",
+          "o": "4",
+          "r": 22,
+          "w": 1
+        },
+        {
+          "name": "Vipraj Nigam",
+          "o": "3",
+          "r": 24,
+          "w": 1
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "3",
+          "r": 31,
+          "w": 0
+        },
+        {
+          "name": "T Natarajan",
+          "o": "3",
+          "r": 24,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "KL Rahul",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Pathum Nissanka",
+          "r": 44,
+          "b": 30,
+          "4s": 6,
+          "6s": 1
+        },
+        {
+          "name": "Nitish Rana",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Sameer Rizvi",
+          "r": 90,
+          "b": 51,
+          "4s": 7,
+          "6s": 7
+        },
+        {
+          "name": "David Miller",
+          "r": 21,
+          "b": 18,
+          "4s": 4,
+          "6s": 0
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 3,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Deepak Chahar",
+          "o": "3",
+          "r": 20,
+          "w": 0
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 21,
+          "w": 1
+        },
+        {
+          "name": "Mitchell Santner",
+          "o": "3",
+          "r": 22,
+          "w": 0
+        },
+        {
+          "name": "Shardul Thakur",
+          "o": "3",
+          "r": 41,
+          "w": 1
+        },
+        {
+          "name": "Mayank Markande",
+          "o": "2",
+          "r": 20,
+          "w": 1
+        },
+        {
+          "name": "Corbin Bosch",
+          "o": "3.1",
+          "r": 39,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1527681",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/delhi-capitals-vs-mumbai-indians-8th-match-1527681/full-scorecard",
+  "scrapedAt": "2026-04-04T19:26:51"
+}
