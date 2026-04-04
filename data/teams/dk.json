@@ -19,35 +19,35 @@
       "cricApiPlayerId": "670ae8ac-4fe9-4f0c-84ee-320b13039f34"
     },
     {
-      "name": "Rahul KL",
+      "name": "KL Rahul",
       "price": 350,
       "role": "Wkt Keeper",
       "team": "dk",
       "cricApiPlayerId": "a034346c-b408-4d29-a0f0-8b12430be28e"
     },
     {
-      "name": "S Gill",
+      "name": "Shubman Gill",
       "price": 360,
       "role": "Batsman",
       "team": "dk",
       "cricApiPlayerId": "7263e990-a9e9-4829-8adf-760d18d1315c"
     },
     {
-      "name": "W Sundar",
+      "name": "Washington Sundar",
       "price": 160,
       "role": "All rounder",
       "team": "dk",
       "cricApiPlayerId": "309d3ffd-3d06-460d-9427-c559a604d471"
     },
     {
-      "name": "J Hazlewood",
+      "name": "Josh Hazlewood",
       "price": 10,
       "role": "Bowler",
       "team": "dk",
       "cricApiPlayerId": "2190c28d-1712-4fd2-ae44-9ac54319fc21"
     },
     {
-      "name": "J Archer",
+      "name": "Jofra Archer",
       "price": 90,
       "role": "Bowler",
       "team": "dk",
@@ -61,7 +61,7 @@
       "cricApiPlayerId": "71add5ac-55f9-4eb7-9e0c-d51208ae20c0"
     },
     {
-      "name": "Bumrah",
+      "name": "Jasprit Bumrah",
       "price": 260,
       "role": "Bowler",
       "team": "dk",
@@ -75,35 +75,35 @@
       "cricApiPlayerId": "9d6cb002-6b9f-4795-a9bf-ea1a6e27ed08"
     },
     {
-      "name": "H Brar",
+      "name": "Harpreet Brar",
       "price": 10,
       "role": "All rounder",
       "team": "dk",
       "cricApiPlayerId": "e3005322-b01a-4c58-9b26-a2ca150ad1d1"
     },
     {
-      "name": "V Chakaravarthy",
+      "name": "Varun Chakravarthy",
       "price": 150,
       "role": "Bowler",
       "team": "dk",
       "cricApiPlayerId": "702254aa-2764-4fe4-b28e-20336a0ab069"
     },
     {
-      "name": "NKR",
+      "name": "Nitish Kumar Reddy",
       "price": 10,
       "role": "All rounder",
       "team": "dk",
       "cricApiPlayerId": "4e8ab9cd-c5af-430e-887b-d22bf74ad052"
     },
     {
-      "name": "N Pooran",
+      "name": "Nicholas Pooran",
       "price": 60,
       "role": "Batsman",
       "team": "dk",
       "cricApiPlayerId": "4e8ab9cd-c5af-430e-887b-d22bf74ad052"
     },
     {
-      "name": "A Badoni",
+      "name": "Ayush Badoni",
       "price": 10,
       "role": "Batsman",
       "team": "dk",
@@ -117,7 +117,7 @@
       "cricApiPlayerId": "fb46a43c-3deb-489d-8641-5d1744dfbf81"
     },
     {
-      "name": "Glenn Philips",
+      "name": "Glenn Phillips",
       "price": 10,
       "role": "All rounder",
       "team": "dk",

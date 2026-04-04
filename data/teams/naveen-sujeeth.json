@@ -5,14 +5,14 @@
   "budgetSpent": 1860,
   "players": [
     {
-      "name": "Brewis",
+      "name": "Dewald Brevis",
       "price": 220,
       "role": "Batsman",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": null
     },
     {
-      "name": "Dube",
+      "name": "Shivam Dube",
       "price": 200,
       "role": "All rounder",
       "team": "naveen-sujeeth",
@@ -26,28 +26,28 @@
       "cricApiPlayerId": null
     },
     {
-      "name": "T Stubbs",
+      "name": "Tristan Stubbs",
       "price": 80,
       "role": "Batsman",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "de19a93e-06df-4597-9186-7a53c1613552"
     },
     {
-      "name": "Shah Rukh Khan",
+      "name": "M Shahrukh Khan",
       "price": 10,
       "role": "Batsman",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "d0f69230-16e0-4a79-92aa-f9f7c588d5d3"
     },
     {
-      "name": "D Padikal",
+      "name": "Devdutt Padikkal",
       "price": 50,
       "role": "Batsman",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "74c6584a-45a5-4781-a5e7-c0c9340da954"
     },
     {
-      "name": "R Shepard",
+      "name": "Romario Shepherd",
       "price": 20,
       "role": "All rounder",
       "team": "naveen-sujeeth",
@@ -61,21 +61,21 @@
       "cricApiPlayerId": "3f18b02d-0e1a-49be-aec4-c2fc11503505"
     },
     {
-      "name": "V Suryavanshi",
+      "name": "Vaibhav Sooryavanshi",
       "price": 200,
       "role": "Batsman",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": null
     },
     {
-      "name": "R Bishnoi",
+      "name": "Ravi Bishnoi",
       "price": 80,
       "role": "Bowler",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "9a71201c-c377-45aa-a355-1af6d2c4bae3"
     },
     {
-      "name": "T Varma",
+      "name": "Tilak Varma",
       "price": 200,
       "role": "Batsman",
       "team": "naveen-sujeeth",
@@ -89,56 +89,56 @@
       "cricApiPlayerId": "c06c697c-9575-4bb0-b1f0-27a56a2f3898"
     },
     {
-      "name": "Y Chahal",
+      "name": "Yuzvendra Chahal",
       "price": 200,
       "role": "Bowler",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "0d704a13-518a-40a7-bb93-0fc0d92af9e2"
     },
     {
-      "name": "S Narine",
+      "name": "Sunil Narine",
       "price": 50,
       "role": "All rounder",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "ef2e9c01-41f2-4349-a945-45d8b11dbd19"
     },
     {
-      "name": "C Green",
+      "name": "Cameron Green",
       "price": 150,
       "role": "All rounder",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "abe58090-e933-4888-8538-64f4611ee259"
     },
     {
-      "name": "M Chowdary",
+      "name": "Mukul Choudhary",
       "price": 10,
       "role": "Bowler",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": null
     },
     {
-      "name": "D Miller",
+      "name": "David Miller",
       "price": 40,
       "role": "Batsman",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "2f50df2f-809d-44f9-b5be-ccb846515861"
     },
     {
-      "name": "Auqib nabi",
+      "name": "Auqib Nabi",
       "price": 10,
       "role": "Bowler",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": null
     },
     {
-      "name": "Rickleton",
+      "name": "Ryan Rickelton",
       "price": 10,
       "role": "Batsman",
       "team": "naveen-sujeeth",
       "cricApiPlayerId": "a6686871-5bcd-4aae-8bfc-8298f878b6a9"
     },
     {
-      "name": "A Omarzai",
+      "name": "Azmatullah Omarzai",
       "price": 100,
       "role": "All rounder",
       "team": "naveen-sujeeth",

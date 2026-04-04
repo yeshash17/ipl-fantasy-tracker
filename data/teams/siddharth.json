@@ -19,21 +19,21 @@
       "cricApiPlayerId": "cbe808da-727a-4d9c-b3be-6eb431217483"
     },
     {
-      "name": "Starc",
+      "name": "Mitchell Starc",
       "price": 200,
       "role": "Bowler",
       "team": "siddharth",
       "cricApiPlayerId": null
     },
     {
-      "name": "Rizvi",
+      "name": "Sameer Rizvi",
       "price": 60,
       "role": "Batsman",
       "team": "siddharth",
       "cricApiPlayerId": null
     },
     {
-      "name": "Natrajan",
+      "name": "T Natarajan",
       "price": 70,
       "role": "Bowler",
       "team": "siddharth",
@@ -47,70 +47,70 @@
       "cricApiPlayerId": "085d49b0-d5e5-4fc5-955b-39758a134545"
     },
     {
-      "name": "P Krishna",
+      "name": "Prasidh Krishna",
       "price": 100,
       "role": "Bowler",
       "team": "siddharth",
       "cricApiPlayerId": "99eb6b5c-379f-46da-bab7-dc8fd31ba435"
     },
     {
-      "name": "J Holder",
+      "name": "Jason Holder",
       "price": 40,
       "role": "All rounder",
       "team": "siddharth",
       "cricApiPlayerId": null
     },
     {
-      "name": "J Bethell",
+      "name": "Jacob Bethell",
       "price": 110,
       "role": "Batsman",
       "team": "siddharth",
       "cricApiPlayerId": null
     },
     {
-      "name": "V Iyer",
+      "name": "Venkatesh Iyer",
       "price": 70,
       "role": "Batsman",
       "team": "siddharth",
       "cricApiPlayerId": null
     },
     {
-      "name": "D Jurel",
+      "name": "Dhruv Jurel",
       "price": 90,
       "role": "Batsman",
       "team": "siddharth",
       "cricApiPlayerId": "21d693c2-b4dd-4d24-b747-90dfc8357ef5"
     },
     {
-      "name": "T Deshpande",
+      "name": "Tushar Deshpande",
       "price": 50,
       "role": "Bowler",
       "team": "siddharth",
       "cricApiPlayerId": null
     },
     {
-      "name": "Satner",
+      "name": "Mitchell Santner",
       "price": 10,
       "role": "All rounder",
       "team": "siddharth",
       "cricApiPlayerId": "16ec245b-022d-4104-bd8f-ccc780428390"
     },
     {
-      "name": "D Chahar",
+      "name": "Deepak Chahar",
       "price": 130,
       "role": "Bowler",
       "team": "siddharth",
       "cricApiPlayerId": "237a1ef2-1eae-4877-8b94-d20d84faf635"
     },
     {
-      "name": "T Head",
+      "name": "Travis Head",
       "price": 170,
       "role": "Batsman",
       "team": "siddharth",
       "cricApiPlayerId": "d6720897-e81d-4703-bf33-d2b60c973d30"
     },
     {
-      "name": "S Thakur",
+      "name": "Shardul Thakur",
       "price": 110,
       "role": "All rounder",
       "team": "siddharth",

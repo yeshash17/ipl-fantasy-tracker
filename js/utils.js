@@ -81,21 +81,10 @@ function normName(s) {
   return String(s ?? '').toLowerCase().replace(/[.\-']/g, '').replace(/\s+/g, ' ').trim();
 }
 
-/** Find a player in the lookup by fuzzy name matching */
+/** Find a player in the lookup by exact normalised name match only.
+ *  No fuzzy matching — all fantasy player names must match ESPNCricinfo exactly. */
 function findPlayer(scrapedName, playerByName) {
-  const n = normName(scrapedName);
-  if (playerByName[n]) return playerByName[n];
-  // Try partial match: every word of shorter name found in longer
-  for (const [key, player] of Object.entries(playerByName)) {
-    if (key.includes(n) || n.includes(key)) return player;
-    // Last name match (for abbreviated Excel names like "Bumrah")
-    const keyLast = key.split(' ').pop();
-    const nLast = n.split(' ').pop();
-    if (keyLast.length >= 5 && nLast.length >= 5 && (keyLast === nLast || key.includes(nLast) || n.includes(keyLast))) {
-      return player;
-    }
-  }
-  return null;
+  return playerByName[normName(scrapedName)] ?? null;
 }
 
 /**

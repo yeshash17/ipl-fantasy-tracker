@@ -5,49 +5,49 @@
   "budgetSpent": 1960,
   "players": [
     {
-      "name": "Noor Ahmed",
+      "name": "Noor Ahmad",
       "price": 300,
       "role": "Bowler",
       "team": "shash",
       "cricApiPlayerId": null
     },
     {
-      "name": "M Siraj",
+      "name": "Mohammed Siraj",
       "price": 110,
       "role": "Bowler",
       "team": "shash",
       "cricApiPlayerId": "2a8d8640-2213-4cf6-ac7e-309d8b733e96"
     },
     {
-      "name": "Sai Kishore",
+      "name": "R Sai Kishore",
       "price": 70,
       "role": "Bowler",
       "team": "shash",
       "cricApiPlayerId": "7d6bbd6c-c5bb-4e1c-9374-aaa829e77611"
     },
     {
-      "name": "V Kohli",
+      "name": "Virat Kohli",
       "price": 360,
       "role": "Batsman",
       "team": "shash",
       "cricApiPlayerId": "c61d247d-7f77-452c-b495-2813a9cd0ac4"
     },
     {
-      "name": "P Salt",
+      "name": "Phil Salt",
       "price": 250,
       "role": "Wkt Keeper",
       "team": "shash",
       "cricApiPlayerId": "6db25d60-ff96-4d8d-8d22-dedeeb5ffa29"
     },
     {
-      "name": "S Hetmyer",
+      "name": "Shimron Hetmyer",
       "price": 80,
       "role": "Batsman",
       "team": "shash",
       "cricApiPlayerId": null
     },
     {
-      "name": "R Parag",
+      "name": "Riyan Parag",
       "price": 130,
       "role": "All rounder",
       "team": "shash",
@@ -96,14 +96,14 @@
       "cricApiPlayerId": "3fef81b0-c1e9-45eb-954f-519f3b33d640"
     },
     {
-      "name": "R Pant",
+      "name": "Rishabh Pant",
       "price": 60,
       "role": "Batsman",
       "team": "shash",
       "cricApiPlayerId": "a52b2d20-7c98-4238-9ba4-ec78419a5cc2"
     },
     {
-      "name": "Marsh",
+      "name": "Mitchell Marsh",
       "price": 100,
       "role": "All rounder",
       "team": "shash",
@@ -117,7 +117,7 @@
       "cricApiPlayerId": "cba19be9-7aec-4083-ba61-26f0aee31721"
     },
     {
-      "name": "V Arora",
+      "name": "Vaibhav Arora",
       "price": 30,
       "role": "Bowler",
       "team": "shash",
@@ -131,14 +131,14 @@
       "cricApiPlayerId": "e6d28951-8524-43ca-95cf-9e73ae68bc12"
     },
     {
-      "name": "S Ahmed",
+      "name": "Shahbaz Ahmed",
       "price": 20,
       "role": "All rounder",
       "team": "shash",
       "cricApiPlayerId": null
     },
     {
-      "name": "D Rathi",
+      "name": "Dhruv Rathi",
       "price": 10,
       "role": "Bowler",
       "team": "shash",

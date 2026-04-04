@@ -12,7 +12,7 @@
       "cricApiPlayerId": "b6e7aa41-b0bb-4b0f-8f59-59f729283be5"
     },
     {
-      "name": "Nithish Rana",
+      "name": "Nitish Rana",
       "price": 80,
       "role": "All rounder",
       "team": "roshan",
@@ -26,14 +26,14 @@
       "cricApiPlayerId": "1e651cfb-57f1-48da-bf9d-83cbff1733d1"
     },
     {
-      "name": "V Nigam",
+      "name": "Vipraj Nigam",
       "price": 70,
       "role": "All rounder",
       "team": "roshan",
       "cricApiPlayerId": "6d4e7d4a-4fae-4958-bc15-a063c09508eb"
     },
     {
-      "name": "K Rabada",
+      "name": "Kagiso Rabada",
       "price": 70,
       "role": "Bowler",
       "team": "roshan",
@@ -47,42 +47,42 @@
       "cricApiPlayerId": "f0687183-ad9a-44f7-9cbf-4f7eb0cbfb5a"
     },
     {
-      "name": "Rajat Patidhar",
+      "name": "Rajat Patidar",
       "price": 190,
       "role": "Batsman",
       "team": "roshan",
       "cricApiPlayerId": "88215ee9-ca67-48af-a3f0-6b38718bd830"
     },
     {
-      "name": "T David",
+      "name": "Tim David",
       "price": 40,
       "role": "All rounder",
       "team": "roshan",
       "cricApiPlayerId": "69718248-2a3a-45d4-9a2a-6f4dfc6942a5"
     },
     {
-      "name": "D Ferreira",
+      "name": "Donovan Ferreira",
       "price": 40,
       "role": "All rounder",
       "team": "roshan",
       "cricApiPlayerId": null
     },
     {
-      "name": "Jaishwal",
+      "name": "Yashasvi Jaiswal",
       "price": 270,
       "role": "Batsman",
       "team": "roshan",
       "cricApiPlayerId": "a254feed-0d7c-4f04-a2ab-7bf9ceef156b"
     },
     {
-      "name": "R Sharma",
+      "name": "Rohit Sharma",
       "price": 140,
       "role": "Batsman",
       "team": "roshan",
       "cricApiPlayerId": "03bda674-3916-4d64-952e-00a6c19c01e1"
     },
     {
-      "name": "S Yadav",
+      "name": "Suryakumar Yadav",
       "price": 210,
       "role": "Batsman",
       "team": "roshan",
@@ -96,7 +96,7 @@
       "cricApiPlayerId": "607ff10c-5619-411d-a822-06ba28992230"
     },
     {
-      "name": "Rahane",
+      "name": "Ajinkya Rahane",
       "price": 60,
       "role": "Batsman",
       "team": "roshan",
@@ -110,28 +110,28 @@
       "cricApiPlayerId": "332200ad-d1f8-4035-95c5-b33bd1c9a939"
     },
     {
-      "name": "I Sharma",
+      "name": "Ishant Sharma",
       "price": 10,
       "role": "Bowler",
       "team": "roshan",
       "cricApiPlayerId": null
     },
     {
-      "name": "A Raghuvanshi",
+      "name": "Angkrish Raghuvanshi",
       "price": 120,
       "role": "Batsman",
       "team": "roshan",
       "cricApiPlayerId": null
     },
     {
-      "name": "R Tripathi",
+      "name": "Rahul Tripathi",
       "price": 10,
       "role": "Batsman",
       "team": "roshan",
       "cricApiPlayerId": null
     },
     {
-      "name": "S Mavi",
+      "name": "Shivam Mavi",
       "price": 10,
       "role": "Bowler",
       "team": "roshan",

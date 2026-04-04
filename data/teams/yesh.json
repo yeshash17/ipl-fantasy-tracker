@@ -19,7 +19,7 @@
       "cricApiPlayerId": null
     },
     {
-      "name": "Sai Sudharasan",
+      "name": "Sai Sudharsan",
       "price": 390,
       "role": "Batsman",
       "team": "yesh",
@@ -33,7 +33,7 @@
       "cricApiPlayerId": "4b661541-36cf-4dbe-96f0-3d58f971a2a9"
     },
     {
-      "name": "K Pandya",
+      "name": "Krunal Pandya",
       "price": 110,
       "role": "All rounder",
       "team": "yesh",
@@ -47,14 +47,14 @@
       "cricApiPlayerId": "2bf2258f-f35e-4831-884e-f88ef46968f5"
     },
     {
-      "name": "J Duffy",
+      "name": "Jacob Duffy",
       "price": 50,
       "role": "Bowler",
       "team": "yesh",
       "cricApiPlayerId": "6e05cbea-6a4b-42ef-8e2e-b44e4b434c2f"
     },
     {
-      "name": "Jadeja",
+      "name": "Ravindra Jadeja",
       "price": 150,
       "role": "All rounder",
       "team": "yesh",
@@ -68,42 +68,42 @@
       "cricApiPlayerId": "3545d689-5166-440e-9eaf-1409e554a547"
     },
     {
-      "name": "T Boult",
+      "name": "Trent Boult",
       "price": 90,
       "role": "Bowler",
       "team": "yesh",
       "cricApiPlayerId": "6004fd3f-2264-470d-b39f-340d530b19b3"
     },
     {
-      "name": "W Jacks",
+      "name": "Will Jacks",
       "price": 40,
       "role": "All rounder",
       "team": "yesh",
       "cricApiPlayerId": null
     },
     {
-      "name": "P Singh",
+      "name": "Prabhsimran Singh",
       "price": 100,
       "role": "Batsman",
       "team": "yesh",
       "cricApiPlayerId": null
     },
     {
-      "name": "P Arya",
+      "name": "Priyansh Arya",
       "price": 80,
       "role": "Batsman",
       "team": "yesh",
       "cricApiPlayerId": "4ff68cf3-d3a7-489f-bf37-4ac233f41a15"
     },
     {
-      "name": "M Stoinis",
+      "name": "Marcus Stoinis",
       "price": 60,
       "role": "All rounder",
       "team": "yesh",
       "cricApiPlayerId": "11340697-6443-4c3e-ab27-d9d30ba95671"
     },
     {
-      "name": "Abishek Sharma",
+      "name": "Abhishek Sharma",
       "price": 260,
       "role": "Batsman",
       "team": "yesh",
@@ -138,7 +138,7 @@
       "cricApiPlayerId": null
     },
     {
-      "name": "C Bosch",
+      "name": "Corbin Bosch",
       "price": 10,
       "role": "All rounder",
       "team": "yesh",
