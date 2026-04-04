@@ -64,7 +64,7 @@
           "name": "Mukesh Kumar",
           "o": "3",
           "r": 26,
-          "w": 1
+          "w": 2
         },
         {
           "name": "Lungi Ngidi",
@@ -94,7 +94,7 @@
           "name": "T Natarajan",
           "o": "3",
           "r": 24,
-          "w": 0
+          "w": 1
         }
       ]
     },
@@ -148,31 +148,31 @@
           "name": "Deepak Chahar",
           "o": "3",
           "r": 20,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Jasprit Bumrah",
           "o": "4",
           "r": 21,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Mitchell Santner",
           "o": "3",
           "r": 22,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Shardul Thakur",
           "o": "3",
           "r": 41,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Mayank Markande",
           "o": "2",
           "r": 20,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Corbin Bosch",
@@ -185,5 +185,5 @@
   ],
   "matchId": "1527681",
   "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/delhi-capitals-vs-mumbai-indians-8th-match-1527681/full-scorecard",
-  "scrapedAt": "2026-04-04T19:26:51"
+  "scrapedAt": "2026-04-04T19:41:52"
 }

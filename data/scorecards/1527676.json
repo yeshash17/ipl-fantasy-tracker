@@ -85,37 +85,37 @@
           "name": "Jofra Archer",
           "o": "4",
           "r": 19,
-          "w": 1
+          "w": 2
         },
         {
           "name": "Nandre Burger",
           "o": "4",
           "r": 26,
-          "w": 3
+          "w": 2
         },
         {
           "name": "Brijesh Sharma",
           "o": "3",
           "r": 17,
-          "w": 2
+          "w": 1
         },
         {
           "name": "Sandeep Sharma",
           "o": "2.4",
           "r": 22,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Ravi Bishnoi",
           "o": "3",
           "r": 16,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Ravindra Jadeja",
           "o": "3",
           "r": 18,
-          "w": 0
+          "w": 2
         }
       ]
     },
@@ -155,7 +155,7 @@
           "name": "Matt Henry",
           "o": "3",
           "r": 40,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Khaleel Ahmed",
@@ -167,7 +167,7 @@
           "name": "Anshul Kamboj",
           "o": "3",
           "r": 27,
-          "w": 0
+          "w": 2
         },
         {
           "name": "Noor Ahmad",
@@ -192,5 +192,5 @@
   ],
   "matchId": "1527676",
   "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/rajasthan-royals-vs-chennai-super-kings-3rd-match-1527676/full-scorecard",
-  "scrapedAt": "2026-04-04T19:25:48"
+  "scrapedAt": "2026-04-04T19:40:29"
 }

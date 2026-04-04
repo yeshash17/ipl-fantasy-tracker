@@ -38,8 +38,27 @@ def fetch_page(url):
     return StealthyFetcher.fetch(url, headless=True, wait=5000, wait_selector="table")
 
 
+def get_cell_value(td):
+    """Get text from a table cell, checking spans if direct text is empty."""
+    text = td.text.strip()
+    if text:
+        return text
+    spans = td.css("span")
+    for s in spans:
+        t = s.text.strip()
+        if t:
+            return t
+    return ""
+
+
 def parse_scorecard(page):
-    """Parse batting and bowling data from an ESPNCricinfo scorecard page."""
+    """Parse batting and bowling data from an ESPNCricinfo scorecard page.
+
+    ESPNCricinfo table layout:
+      Batting: [Name, Dismissal, R, B, M, 4s, 6s, SR]
+      Bowling: [Name, O, M, R, W, ECON, 0s, WD, NB]
+    Some cells (like W) have values inside <span> tags, not direct text.
+    """
     tables = page.css("table")
     if not tables:
         return None
@@ -52,7 +71,7 @@ def parse_scorecard(page):
 
         innings = {"batting": [], "bowling": []}
 
-        # Parse batting
+        # Parse batting: [Name, Dismissal, R, B, M, 4s, 6s, SR]
         if batting_table:
             for row in batting_table.css("tr"):
                 link = row.css("a[title]")
@@ -62,31 +81,31 @@ def parse_scorecard(page):
                     if not name:
                         name = link[0].text.strip()
                     try:
-                        runs = int(tds[2].text.strip()) if tds[2].text.strip().isdigit() else 0
-                        balls = int(tds[3].text.strip()) if tds[3].text.strip().isdigit() else 0
-                        fours = int(tds[5].text.strip()) if tds[5].text.strip().isdigit() else 0
-                        sixes = int(tds[6].text.strip()) if tds[6].text.strip().isdigit() else 0
+                        runs = int(get_cell_value(tds[2]) or 0)
+                        balls = int(get_cell_value(tds[3]) or 0)
+                        fours = int(get_cell_value(tds[5]) or 0)
+                        sixes = int(get_cell_value(tds[6]) or 0)
                         innings["batting"].append({
                             "name": name, "r": runs, "b": balls, "4s": fours, "6s": sixes
                         })
                     except (IndexError, ValueError):
                         pass
 
-        # Parse bowling
+        # Parse bowling: [Name, O, M, R, W, ECON, 0s, WD, NB]
+        # W (wickets) is in td[4] — value often inside a <span>
         if bowling_table:
             for row in bowling_table.css("tr"):
                 link = row.css("a[title]")
                 tds = row.css("td")
-                if link and len(tds) >= 8:
+                if link and len(tds) >= 5:
                     name = link[0].attrib.get("title", "").strip()
                     if not name:
                         name = link[0].text.strip()
-                    # Clean "View full profile of ..." prefix
                     name = re.sub(r"^View full profile of\s+", "", name)
                     try:
-                        overs = tds[1].text.strip()
-                        runs = int(tds[3].text.strip()) if tds[3].text.strip().isdigit() else 0
-                        wickets = int(tds[7].text.strip()) if tds[7].text.strip().isdigit() else 0
+                        overs = get_cell_value(tds[1])
+                        runs = int(get_cell_value(tds[3]) or 0)
+                        wickets = int(get_cell_value(tds[4]) or 0)
                         innings["bowling"].append({
                             "name": name, "o": overs, "r": runs, "w": wickets
                         })

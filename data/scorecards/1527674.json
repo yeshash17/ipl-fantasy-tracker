@@ -85,31 +85,31 @@
           "name": "Jacob Duffy",
           "o": "4",
           "r": 22,
-          "w": 1
+          "w": 3
         },
         {
           "name": "Bhuvneshwar Kumar",
           "o": "4",
           "r": 31,
-          "w": 2
+          "w": 1
         },
         {
           "name": "Abhinandan Singh",
           "o": "3",
           "r": 38,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Romario Shepherd",
           "o": "4",
           "r": 54,
-          "w": 1
+          "w": 3
         },
         {
           "name": "Suyash Sharma",
           "o": "3",
           "r": 28,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Krunal Pandya",
@@ -181,30 +181,30 @@
           "name": "David Payne",
           "o": "3",
           "r": 35,
-          "w": 1
+          "w": 2
         },
         {
           "name": "Harsh Dubey",
           "o": "3",
           "r": 35,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Eshan Malinga",
           "o": "2",
           "r": 35,
-          "w": 4
+          "w": 0
         },
         {
           "name": "Harshal Patel",
           "o": "2.4",
           "r": 39,
-          "w": 1
+          "w": 0
         }
       ]
     }
   ],
   "matchId": "1527674",
   "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/royal-challengers-bengaluru-vs-sunrisers-hyderabad-1st-match-1527674/full-scorecard",
-  "scrapedAt": "2026-04-04T19:25:19"
+  "scrapedAt": "2026-04-04T19:40:00"
 }

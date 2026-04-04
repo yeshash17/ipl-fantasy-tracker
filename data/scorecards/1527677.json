@@ -64,31 +64,31 @@
           "name": "Arshdeep Singh",
           "o": "4",
           "r": 42,
-          "w": 7
+          "w": 0
         },
         {
           "name": "Xavier Bartlett",
           "o": "4",
           "r": 36,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Marco Jansen",
           "o": "4",
           "r": 20,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Vijaykumar Vyshak",
           "o": "4",
           "r": 34,
-          "w": 1
+          "w": 3
         },
         {
           "name": "Yuzvendra Chahal",
           "o": "4",
           "r": 28,
-          "w": 1
+          "w": 2
         }
       ]
     },
@@ -169,36 +169,36 @@
           "name": "Kagiso Rabada",
           "o": "3",
           "r": 34,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Ashok Sharma",
           "o": "3",
           "r": 31,
-          "w": 2
+          "w": 1
         },
         {
           "name": "Rashid Khan",
           "o": "4",
           "r": 29,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Washington Sundar",
           "o": "3.1",
           "r": 27,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Prasidh Krishna",
           "o": "4",
           "r": 29,
-          "w": 2
+          "w": 3
         }
       ]
     }
   ],
   "matchId": "1527677",
   "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/punjab-kings-vs-gujarat-titans-4th-match-1527677/full-scorecard",
-  "scrapedAt": "2026-04-04T19:26:01"
+  "scrapedAt": "2026-04-04T19:40:47"
 }

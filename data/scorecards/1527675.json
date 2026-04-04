@@ -50,31 +50,31 @@
           "name": "Trent Boult",
           "o": "4",
           "r": 38,
-          "w": 3
+          "w": 0
         },
         {
           "name": "Hardik Pandya",
           "o": "3",
           "r": 39,
-          "w": 2
+          "w": 1
         },
         {
           "name": "AM Ghazanfar",
           "o": "4",
           "r": 51,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Jasprit Bumrah",
           "o": "4",
           "r": 35,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Shardul Thakur",
           "o": "4",
           "r": 39,
-          "w": 0
+          "w": 3
         },
         {
           "name": "Mayank Markande",
@@ -146,30 +146,30 @@
           "name": "Varun Chakravarthy",
           "o": "4",
           "r": 48,
-          "w": 1
+          "w": 0
         },
         {
           "name": "Kartik Tyagi",
           "o": "4",
           "r": 43,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Sunil Narine",
           "o": "3",
           "r": 30,
-          "w": 0
+          "w": 1
         },
         {
           "name": "Anukul Roy",
           "o": "1.1",
           "r": 15,
-          "w": 1
+          "w": 0
         }
       ]
     }
   ],
   "matchId": "1527675",
   "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/mumbai-indians-vs-kolkata-knight-riders-2nd-match-1527675/full-scorecard",
-  "scrapedAt": "2026-04-04T19:25:34"
+  "scrapedAt": "2026-04-04T19:40:15"
 }

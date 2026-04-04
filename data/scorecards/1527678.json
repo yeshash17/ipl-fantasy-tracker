@@ -85,31 +85,31 @@
           "name": "Mukesh Kumar",
           "o": "3",
           "r": 17,
-          "w": 2
+          "w": 0
         },
         {
           "name": "Lungi Ngidi",
           "o": "3.4",
           "r": 27,
-          "w": 0
+          "w": 3
         },
         {
           "name": "Axar Patel",
           "o": "3",
           "r": 17,
-          "w": 0
+          "w": 1
         },
         {
           "name": "T Natarajan",
           "o": "4",
           "r": 29,
-          "w": 0
+          "w": 3
         },
         {
           "name": "Kuldeep Yadav",
           "o": "4",
           "r": 31,
-          "w": 0
+          "w": 2
         },
         {
           "name": "Vipraj Nigam",
@@ -169,13 +169,13 @@
           "name": "Mohammed Shami",
           "o": "4",
           "r": 28,
-          "w": 4
+          "w": 1
         },
         {
           "name": "Prince Yadav",
           "o": "3",
           "r": 20,
-          "w": 4
+          "w": 2
         },
         {
           "name": "Mohsin Khan",
@@ -187,7 +187,7 @@
           "name": "Anrich Nortje",
           "o": "4",
           "r": 39,
-          "w": 3
+          "w": 0
         },
         {
           "name": "Shahbaz Ahmed",
@@ -212,5 +212,5 @@
   ],
   "matchId": "1527678",
   "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/lucknow-super-giants-vs-delhi-capitals-5th-match-1527678/full-scorecard",
-  "scrapedAt": "2026-04-04T19:26:13"
+  "scrapedAt": "2026-04-04T19:41:01"
 }
