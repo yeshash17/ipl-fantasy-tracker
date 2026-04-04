@@ -10,10 +10,8 @@ async function init() {
     const players = await fetchJSON('data/players.json');
     allPlayersData = players;
 
-    // Load points if series ID is configured
-    if (IPL_SERIES_ID) {
-      globalPts = await loadGlobalPoints(players);
-    }
+    // Load points from scraped scorecards
+    globalPts = await loadGlobalPoints(players);
 
     document.getElementById('loading').classList.add('d-none');
     document.getElementById('players-section').classList.remove('d-none');
@@ -68,7 +66,7 @@ function filterPlayers() {
   // Enrich with points and sort by points desc
   const enriched = filtered.map(p => ({
     ...p,
-    ...(globalPts[p.cricApiPlayerId] ?? { runs: 0, wickets: 0, points: 0 })
+    ...(globalPts[p.name] ?? { runs: 0, wickets: 0, points: 0 })
   })).sort((a, b) => b.points - a.points);
 
   const tbody = document.getElementById('players-body');
