@@ -3,7 +3,7 @@ name: Scrape IPL Scorecards
 on:
   # Run every 10 minutes during IPL match hours (IST 2pm-11:30pm = UTC 8:30am-6pm)
   schedule:
-    - cron: '*/10 8-18 * 3-5 *'  # Every 10 min, 8am-6pm UTC, March-May
+    - cron: '*/20 8-17 * 3-5 *'  # Every 20 min, 8am-5pm UTC (1:30pm-10:30pm IST), March-May
   # Also allow manual trigger
   workflow_dispatch:
 
