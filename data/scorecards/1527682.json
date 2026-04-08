@@ -1,0 +1,217 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 55,
+          "b": 36,
+          "4s": 6,
+          "6s": 3
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 31,
+          "b": 18,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 75,
+          "b": 42,
+          "4s": 5,
+          "6s": 5
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 8,
+          "b": 4,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "r": 18,
+          "b": 8,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "r": 7,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Jofra Archer",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 48,
+          "w": 1
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "4",
+          "r": 42,
+          "w": 2
+        },
+        {
+          "name": "Ashok Sharma",
+          "o": "4",
+          "r": 37,
+          "w": 1
+        },
+        {
+          "name": "Prasidh Krishna",
+          "o": "4",
+          "r": 43,
+          "w": 1
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "4",
+          "r": 39,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 73,
+          "b": 44,
+          "4s": 9,
+          "6s": 3
+        },
+        {
+          "name": "Kumar Kushagra",
+          "r": 18,
+          "b": 14,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 26,
+          "b": 14,
+          "4s": 5,
+          "6s": 0
+        },
+        {
+          "name": "Glenn Phillips",
+          "r": 3,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 4,
+          "b": 2,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Rahul Tewatia",
+          "r": 12,
+          "b": 6,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "M Shahrukh Khan",
+          "r": 11,
+          "b": 4,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Rashid Khan",
+          "r": 24,
+          "b": 16,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Kagiso Rabada",
+          "r": 23,
+          "b": 16,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Ashok Sharma",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 38,
+          "w": 0
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "3",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Sandeep Sharma",
+          "o": "3",
+          "r": 34,
+          "w": 0
+        },
+        {
+          "name": "Tushar Deshpande",
+          "o": "3",
+          "r": 24,
+          "w": 1
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "2",
+          "r": 25,
+          "w": 0
+        },
+        {
+          "name": "Riyan Parag",
+          "o": "1",
+          "r": 11,
+          "w": 1
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "o": "4",
+          "r": 41,
+          "w": 4
+        }
+      ]
+    }
+  ],
+  "matchId": "1527682",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/gujarat-titans-vs-rajasthan-royals-9th-match-1527682/full-scorecard",
+  "scrapedAt": "2026-04-09T00:28:51"
+}

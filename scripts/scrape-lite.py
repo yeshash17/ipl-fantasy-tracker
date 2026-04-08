@@ -63,6 +63,13 @@ FALLBACK_MATCHES = [
     ("kolkata-knight-riders-vs-sunrisers-hyderabad-6th-match-1527679", "1527679"),
     ("chennai-super-kings-vs-punjab-kings-7th-match-1527680", "1527680"),
     ("delhi-capitals-vs-mumbai-indians-8th-match-1527681", "1527681"),
+    ("gujarat-titans-vs-rajasthan-royals-9th-match-1527682", "1527682"),
+    ("sunrisers-hyderabad-vs-lucknow-super-giants-10th-match-1527683", "1527683"),
+    ("royal-challengers-bengaluru-vs-chennai-super-kings-11th-match-1527684", "1527684"),
+    # Match 12 KKR vs PBKS - washed out, no scorecard
+    ("rajasthan-royals-vs-mumbai-indians-13th-match-1527686", "1527686"),
+    ("delhi-capitals-vs-gujarat-titans-14th-match-1527687", "1527687"),
+    ("kolkata-knight-riders-vs-lucknow-super-giants-15th-match-1527688", "1527688"),
 ]
 
 
