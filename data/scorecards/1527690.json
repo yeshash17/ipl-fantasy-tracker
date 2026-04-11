@@ -1,0 +1,195 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Abhishek Sharma",
+          "r": 74,
+          "b": 28,
+          "4s": 5,
+          "6s": 8
+        },
+        {
+          "name": "Travis Head",
+          "r": 38,
+          "b": 23,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 27,
+          "b": 17,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 39,
+          "b": 33,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Aniket Verma",
+          "r": 18,
+          "b": 9,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Salil Arora",
+          "r": 9,
+          "b": 8,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Harsh Dubey",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Arshdeep Singh",
+          "o": "4",
+          "r": 50,
+          "w": 2
+        },
+        {
+          "name": "Xavier Bartlett",
+          "o": "4",
+          "r": 42,
+          "w": 1
+        },
+        {
+          "name": "Marco Jansen",
+          "o": "4",
+          "r": 40,
+          "w": 0
+        },
+        {
+          "name": "Vijaykumar Vyshak",
+          "o": "2",
+          "r": 33,
+          "w": 0
+        },
+        {
+          "name": "Shashank Singh",
+          "o": "3",
+          "r": 20,
+          "w": 2
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "o": "3",
+          "r": 33,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Priyansh Arya",
+          "r": 57,
+          "b": 20,
+          "4s": 5,
+          "6s": 5
+        },
+        {
+          "name": "Prabhsimran Singh",
+          "r": 51,
+          "b": 25,
+          "4s": 4,
+          "6s": 4
+        },
+        {
+          "name": "Cooper Connolly",
+          "r": 11,
+          "b": 12,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Shreyas Iyer",
+          "r": 69,
+          "b": 33,
+          "4s": 5,
+          "6s": 5
+        },
+        {
+          "name": "Nehal Wadhera",
+          "r": 14,
+          "b": 14,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Shashank Singh",
+          "r": 16,
+          "b": 9,
+          "4s": 1,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Harsh Dubey",
+          "o": "4",
+          "r": 38,
+          "w": 1
+        },
+        {
+          "name": "Jaydev Unadkat",
+          "o": "3",
+          "r": 40,
+          "w": 0
+        },
+        {
+          "name": "Eshan Malinga",
+          "o": "3",
+          "r": 46,
+          "w": 0
+        },
+        {
+          "name": "Harshal Patel",
+          "o": "2",
+          "r": 39,
+          "w": 0
+        },
+        {
+          "name": "Shivang Kumar",
+          "o": "4",
+          "r": 33,
+          "w": 3
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "o": "2",
+          "r": 20,
+          "w": 0
+        },
+        {
+          "name": "Abhishek Sharma",
+          "o": "0.5",
+          "r": 7,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1527690",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/punjab-kings-vs-sunrisers-hyderabad-17th-match-1527690/full-scorecard",
+  "scrapedAt": "2026-04-11T17:32:02"
+}
