@@ -1,10 +1,9 @@
 name: Scrape IPL Scorecards
 
 on:
-  # Run every 10 minutes during IPL match hours (IST 2pm-11:30pm = UTC 8:30am-6pm)
+  # Run every 20 min during IPL match hours (1:30pm-10:30pm IST = 8am-5pm UTC)
   schedule:
-    - cron: '*/20 8-17 * 3-5 *'  # Every 20 min, 8am-5pm UTC (1:30pm-10:30pm IST), March-May
-  # Also allow manual trigger
+    - cron: '*/20 8-17 * 3-5 *'
   workflow_dispatch:
 
 permissions:
@@ -21,16 +20,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: |
-          pip install playwright
-          python -m playwright install chromium
-          python -m playwright install-deps
-
-      - name: Run scraper
+      - name: Download and process Cricsheet data
         run: python scripts/scrape-lite.py
-        env:
-          PYTHONIOENCODING: utf-8
 
       - name: Update manifest
         run: |
@@ -50,6 +41,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new scorecards to commit"
           else
-            git commit -m "Auto-update: scraped latest IPL scorecards"
+            git commit -m "Auto-update: new IPL scorecards from Cricsheet"
             git push
           fi

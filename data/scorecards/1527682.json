@@ -5,89 +5,73 @@
         {
           "name": "Yashasvi Jaiswal",
           "r": 55,
-          "b": 36,
-          "4s": 6,
-          "6s": 3
+          "b": 37
         },
         {
           "name": "Vaibhav Sooryavanshi",
           "r": 31,
-          "b": 18,
-          "4s": 5,
-          "6s": 1
+          "b": 20
         },
         {
           "name": "Dhruv Jurel",
           "r": 75,
-          "b": 42,
-          "4s": 5,
-          "6s": 5
+          "b": 46
         },
         {
           "name": "Riyan Parag",
           "r": 8,
-          "b": 4,
-          "4s": 0,
-          "6s": 1
+          "b": 4
         },
         {
           "name": "Shimron Hetmyer",
           "r": 18,
-          "b": 8,
-          "4s": 1,
-          "6s": 2
+          "b": 9
         },
         {
           "name": "Donovan Ferreira",
           "r": 1,
-          "b": 3,
-          "4s": 0,
-          "6s": 0
+          "b": 3
         },
         {
           "name": "Ravindra Jadeja",
           "r": 7,
-          "b": 7,
-          "4s": 1,
-          "6s": 0
+          "b": 8
         },
         {
           "name": "Jofra Archer",
           "r": 1,
-          "b": 2,
-          "4s": 0,
-          "6s": 0
+          "b": 2
         }
       ],
       "bowling": [
         {
           "name": "Mohammed Siraj",
           "o": "4",
-          "r": 48,
+          "r": 47,
           "w": 1
         },
         {
           "name": "Kagiso Rabada",
           "o": "4",
-          "r": 42,
+          "r": 39,
           "w": 2
         },
         {
           "name": "Ashok Sharma",
           "o": "4",
-          "r": 37,
+          "r": 35,
           "w": 1
         },
         {
           "name": "Prasidh Krishna",
           "o": "4",
-          "r": 43,
+          "r": 42,
           "w": 1
         },
         {
           "name": "Rashid Khan",
           "o": "4",
-          "r": 39,
+          "r": 33,
           "w": 1
         }
       ]
@@ -97,85 +81,65 @@
         {
           "name": "Sai Sudharsan",
           "r": 73,
-          "b": 44,
-          "4s": 9,
-          "6s": 3
+          "b": 46
         },
         {
           "name": "Kumar Kushagra",
           "r": 18,
-          "b": 14,
-          "4s": 3,
-          "6s": 0
+          "b": 14
         },
         {
           "name": "Jos Buttler",
           "r": 26,
-          "b": 14,
-          "4s": 5,
-          "6s": 0
+          "b": 14
         },
         {
           "name": "Glenn Phillips",
           "r": 3,
-          "b": 4,
-          "4s": 0,
-          "6s": 0
+          "b": 4
         },
         {
           "name": "Washington Sundar",
           "r": 4,
-          "b": 2,
-          "4s": 1,
-          "6s": 0
+          "b": 2
         },
         {
           "name": "Rahul Tewatia",
           "r": 12,
-          "b": 6,
-          "4s": 1,
-          "6s": 1
+          "b": 6
         },
         {
           "name": "M Shahrukh Khan",
           "r": 11,
-          "b": 4,
-          "4s": 1,
-          "6s": 1
+          "b": 4
         },
         {
           "name": "Rashid Khan",
           "r": 24,
-          "b": 16,
-          "4s": 3,
-          "6s": 0
+          "b": 16
         },
         {
           "name": "Kagiso Rabada",
           "r": 23,
-          "b": 16,
-          "4s": 1,
-          "6s": 2
+          "b": 17
         },
         {
           "name": "Ashok Sharma",
           "r": 0,
-          "b": 1,
-          "4s": 0,
-          "6s": 0
+          "b": 1
         }
       ],
       "bowling": [
         {
           "name": "Jofra Archer",
           "o": "4",
-          "r": 38,
+          "r": 33,
           "w": 0
         },
         {
           "name": "Nandre Burger",
           "o": "3",
-          "r": 29,
+          "r": 28,
           "w": 1
         },
         {
@@ -187,7 +151,7 @@
         {
           "name": "Tushar Deshpande",
           "o": "3",
-          "r": 24,
+          "r": 23,
           "w": 1
         },
         {
@@ -205,13 +169,13 @@
         {
           "name": "Ravi Bishnoi",
           "o": "4",
-          "r": 41,
+          "r": 40,
           "w": 4
         }
       ]
     }
   ],
+  "completed": true,
   "matchId": "1527682",
-  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/gujarat-titans-vs-rajasthan-royals-9th-match-1527682/full-scorecard",
-  "scrapedAt": "2026-04-09T00:28:51"
+  "scrapedAt": "2026-04-11T17:19:29"
 }

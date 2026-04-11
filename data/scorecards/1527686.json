@@ -5,37 +5,27 @@
         {
           "name": "Yashasvi Jaiswal",
           "r": 77,
-          "b": 32,
-          "4s": 10,
-          "6s": 4
+          "b": 36
         },
         {
           "name": "Vaibhav Sooryavanshi",
           "r": 39,
-          "b": 14,
-          "4s": 1,
-          "6s": 5
+          "b": 15
         },
         {
           "name": "Dhruv Jurel",
           "r": 2,
-          "b": 3,
-          "4s": 0,
-          "6s": 0
+          "b": 3
         },
         {
           "name": "Riyan Parag",
           "r": 20,
-          "b": 10,
-          "4s": 1,
-          "6s": 2
+          "b": 10
         },
         {
           "name": "Shimron Hetmyer",
           "r": 6,
-          "b": 7,
-          "4s": 0,
-          "6s": 0
+          "b": 8
         }
       ],
       "bowling": [
@@ -48,13 +38,13 @@
         {
           "name": "Jasprit Bumrah",
           "o": "3",
-          "r": 32,
+          "r": 31,
           "w": 0
         },
         {
           "name": "Trent Boult",
           "o": "1",
-          "r": 22,
+          "r": 21,
           "w": 0
         },
         {
@@ -66,13 +56,13 @@
         {
           "name": "Shardul Thakur",
           "o": "2",
-          "r": 36,
+          "r": 33,
           "w": 1
         },
         {
           "name": "AM Ghazanfar",
           "o": "2",
-          "r": 21,
+          "r": 20,
           "w": 2
         }
       ]
@@ -82,79 +72,57 @@
         {
           "name": "Ryan Rickelton",
           "r": 8,
-          "b": 4,
-          "4s": 0,
-          "6s": 1
+          "b": 4
         },
         {
           "name": "Rohit Sharma",
           "r": 5,
-          "b": 6,
-          "4s": 0,
-          "6s": 0
+          "b": 6
         },
         {
           "name": "Suryakumar Yadav",
           "r": 6,
-          "b": 3,
-          "4s": 0,
-          "6s": 1
+          "b": 4
         },
         {
           "name": "Tilak Varma",
           "r": 14,
-          "b": 10,
-          "4s": 2,
-          "6s": 0
+          "b": 11
         },
         {
           "name": "Hardik Pandya",
           "r": 9,
-          "b": 6,
-          "4s": 2,
-          "6s": 0
+          "b": 6
         },
         {
           "name": "Naman Dhir",
           "r": 25,
-          "b": 13,
-          "4s": 3,
-          "6s": 1
+          "b": 13
         },
         {
-          "name": "Sherfane Rutherford",
+          "name": "SE Rutherford",
           "r": 25,
-          "b": 8,
-          "4s": 2,
-          "6s": 2
+          "b": 10
         },
         {
           "name": "Shardul Thakur",
           "r": 8,
-          "b": 7,
-          "4s": 1,
-          "6s": 0
+          "b": 9
         },
         {
           "name": "Deepak Chahar",
           "r": 6,
-          "b": 5,
-          "4s": 1,
-          "6s": 0
+          "b": 5
         },
         {
           "name": "Trent Boult",
           "r": 1,
-          "b": 2,
-          "4s": 0,
-          "6s": 0
+          "b": 2
         },
         {
           "name": "Jasprit Bumrah",
           "r": 5,
-          "b": 2,
-          "4s": 1,
-          "6s": 0
+          "b": 2
         }
       ],
       "bowling": [
@@ -167,31 +135,31 @@
         {
           "name": "Nandre Burger",
           "o": "2",
-          "r": 21,
+          "r": 20,
           "w": 2
         },
         {
           "name": "Sandeep Sharma",
           "o": "3",
-          "r": 26,
+          "r": 23,
           "w": 2
         },
         {
           "name": "Tushar Deshpande",
           "o": "2",
-          "r": 29,
+          "r": 28,
           "w": 1
         },
         {
           "name": "Ravi Bishnoi",
           "o": "2",
-          "r": 25,
+          "r": 24,
           "w": 2
         }
       ]
     }
   ],
+  "completed": true,
   "matchId": "1527686",
-  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/rajasthan-royals-vs-mumbai-indians-13th-match-1527686/full-scorecard",
-  "scrapedAt": "2026-04-09T00:30:01"
+  "scrapedAt": "2026-04-11T17:19:29"
 }

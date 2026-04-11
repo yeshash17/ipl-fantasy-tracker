@@ -1,0 +1,160 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Ajinkya Rahane",
+          "r": 41,
+          "b": 24
+        },
+        {
+          "name": "Finn Allen",
+          "r": 9,
+          "b": 9
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 45,
+          "b": 35
+        },
+        {
+          "name": "Cameron Green",
+          "r": 32,
+          "b": 25
+        },
+        {
+          "name": "RK Singh",
+          "r": 4,
+          "b": 7
+        },
+        {
+          "name": "R Powell",
+          "r": 39,
+          "b": 26
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Shami",
+          "o": "4",
+          "r": 26,
+          "w": 0
+        },
+        {
+          "name": "Prince Yadav",
+          "o": "4",
+          "r": 44,
+          "w": 1
+        },
+        {
+          "name": "M Siddharth",
+          "o": "4",
+          "r": 32,
+          "w": 1
+        },
+        {
+          "name": "Digvesh Rathi",
+          "o": "4",
+          "r": 25,
+          "w": 1
+        },
+        {
+          "name": "Avesh Khan",
+          "o": "4",
+          "r": 43,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Mitchell Marsh",
+          "r": 15,
+          "b": 12
+        },
+        {
+          "name": "Aiden Markram",
+          "r": 22,
+          "b": 16
+        },
+        {
+          "name": "Rishabh Pant",
+          "r": 10,
+          "b": 9
+        },
+        {
+          "name": "Ayush Badoni",
+          "r": 54,
+          "b": 35
+        },
+        {
+          "name": "Nicholas Pooran",
+          "r": 13,
+          "b": 17
+        },
+        {
+          "name": "Abdul Samad",
+          "r": 2,
+          "b": 5
+        },
+        {
+          "name": "Mukul Choudhary",
+          "r": 54,
+          "b": 27
+        },
+        {
+          "name": "Mohammed Shami",
+          "r": 1,
+          "b": 3
+        },
+        {
+          "name": "Avesh Khan",
+          "r": 1,
+          "b": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Vaibhav Arora",
+          "o": "4",
+          "r": 38,
+          "w": 2
+        },
+        {
+          "name": "AS Roy",
+          "o": "4",
+          "r": 28,
+          "w": 2
+        },
+        {
+          "name": "Navdeep Saini",
+          "o": "3",
+          "r": 36,
+          "w": 0
+        },
+        {
+          "name": "Sunil Narine",
+          "o": "4",
+          "r": 13,
+          "w": 1
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "3",
+          "r": 31,
+          "w": 1
+        },
+        {
+          "name": "Cameron Green",
+          "o": "2",
+          "r": 26,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1527688",
+  "scrapedAt": "2026-04-11T17:19:29"
+}

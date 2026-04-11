@@ -5,44 +5,34 @@
         {
           "name": "Phil Salt",
           "r": 46,
-          "b": 30,
-          "4s": 3,
-          "6s": 2
+          "b": 31
         },
         {
           "name": "Virat Kohli",
           "r": 28,
-          "b": 18,
-          "4s": 2,
-          "6s": 1
+          "b": 18
         },
         {
           "name": "Devdutt Padikkal",
           "r": 50,
-          "b": 29,
-          "4s": 5,
-          "6s": 2
+          "b": 30
         },
         {
           "name": "Rajat Patidar",
           "r": 48,
-          "b": 19,
-          "4s": 1,
-          "6s": 6
+          "b": 20
         },
         {
           "name": "Tim David",
           "r": 70,
-          "b": 25,
-          "4s": 3,
-          "6s": 8
+          "b": 25
         }
       ],
       "bowling": [
         {
           "name": "Khaleel Ahmed",
           "o": "4",
-          "r": 37,
+          "r": 36,
           "w": 0
         },
         {
@@ -54,7 +44,7 @@
         {
           "name": "Anshul Kamboj",
           "o": "4",
-          "r": 52,
+          "r": 50,
           "w": 1
         },
         {
@@ -64,7 +54,7 @@
           "w": 0
         },
         {
-          "name": "Jamie Overton",
+          "name": "J Overton",
           "o": "3",
           "r": 42,
           "w": 1
@@ -72,7 +62,7 @@
         {
           "name": "Shivam Dube",
           "o": "2",
-          "r": 30,
+          "r": 29,
           "w": 1
         }
       ]
@@ -82,92 +72,70 @@
         {
           "name": "Sanju Samson",
           "r": 9,
-          "b": 5,
-          "4s": 0,
-          "6s": 1
+          "b": 5
         },
         {
           "name": "Ruturaj Gaikwad",
           "r": 7,
-          "b": 3,
-          "4s": 0,
-          "6s": 1
+          "b": 3
         },
         {
           "name": "Ayush Mhatre",
           "r": 1,
-          "b": 3,
-          "4s": 0,
-          "6s": 0
+          "b": 3
         },
         {
-          "name": "Sarfaraz Khan",
+          "name": "M Shahrukh Khan",
           "r": 50,
-          "b": 25,
-          "4s": 8,
-          "6s": 2
+          "b": 26
         },
         {
           "name": "Kartik Sharma",
           "r": 6,
-          "b": 3,
-          "4s": 0,
-          "6s": 1
+          "b": 3
         },
         {
           "name": "Shivam Dube",
           "r": 18,
-          "b": 13,
-          "4s": 2,
-          "6s": 1
+          "b": 13
         },
         {
           "name": "Prashant Veer",
           "r": 43,
-          "b": 29,
-          "4s": 6,
-          "6s": 1
+          "b": 29
         },
         {
-          "name": "Jamie Overton",
+          "name": "J Overton",
           "r": 37,
-          "b": 16,
-          "4s": 4,
-          "6s": 2
+          "b": 16
         },
         {
           "name": "Anshul Kamboj",
           "r": 19,
-          "b": 12,
-          "4s": 1,
-          "6s": 1
+          "b": 13
         },
         {
           "name": "Noor Ahmad",
           "r": 8,
-          "b": 8,
-          "4s": 0,
-          "6s": 1
+          "b": 9
         },
         {
           "name": "Matt Henry",
           "r": 2,
-          "b": 3,
-          "4s": 0,
-          "6s": 0
+          "b": 3
         }
       ],
       "bowling": [
         {
           "name": "Jacob Duffy",
           "o": "4",
-          "r": 58,
+          "r": 55,
           "w": 2
         },
         {
           "name": "Bhuvneshwar Kumar",
           "o": "4",
-          "r": 41,
+          "r": 39,
           "w": 3
         },
         {
@@ -197,7 +165,7 @@
       ]
     }
   ],
+  "completed": true,
   "matchId": "1527684",
-  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/royal-challengers-bengaluru-vs-chennai-super-kings-11th-match-1527684/full-scorecard",
-  "scrapedAt": "2026-04-09T00:29:30"
+  "scrapedAt": "2026-04-11T17:19:29"
 }
