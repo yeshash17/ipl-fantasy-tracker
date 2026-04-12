@@ -5,72 +5,52 @@
         {
           "name": "Phil Salt",
           "r": 0,
-          "b": 1,
-          "4s": 0,
-          "6s": 0
-        },
-        {
-          "name": "Virat Kohli",
-          "r": 32,
-          "b": 16,
-          "4s": 7,
-          "6s": 0
+          "b": 1
         },
         {
           "name": "Devdutt Padikkal",
           "r": 14,
-          "b": 7,
-          "4s": 3,
-          "6s": 0
+          "b": 7
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 32,
+          "b": 17
         },
         {
           "name": "Rajat Patidar",
           "r": 63,
-          "b": 40,
-          "4s": 4,
-          "6s": 4
+          "b": 40
         },
         {
           "name": "Krunal Pandya",
           "r": 1,
-          "b": 6,
-          "4s": 0,
-          "6s": 0
+          "b": 6
         },
         {
-          "name": "Jitesh Sharma",
+          "name": "JM Sharma",
           "r": 5,
-          "b": 8,
-          "4s": 0,
-          "6s": 0
+          "b": 8
         },
         {
           "name": "Tim David",
           "r": 13,
-          "b": 9,
-          "4s": 2,
-          "6s": 0
+          "b": 9
         },
         {
           "name": "Romario Shepherd",
           "r": 22,
-          "b": 11,
-          "4s": 2,
-          "6s": 1
+          "b": 11
         },
         {
-          "name": "Venkatesh Iyer",
+          "name": "VR Iyer",
           "r": 29,
-          "b": 15,
-          "4s": 1,
-          "6s": 2
+          "b": 16
         },
         {
           "name": "Bhuvneshwar Kumar",
           "r": 9,
-          "b": 7,
-          "4s": 1,
-          "6s": 0
+          "b": 8
         }
       ],
       "bowling": [
@@ -83,13 +63,13 @@
         {
           "name": "Nandre Burger",
           "o": "3",
-          "r": 32,
+          "r": 27,
           "w": 0
         },
         {
           "name": "Sandeep Sharma",
           "o": "4",
-          "r": 47,
+          "r": 45,
           "w": 1
         },
         {
@@ -117,44 +97,32 @@
         {
           "name": "Yashasvi Jaiswal",
           "r": 13,
-          "b": 8,
-          "4s": 0,
-          "6s": 2
+          "b": 8
         },
         {
           "name": "Vaibhav Sooryavanshi",
           "r": 78,
-          "b": 26,
-          "4s": 8,
-          "6s": 7
+          "b": 26
         },
         {
           "name": "Dhruv Jurel",
           "r": 81,
-          "b": 43,
-          "4s": 8,
-          "6s": 3
+          "b": 44
         },
         {
           "name": "Shimron Hetmyer",
           "r": 0,
-          "b": 1,
-          "4s": 0,
-          "6s": 0
+          "b": 1
         },
         {
           "name": "Riyan Parag",
           "r": 3,
-          "b": 5,
-          "4s": 0,
-          "6s": 0
+          "b": 5
         },
         {
           "name": "Ravindra Jadeja",
           "r": 24,
-          "b": 25,
-          "4s": 1,
-          "6s": 0
+          "b": 26
         }
       ],
       "bowling": [
@@ -165,7 +133,7 @@
           "w": 0
         },
         {
-          "name": "Josh Hazlewood",
+          "name": "JR Hazlewood",
           "o": "4",
           "r": 44,
           "w": 2
@@ -173,7 +141,7 @@
         {
           "name": "Abhinandan Singh",
           "o": "3",
-          "r": 54,
+          "r": 52,
           "w": 0
         },
         {
@@ -197,7 +165,7 @@
       ]
     }
   ],
+  "completed": true,
   "matchId": "1527689",
-  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/rajasthan-royals-vs-royal-challengers-bengaluru-16th-match-1527689/full-scorecard",
-  "scrapedAt": "2026-04-11T17:31:47"
+  "scrapedAt": "2026-04-12T17:55:04"
 }

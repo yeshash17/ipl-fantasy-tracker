@@ -1,0 +1,160 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Aiden Markram",
+          "r": 30,
+          "b": 21
+        },
+        {
+          "name": "Mitchell Marsh",
+          "r": 11,
+          "b": 4
+        },
+        {
+          "name": "Rishabh Pant",
+          "r": 18,
+          "b": 11
+        },
+        {
+          "name": "Ayush Badoni",
+          "r": 9,
+          "b": 12
+        },
+        {
+          "name": "Nicholas Pooran",
+          "r": 19,
+          "b": 21
+        },
+        {
+          "name": "Abdul Samad",
+          "r": 18,
+          "b": 22
+        },
+        {
+          "name": "Mukul Choudhary",
+          "r": 18,
+          "b": 14
+        },
+        {
+          "name": "GF Linde",
+          "r": 16,
+          "b": 10
+        },
+        {
+          "name": "Mohammed Shami",
+          "r": 12,
+          "b": 5
+        },
+        {
+          "name": "Avesh Khan",
+          "r": 4,
+          "b": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 18,
+          "w": 1
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "4",
+          "r": 54,
+          "w": 1
+        },
+        {
+          "name": "Ashok Sharma",
+          "o": "4",
+          "r": 30,
+          "w": 2
+        },
+        {
+          "name": "Prasidh Krishna",
+          "o": "4",
+          "r": 28,
+          "w": 4
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "4",
+          "r": 25,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 15,
+          "b": 14
+        },
+        {
+          "name": "Shubman Gill",
+          "r": 56,
+          "b": 41
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 60,
+          "b": 38
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 21,
+          "b": 13
+        },
+        {
+          "name": "Rahul Tewatia",
+          "r": 10,
+          "b": 9
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Shami",
+          "o": "4",
+          "r": 36,
+          "w": 1
+        },
+        {
+          "name": "Prince Yadav",
+          "o": "4",
+          "r": 30,
+          "w": 1
+        },
+        {
+          "name": "Digvesh Rathi",
+          "o": "4",
+          "r": 30,
+          "w": 1
+        },
+        {
+          "name": "GF Linde",
+          "o": "3",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "Avesh Khan",
+          "o": "2",
+          "r": 23,
+          "w": 0
+        },
+        {
+          "name": "Aiden Markram",
+          "o": "1.4",
+          "r": 15,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1527692",
+  "scrapedAt": "2026-04-12T17:55:04"
+}

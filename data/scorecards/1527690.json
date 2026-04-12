@@ -5,77 +5,61 @@
         {
           "name": "Abhishek Sharma",
           "r": 74,
-          "b": 28,
-          "4s": 5,
-          "6s": 8
+          "b": 34
         },
         {
           "name": "Travis Head",
           "r": 38,
-          "b": 23,
-          "4s": 5,
-          "6s": 1
+          "b": 24
         },
         {
           "name": "Ishan Kishan",
           "r": 27,
-          "b": 17,
-          "4s": 3,
-          "6s": 1
+          "b": 17
         },
         {
           "name": "Heinrich Klaasen",
           "r": 39,
-          "b": 33,
-          "4s": 1,
-          "6s": 1
+          "b": 37
         },
         {
           "name": "Aniket Verma",
           "r": 18,
-          "b": 9,
-          "4s": 1,
-          "6s": 1
+          "b": 9
         },
         {
-          "name": "Salil Arora",
+          "name": "S Arora",
           "r": 9,
-          "b": 8,
-          "4s": 0,
-          "6s": 1
+          "b": 8
         },
         {
           "name": "Nitish Kumar Reddy",
           "r": 0,
-          "b": 1,
-          "4s": 0,
-          "6s": 0
+          "b": 1
         },
         {
           "name": "Harsh Dubey",
           "r": 1,
-          "b": 2,
-          "4s": 0,
-          "6s": 0
+          "b": 2
         }
       ],
       "bowling": [
         {
           "name": "Arshdeep Singh",
           "o": "4",
-          "r": 50,
+          "r": 44,
           "w": 2
         },
         {
           "name": "Xavier Bartlett",
           "o": "4",
-          "r": 42,
+          "r": 41,
           "w": 1
         },
         {
           "name": "Marco Jansen",
           "o": "4",
-          "r": 40,
+          "r": 39,
           "w": 0
         },
         {
@@ -87,13 +71,13 @@
         {
           "name": "Shashank Singh",
           "o": "3",
-          "r": 20,
+          "r": 19,
           "w": 2
         },
         {
           "name": "Yuzvendra Chahal",
           "o": "3",
-          "r": 33,
+          "r": 30,
           "w": 0
         }
       ]
@@ -103,63 +87,51 @@
         {
           "name": "Priyansh Arya",
           "r": 57,
-          "b": 20,
-          "4s": 5,
-          "6s": 5
+          "b": 21
         },
         {
           "name": "Prabhsimran Singh",
           "r": 51,
-          "b": 25,
-          "4s": 4,
-          "6s": 4
+          "b": 27
         },
         {
           "name": "Cooper Connolly",
           "r": 11,
-          "b": 12,
-          "4s": 1,
-          "6s": 0
+          "b": 13
         },
         {
           "name": "Shreyas Iyer",
           "r": 69,
-          "b": 33,
-          "4s": 5,
-          "6s": 5
+          "b": 34
         },
         {
           "name": "Nehal Wadhera",
           "r": 14,
-          "b": 14,
-          "4s": 0,
-          "6s": 1
+          "b": 14
         },
         {
           "name": "Shashank Singh",
           "r": 16,
-          "b": 9,
-          "4s": 1,
-          "6s": 1
+          "b": 9
         }
       ],
       "bowling": [
         {
           "name": "Harsh Dubey",
           "o": "4",
-          "r": 38,
+          "r": 36,
           "w": 1
         },
         {
-          "name": "Jaydev Unadkat",
+          "name": "JD Unadkat",
           "o": "3",
           "r": 40,
           "w": 0
         },
         {
-          "name": "Eshan Malinga",
+          "name": "E Malinga",
           "o": "3",
-          "r": 46,
+          "r": 44,
           "w": 0
         },
         {
@@ -171,7 +143,7 @@
         {
           "name": "Shivang Kumar",
           "o": "4",
-          "r": 33,
+          "r": 32,
           "w": 3
         },
         {
@@ -189,7 +161,7 @@
       ]
     }
   ],
+  "completed": true,
   "matchId": "1527690",
-  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/punjab-kings-vs-sunrisers-hyderabad-17th-match-1527690/full-scorecard",
-  "scrapedAt": "2026-04-11T17:32:02"
+  "scrapedAt": "2026-04-12T17:55:04"
 }

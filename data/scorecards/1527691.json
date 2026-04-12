@@ -1,0 +1,166 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 115,
+          "b": 59
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 15,
+          "b": 18
+        },
+        {
+          "name": "Ayush Mhatre",
+          "r": 59,
+          "b": 36
+        },
+        {
+          "name": "Shivam Dube",
+          "r": 20,
+          "b": 10
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Auqib Nabi",
+          "o": "2",
+          "r": 16,
+          "w": 0
+        },
+        {
+          "name": "Mukesh Kumar",
+          "o": "4",
+          "r": 36,
+          "w": 0
+        },
+        {
+          "name": "Axar Patel",
+          "o": "4",
+          "r": 39,
+          "w": 1
+        },
+        {
+          "name": "T Natarajan",
+          "o": "4",
+          "r": 53,
+          "w": 0
+        },
+        {
+          "name": "Lungi Ngidi",
+          "o": "4",
+          "r": 41,
+          "w": 0
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "2",
+          "r": 24,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Pathum Nissanka",
+          "r": 41,
+          "b": 24
+        },
+        {
+          "name": "KL Rahul",
+          "r": 18,
+          "b": 10
+        },
+        {
+          "name": "Axar Patel",
+          "r": 1,
+          "b": 2
+        },
+        {
+          "name": "Sameer Rizvi",
+          "r": 6,
+          "b": 9
+        },
+        {
+          "name": "David Miller",
+          "r": 17,
+          "b": 18
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 60,
+          "b": 40
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "r": 19,
+          "b": 10
+        },
+        {
+          "name": "Auqib Nabi",
+          "r": 4,
+          "b": 2
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "r": 4,
+          "b": 7
+        },
+        {
+          "name": "Lungi Ngidi",
+          "r": 3,
+          "b": 5
+        },
+        {
+          "name": "T Natarajan",
+          "r": 1,
+          "b": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "AJ Hosein",
+          "o": "2",
+          "r": 18,
+          "w": 0
+        },
+        {
+          "name": "Khaleel Ahmed",
+          "o": "3",
+          "r": 39,
+          "w": 1
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "4",
+          "r": 34,
+          "w": 3
+        },
+        {
+          "name": "Gurjapneet Singh",
+          "o": "4",
+          "r": 34,
+          "w": 1
+        },
+        {
+          "name": "J Overton",
+          "o": "4",
+          "r": 16,
+          "w": 4
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "3",
+          "r": 33,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1527691",
+  "scrapedAt": "2026-04-12T17:55:04"
+}
