@@ -1,0 +1,161 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Phil Salt",
+          "r": 78,
+          "b": 38
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 50,
+          "b": 41
+        },
+        {
+          "name": "Rajat Patidar",
+          "r": 53,
+          "b": 26
+        },
+        {
+          "name": "Tim David",
+          "r": 34,
+          "b": 16
+        },
+        {
+          "name": "JM Sharma",
+          "r": 10,
+          "b": 9
+        },
+        {
+          "name": "Romario Shepherd",
+          "r": 2,
+          "b": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Trent Boult",
+          "o": "4",
+          "r": 48,
+          "w": 1
+        },
+        {
+          "name": "Hardik Pandya",
+          "o": "4",
+          "r": 37,
+          "w": 1
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 34,
+          "w": 0
+        },
+        {
+          "name": "Mitchell Santner",
+          "o": "4",
+          "r": 42,
+          "w": 1
+        },
+        {
+          "name": "Mayank Markande",
+          "o": "2",
+          "r": 40,
+          "w": 0
+        },
+        {
+          "name": "Shardul Thakur",
+          "o": "2",
+          "r": 26,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Ryan Rickelton",
+          "r": 37,
+          "b": 22
+        },
+        {
+          "name": "Rohit Sharma",
+          "r": 19,
+          "b": 14
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 33,
+          "b": 22
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 1,
+          "b": 3
+        },
+        {
+          "name": "Hardik Pandya",
+          "r": 40,
+          "b": 24
+        },
+        {
+          "name": "SE Rutherford",
+          "r": 71,
+          "b": 36
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 1,
+          "b": 2
+        },
+        {
+          "name": "Mitchell Santner",
+          "r": 8,
+          "b": 7
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jacob Duffy",
+          "o": "4",
+          "r": 54,
+          "w": 1
+        },
+        {
+          "name": "Bhuvneshwar Kumar",
+          "o": "4",
+          "r": 36,
+          "w": 0
+        },
+        {
+          "name": "Rasikh Salam",
+          "o": "2.5",
+          "r": 23,
+          "w": 1
+        },
+        {
+          "name": "Krunal Pandya",
+          "o": "4",
+          "r": 25,
+          "w": 1
+        },
+        {
+          "name": "Suyash Sharma",
+          "o": "4",
+          "r": 47,
+          "w": 2
+        },
+        {
+          "name": "Romario Shepherd",
+          "o": "1.1",
+          "r": 25,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1527693",
+  "scrapedAt": "2026-04-13T11:57:16"
+}
