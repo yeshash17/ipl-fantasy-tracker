@@ -1,0 +1,181 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Abhishek Sharma",
+          "r": 0,
+          "b": 1
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 91,
+          "b": 46
+        },
+        {
+          "name": "Travis Head",
+          "r": 18,
+          "b": 18
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 40,
+          "b": 28
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "r": 28,
+          "b": 14
+        },
+        {
+          "name": "S Arora",
+          "r": 24,
+          "b": 15
+        },
+        {
+          "name": "Aniket Verma",
+          "r": 6,
+          "b": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 37,
+          "w": 2
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "4",
+          "r": 31,
+          "w": 0
+        },
+        {
+          "name": "Sandeep Sharma",
+          "o": "4",
+          "r": 48,
+          "w": 1
+        },
+        {
+          "name": "Tushar Deshpande",
+          "o": "4",
+          "r": 51,
+          "w": 1
+        },
+        {
+          "name": "Riyan Parag",
+          "o": "1",
+          "r": 5,
+          "w": 1
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "o": "3",
+          "r": 35,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 1,
+          "b": 6
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 0,
+          "b": 1
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 0,
+          "b": 2
+        },
+        {
+          "name": "LG Pretorius",
+          "r": 0,
+          "b": 2
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "r": 45,
+          "b": 37
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 4,
+          "b": 7
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 69,
+          "b": 45
+        },
+        {
+          "name": "Jofra Archer",
+          "r": 2,
+          "b": 6
+        },
+        {
+          "name": "Tushar Deshpande",
+          "r": 25,
+          "b": 11
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "r": 0,
+          "b": 1
+        },
+        {
+          "name": "Nandre Burger",
+          "r": 3,
+          "b": 5
+        }
+      ],
+      "bowling": [
+        {
+          "name": "PP Hinge",
+          "o": "4",
+          "r": 32,
+          "w": 4
+        },
+        {
+          "name": "Sakib Hussain",
+          "o": "4",
+          "r": 21,
+          "w": 4
+        },
+        {
+          "name": "E Malinga",
+          "o": "4",
+          "r": 30,
+          "w": 2
+        },
+        {
+          "name": "Shivang Kumar",
+          "o": "3",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "o": "2",
+          "r": 18,
+          "w": 0
+        },
+        {
+          "name": "Harsh Dubey",
+          "o": "2",
+          "r": 20,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1529264",
+  "scrapedAt": "2026-04-14T09:17:10"
+}
