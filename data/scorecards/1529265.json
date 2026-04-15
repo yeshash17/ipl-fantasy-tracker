@@ -1,0 +1,171 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 48,
+          "b": 32
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 7,
+          "b": 8
+        },
+        {
+          "name": "Ayush Mhatre",
+          "r": 38,
+          "b": 17
+        },
+        {
+          "name": "D Brevis",
+          "r": 41,
+          "b": 33
+        },
+        {
+          "name": "M Shahrukh Khan",
+          "r": 23,
+          "b": 19
+        },
+        {
+          "name": "Shivam Dube",
+          "r": 13,
+          "b": 15
+        },
+        {
+          "name": "J Overton",
+          "r": 7,
+          "b": 6
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Vaibhav Arora",
+          "o": "4",
+          "r": 51,
+          "w": 1
+        },
+        {
+          "name": "Cameron Green",
+          "o": "2",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "AS Roy",
+          "o": "3",
+          "r": 17,
+          "w": 1
+        },
+        {
+          "name": "Sunil Narine",
+          "o": "4",
+          "r": 21,
+          "w": 1
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "o": "3",
+          "r": 26,
+          "w": 0
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "4",
+          "r": 34,
+          "w": 2
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Finn Allen",
+          "r": 1,
+          "b": 3
+        },
+        {
+          "name": "Sunil Narine",
+          "r": 24,
+          "b": 17
+        },
+        {
+          "name": "Ajinkya Rahane",
+          "r": 28,
+          "b": 23
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 27,
+          "b": 19
+        },
+        {
+          "name": "RK Singh",
+          "r": 6,
+          "b": 12
+        },
+        {
+          "name": "Cameron Green",
+          "r": 0,
+          "b": 1
+        },
+        {
+          "name": "R Powell",
+          "r": 31,
+          "b": 24
+        },
+        {
+          "name": "Ramandeep Singh",
+          "r": 35,
+          "b": 25
+        },
+        {
+          "name": "AS Roy",
+          "r": 1,
+          "b": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Khaleel Ahmed",
+          "o": "3.5",
+          "r": 24,
+          "w": 1
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "4",
+          "r": 30,
+          "w": 2
+        },
+        {
+          "name": "AJ Hosein",
+          "o": "4",
+          "r": 26,
+          "w": 1
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "4",
+          "r": 21,
+          "w": 3
+        },
+        {
+          "name": "Gurjapneet Singh",
+          "o": "1.1",
+          "r": 22,
+          "w": 0
+        },
+        {
+          "name": "J Overton",
+          "o": "3",
+          "r": 30,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1529265",
+  "scrapedAt": "2026-04-15T09:18:45"
+}
