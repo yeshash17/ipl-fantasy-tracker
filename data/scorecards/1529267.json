@@ -1,0 +1,145 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Ryan Rickelton",
+          "r": 2,
+          "b": 8
+        },
+        {
+          "name": "Q de Kock",
+          "r": 112,
+          "b": 64
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 0,
+          "b": 1
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 50,
+          "b": 31
+        },
+        {
+          "name": "Hardik Pandya",
+          "r": 14,
+          "b": 12
+        },
+        {
+          "name": "SE Rutherford",
+          "r": 1,
+          "b": 5
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 8,
+          "b": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Arshdeep Singh",
+          "o": "4",
+          "r": 21,
+          "w": 3
+        },
+        {
+          "name": "Marco Jansen",
+          "o": "4",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Xavier Bartlett",
+          "o": "4",
+          "r": 39,
+          "w": 0
+        },
+        {
+          "name": "Vijaykumar Vyshak",
+          "o": "3",
+          "r": 35,
+          "w": 0
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "o": "3",
+          "r": 44,
+          "w": 0
+        },
+        {
+          "name": "Shashank Singh",
+          "o": "2",
+          "r": 19,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Priyansh Arya",
+          "r": 15,
+          "b": 10
+        },
+        {
+          "name": "Prabhsimran Singh",
+          "r": 80,
+          "b": 42
+        },
+        {
+          "name": "Cooper Connolly",
+          "r": 17,
+          "b": 12
+        },
+        {
+          "name": "Shreyas Iyer",
+          "r": 66,
+          "b": 37
+        },
+        {
+          "name": "Marcus Stoinis",
+          "r": 10,
+          "b": 8
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Deepak Chahar",
+          "o": "2.3",
+          "r": 42,
+          "w": 0
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 39,
+          "w": 0
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "4",
+          "r": 31,
+          "w": 2
+        },
+        {
+          "name": "Hardik Pandya",
+          "o": "3",
+          "r": 38,
+          "w": 0
+        },
+        {
+          "name": "Shardul Thakur",
+          "o": "3",
+          "r": 38,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1529267",
+  "scrapedAt": "2026-04-17T12:40:29"
+}

@@ -1,0 +1,169 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Mitchell Marsh",
+          "r": 40,
+          "b": 34
+        },
+        {
+          "name": "Aiden Markram",
+          "r": 12,
+          "b": 8
+        },
+        {
+          "name": "Rishabh Pant",
+          "r": 1,
+          "b": 6
+        },
+        {
+          "name": "Nicholas Pooran",
+          "r": 1,
+          "b": 7
+        },
+        {
+          "name": "Ayush Badoni",
+          "r": 38,
+          "b": 24
+        },
+        {
+          "name": "Abdul Samad",
+          "r": 0,
+          "b": 2
+        },
+        {
+          "name": "Mukul Choudhary",
+          "r": 39,
+          "b": 30
+        },
+        {
+          "name": "GF Linde",
+          "r": 7,
+          "b": 7
+        },
+        {
+          "name": "Mohammed Shami",
+          "r": 0,
+          "b": 1
+        },
+        {
+          "name": "Avesh Khan",
+          "r": 1,
+          "b": 2
+        },
+        {
+          "name": "Digvesh Rathi",
+          "r": 0,
+          "b": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bhuvneshwar Kumar",
+          "o": "4",
+          "r": 26,
+          "w": 3
+        },
+        {
+          "name": "JR Hazlewood",
+          "o": "4",
+          "r": 19,
+          "w": 1
+        },
+        {
+          "name": "Rasikh Salam",
+          "o": "4",
+          "r": 24,
+          "w": 4
+        },
+        {
+          "name": "Krunal Pandya",
+          "o": "4",
+          "r": 36,
+          "w": 2
+        },
+        {
+          "name": "Suyash Sharma",
+          "o": "4",
+          "r": 34,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Phil Salt",
+          "r": 7,
+          "b": 8
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 49,
+          "b": 35
+        },
+        {
+          "name": "Devdutt Padikkal",
+          "r": 10,
+          "b": 11
+        },
+        {
+          "name": "Rajat Patidar",
+          "r": 27,
+          "b": 13
+        },
+        {
+          "name": "JM Sharma",
+          "r": 23,
+          "b": 9
+        },
+        {
+          "name": "Tim David",
+          "r": 14,
+          "b": 8
+        },
+        {
+          "name": "Romario Shepherd",
+          "r": 14,
+          "b": 8
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Shami",
+          "o": "3",
+          "r": 30,
+          "w": 0
+        },
+        {
+          "name": "Prince Yadav",
+          "o": "3",
+          "r": 31,
+          "w": 3
+        },
+        {
+          "name": "Digvesh Rathi",
+          "o": "4",
+          "r": 51,
+          "w": 0
+        },
+        {
+          "name": "Avesh Khan",
+          "o": "4",
+          "r": 23,
+          "w": 2
+        },
+        {
+          "name": "GF Linde",
+          "o": "1.1",
+          "r": 9,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "matchId": "1529266",
+  "scrapedAt": "2026-04-17T12:40:29"
+}
