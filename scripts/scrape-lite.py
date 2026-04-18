@@ -61,6 +61,9 @@ NAME_MAP = {
     "V Suryavanshi": "Vaibhav Sooryavanshi",
     "VG Arora": "Vaibhav Arora", "XC Bartlett": "Xavier Bartlett",
     "YBK Jaiswal": "Yashasvi Jaiswal", "YS Chahal": "Yuzvendra Chahal",
+    "JR Hazlewood": "Josh Hazlewood", "Q de Kock": "Quinton de Kock",
+    "D Brevis": "Dewald Brevis", "AJ Hosein": "Akeal Hosein",
+    "VR Iyer": "Venkatesh Iyer",
 }
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
