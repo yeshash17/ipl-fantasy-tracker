@@ -1,0 +1,50 @@
+name: Update IPL Scorecards
+
+on:
+  # Run twice daily: 6am and 2pm UTC (11:30am and 7:30pm IST)
+  # Cricsheet updates once per day, so twice is plenty
+  schedule:
+    - cron: '0 6 * 3-5 *'
+    - cron: '0 14 * 3-5 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Download and process Cricsheet data
+        run: python scripts/scrape-lite.py
+
+      - name: Update manifest
+        run: |
+          node -e "
+          const fs = require('fs');
+          const dir = 'data/scorecards';
+          const files = fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== 'manifest.json');
+          fs.writeFileSync(dir + '/manifest.json', JSON.stringify(files.map(f => f.replace('.json', '')), null, 2));
+          console.log('Manifest:', files.length, 'scorecards');
+          "
+
+      - name: Commit and push only if new data
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/scorecards/
+          if git diff --staged --quiet; then
+            echo "No new matches - skipping push (0 Netlify credits used)"
+          else
+            MATCH_COUNT=$(ls data/scorecards/*.json | grep -v manifest | wc -l)
+            git commit -m "Auto-update: ${MATCH_COUNT} IPL scorecards"
+            git push
+            echo "Pushed! Netlify will auto-deploy."
+          fi
