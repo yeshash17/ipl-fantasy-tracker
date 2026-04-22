@@ -1,0 +1,217 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Quinton de Kock",
+          "r": 13,
+          "b": 11,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Danish Malewar",
+          "r": 2,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 45,
+          "b": 32,
+          "4s": 6,
+          "6s": 1
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 15,
+          "b": 10,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 101,
+          "b": 45,
+          "4s": 8,
+          "6s": 7
+        },
+        {
+          "name": "Hardik Pandya",
+          "r": 15,
+          "b": 16,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Sherfane Rutherford",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 25,
+          "w": 1
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "4",
+          "r": 33,
+          "w": 3
+        },
+        {
+          "name": "Ashok Sharma",
+          "o": "3",
+          "r": 38,
+          "w": 0
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "4",
+          "r": 31,
+          "w": 0
+        },
+        {
+          "name": "Prasidh Krishna",
+          "o": "4",
+          "r": 54,
+          "w": 1
+        },
+        {
+          "name": "Washington Sundar",
+          "o": "1",
+          "r": 13,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Shubman Gill",
+          "r": 14,
+          "b": 13,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 5,
+          "b": 6,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 26,
+          "b": 17,
+          "4s": 5,
+          "6s": 0
+        },
+        {
+          "name": "Glenn Phillips",
+          "r": 6,
+          "b": 8,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Rahul Tewatia",
+          "r": 8,
+          "b": 11,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "M Shahrukh Khan",
+          "r": 17,
+          "b": 13,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Rashid Khan",
+          "r": 4,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Kagiso Rabada",
+          "r": 12,
+          "b": 14,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Ashok Sharma",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Mohammed Siraj",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jasprit Bumrah",
+          "o": "3",
+          "r": 15,
+          "w": 1
+        },
+        {
+          "name": "Hardik Pandya",
+          "o": "1",
+          "r": 18,
+          "w": 1
+        },
+        {
+          "name": "Krish Bhagat",
+          "o": "2",
+          "r": 10,
+          "w": 0
+        },
+        {
+          "name": "Ashwani Kumar",
+          "o": "4",
+          "r": 24,
+          "w": 4
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "2.5",
+          "r": 17,
+          "w": 2
+        },
+        {
+          "name": "Mitchell Santner",
+          "o": "3",
+          "r": 16,
+          "w": 2
+        }
+      ]
+    }
+  ],
+  "matchId": "1529273",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/gujarat-titans-vs-mumbai-indians-30th-match-1529273/full-scorecard",
+  "scrapedAt": "2026-04-22T23:06:25"
+}

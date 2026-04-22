@@ -1,0 +1,211 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Tim Seifert",
+          "r": 19,
+          "b": 14,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Ajinkya Rahane",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 8,
+          "b": 4,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Cameron Green",
+          "r": 79,
+          "b": 55,
+          "4s": 7,
+          "6s": 4
+        },
+        {
+          "name": "Rovman Powell",
+          "r": 27,
+          "b": 20,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Anukul Roy",
+          "r": 9,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Rinku Singh",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Ramandeep Singh",
+          "r": 17,
+          "b": 8,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Sunil Narine",
+          "r": 0,
+          "b": 5,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Kartik Tyagi",
+          "r": 6,
+          "b": 4,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Vaibhav Arora",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 23,
+          "w": 2
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "4",
+          "r": 29,
+          "w": 3
+        },
+        {
+          "name": "Prasidh Krishna",
+          "o": "4",
+          "r": 32,
+          "w": 1
+        },
+        {
+          "name": "Ashok Sharma",
+          "o": "4",
+          "r": 45,
+          "w": 2
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "4",
+          "r": 44,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 22,
+          "b": 16,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Shubman Gill",
+          "r": 86,
+          "b": 50,
+          "4s": 8,
+          "6s": 4
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 25,
+          "b": 15,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 13,
+          "b": 13,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Glenn Phillips",
+          "r": 19,
+          "b": 16,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Rahul Tewatia",
+          "r": 7,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "M Shahrukh Khan",
+          "r": 3,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Vaibhav Arora",
+          "o": "4",
+          "r": 35,
+          "w": 1
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "4",
+          "r": 40,
+          "w": 0
+        },
+        {
+          "name": "Anukul Roy",
+          "o": "3",
+          "r": 37,
+          "w": 0
+        },
+        {
+          "name": "Sunil Narine",
+          "o": "4",
+          "r": 28,
+          "w": 1
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "o": "4",
+          "r": 34,
+          "w": 2
+        },
+        {
+          "name": "Ramandeep Singh",
+          "o": "0.4",
+          "r": 5,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529268",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/gujarat-titans-vs-kolkata-knight-riders-25th-match-1529268/full-scorecard",
+  "scrapedAt": "2026-04-22T23:02:58"
+}

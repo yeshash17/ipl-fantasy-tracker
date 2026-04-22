@@ -1,0 +1,223 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 39,
+          "b": 29,
+          "4s": 4,
+          "6s": 2
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 46,
+          "b": 28,
+          "4s": 6,
+          "6s": 2
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 5,
+          "b": 7,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 12,
+          "b": 14,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "r": 15,
+          "b": 18,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 7,
+          "b": 7,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "r": 9,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Jofra Archer",
+          "r": 8,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "r": 0,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Brijesh Sharma",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Vaibhav Arora",
+          "o": "4",
+          "r": 37,
+          "w": 0
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "4",
+          "r": 22,
+          "w": 3
+        },
+        {
+          "name": "Cameron Green",
+          "o": "2",
+          "r": 27,
+          "w": 0
+        },
+        {
+          "name": "Sunil Narine",
+          "o": "4",
+          "r": 26,
+          "w": 2
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "o": "4",
+          "r": 14,
+          "w": 3
+        },
+        {
+          "name": "Ramandeep Singh",
+          "o": "2",
+          "r": 26,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Tim Seifert",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Ajinkya Rahane",
+          "r": 0,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 10,
+          "b": 19,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Cameron Green",
+          "r": 27,
+          "b": 13,
+          "4s": 4,
+          "6s": 1
+        },
+        {
+          "name": "Rovman Powell",
+          "r": 23,
+          "b": 20,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Rinku Singh",
+          "r": 53,
+          "b": 34,
+          "4s": 5,
+          "6s": 2
+        },
+        {
+          "name": "Ramandeep Singh",
+          "r": 10,
+          "b": 13,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Anukul Roy",
+          "r": 29,
+          "b": 16,
+          "4s": 1,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 35,
+          "w": 1
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "2",
+          "r": 20,
+          "w": 1
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "o": "4",
+          "r": 41,
+          "w": 1
+        },
+        {
+          "name": "Yash Raj Punja",
+          "o": "4",
+          "r": 25,
+          "w": 1
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "3",
+          "r": 8,
+          "w": 2
+        },
+        {
+          "name": "Riyan Parag",
+          "o": "1",
+          "r": 10,
+          "w": 0
+        },
+        {
+          "name": "Brijesh Sharma",
+          "o": "1.4",
+          "r": 21,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529271",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/kolkata-knight-riders-vs-rajasthan-royals-28th-match-1529271/full-scorecard",
+  "scrapedAt": "2026-04-22T23:05:06"
+}

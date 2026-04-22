@@ -1,0 +1,231 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Abhishek Sharma",
+          "r": 59,
+          "b": 22,
+          "4s": 6,
+          "6s": 4
+        },
+        {
+          "name": "Travis Head",
+          "r": 23,
+          "b": 20,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 59,
+          "b": 39,
+          "4s": 6,
+          "6s": 2
+        },
+        {
+          "name": "Aniket Verma",
+          "r": 2,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "r": 12,
+          "b": 8,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Salil Arora",
+          "r": 13,
+          "b": 12,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Liam Livingstone",
+          "r": 1,
+          "b": 5,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Shivang Kumar",
+          "r": 12,
+          "b": 8,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Praful Hinge",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Matthew Short",
+          "o": "3",
+          "r": 38,
+          "w": 0
+        },
+        {
+          "name": "Mukesh Choudhary",
+          "o": "2",
+          "r": 21,
+          "w": 2
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "3",
+          "r": 22,
+          "w": 3
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "4",
+          "r": 33,
+          "w": 0
+        },
+        {
+          "name": "Jamie Overton",
+          "o": "4",
+          "r": 37,
+          "w": 3
+        },
+        {
+          "name": "Gurjapneet Singh",
+          "o": "4",
+          "r": 34,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 7,
+          "b": 3,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 19,
+          "b": 13,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Ayush Mhatre",
+          "r": 30,
+          "b": 13,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Matthew Short",
+          "r": 34,
+          "b": 30,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Sarfaraz Khan",
+          "r": 25,
+          "b": 19,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Dewald Brevis",
+          "r": 0,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Shivam Dube",
+          "r": 21,
+          "b": 16,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Jamie Overton",
+          "r": 16,
+          "b": 15,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Anshul Kamboj",
+          "r": 13,
+          "b": 8,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Noor Ahmad",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Praful Hinge",
+          "o": "4",
+          "r": 60,
+          "w": 1
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "o": "4",
+          "r": 31,
+          "w": 2
+        },
+        {
+          "name": "Sakib Hussain",
+          "o": "4",
+          "r": 32,
+          "w": 1
+        },
+        {
+          "name": "Eshan Malinga",
+          "o": "4",
+          "r": 29,
+          "w": 3
+        },
+        {
+          "name": "Shivang Kumar",
+          "o": "3",
+          "r": 18,
+          "w": 1
+        },
+        {
+          "name": "Abhishek Sharma",
+          "o": "1",
+          "r": 13,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529270",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/sunrisers-hyderabad-vs-chennai-super-kings-27th-match-1529270/full-scorecard",
+  "scrapedAt": "2026-04-22T23:04:36"
+}

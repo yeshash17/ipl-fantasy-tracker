@@ -1,0 +1,189 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Abhishek Sharma",
+          "r": 135,
+          "b": 68,
+          "4s": 10,
+          "6s": 10
+        },
+        {
+          "name": "Travis Head",
+          "r": 37,
+          "b": 26,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 25,
+          "b": 13,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 37,
+          "b": 13,
+          "4s": 3,
+          "6s": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mukesh Kumar",
+          "o": "4",
+          "r": 53,
+          "w": 0
+        },
+        {
+          "name": "Nitish Rana",
+          "o": "4",
+          "r": 55,
+          "w": 0
+        },
+        {
+          "name": "Lungi Ngidi",
+          "o": "4",
+          "r": 41,
+          "w": 0
+        },
+        {
+          "name": "Axar Patel",
+          "o": "2",
+          "r": 23,
+          "w": 1
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "2",
+          "r": 30,
+          "w": 0
+        },
+        {
+          "name": "T Natarajan",
+          "o": "4",
+          "r": 40,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Pathum Nissanka",
+          "r": 8,
+          "b": 6,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "KL Rahul",
+          "r": 37,
+          "b": 23,
+          "4s": 1,
+          "6s": 3
+        },
+        {
+          "name": "Nitish Rana",
+          "r": 57,
+          "b": 30,
+          "4s": 7,
+          "6s": 3
+        },
+        {
+          "name": "Sameer Rizvi",
+          "r": 41,
+          "b": 28,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "David Miller",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 27,
+          "b": 16,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "r": 14,
+          "b": 10,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Axar Patel",
+          "r": 2,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Lungi Ngidi",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Dilshan Madushanka",
+          "o": "4",
+          "r": 36,
+          "w": 1
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "o": "4",
+          "r": 57,
+          "w": 0
+        },
+        {
+          "name": "Eshan Malinga",
+          "o": "4",
+          "r": 32,
+          "w": 4
+        },
+        {
+          "name": "Sakib Hussain",
+          "o": "4",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Shivang Kumar",
+          "o": "2",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "Harsh Dubey",
+          "o": "2",
+          "r": 12,
+          "w": 3
+        }
+      ]
+    }
+  ],
+  "matchId": "1529274",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/sunrisers-hyderabad-vs-delhi-capitals-31st-match-1529274/full-scorecard",
+  "scrapedAt": "2026-04-22T23:06:50"
+}
