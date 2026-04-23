@@ -1,0 +1,212 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 22,
+          "b": 12,
+          "4s": 4,
+          "6s": 0
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 8,
+          "b": 11,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 20,
+          "b": 19,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "r": 22,
+          "b": 18,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "r": 43,
+          "b": 29,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 20,
+          "b": 19,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Shubham Dubey",
+          "r": 19,
+          "b": 11,
+          "4s": 3,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Shami",
+          "o": "4",
+          "r": 30,
+          "w": 2
+        },
+        {
+          "name": "Prince Yadav",
+          "o": "4",
+          "r": 29,
+          "w": 2
+        },
+        {
+          "name": "Mohsin Khan",
+          "o": "4",
+          "r": 17,
+          "w": 2
+        },
+        {
+          "name": "Mayank Yadav",
+          "o": "4",
+          "r": 56,
+          "w": 0
+        },
+        {
+          "name": "Digvesh Rathi",
+          "o": "4",
+          "r": 26,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Mitchell Marsh",
+          "r": 55,
+          "b": 41,
+          "4s": 6,
+          "6s": 2
+        },
+        {
+          "name": "Ayush Badoni",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Rishabh Pant",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Aiden Markram",
+          "r": 0,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Nicholas Pooran",
+          "r": 22,
+          "b": 25,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Himmat Singh",
+          "r": 15,
+          "b": 15,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Mukul Choudhary",
+          "r": 7,
+          "b": 3,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Mohammed Shami",
+          "r": 6,
+          "b": 4,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Mayank Yadav",
+          "r": 5,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Digvesh Rathi",
+          "r": 2,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Mohsin Khan",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 20,
+          "w": 3
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "4",
+          "r": 27,
+          "w": 2
+        },
+        {
+          "name": "Brijesh Sharma",
+          "o": "3",
+          "r": 18,
+          "w": 2
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "4",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "o": "3",
+          "r": 23,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529275",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/lucknow-super-giants-vs-rajasthan-royals-32nd-match-1529275/full-scorecard",
+  "scrapedAt": "2026-04-24T00:29:42"
+}

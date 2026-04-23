@@ -1,0 +1,224 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 101,
+          "b": 54,
+          "4s": 10,
+          "6s": 6
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 22,
+          "b": 14,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Sarfaraz Khan",
+          "r": 14,
+          "b": 8,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Shivam Dube",
+          "r": 5,
+          "b": 8,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Dewald Brevis",
+          "r": 21,
+          "b": 11,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Kartik Sharma",
+          "r": 18,
+          "b": 19,
+          "4s": 0,
+          "6s": 2
+        },
+        {
+          "name": "Jamie Overton",
+          "r": 15,
+          "b": 7,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Akeal Hosein",
+          "r": 2,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 31,
+          "w": 1
+        },
+        {
+          "name": "Hardik Pandya",
+          "o": "2",
+          "r": 38,
+          "w": 0
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "4",
+          "r": 25,
+          "w": 2
+        },
+        {
+          "name": "Mitchell Santner",
+          "o": "4",
+          "r": 44,
+          "w": 1
+        },
+        {
+          "name": "Ashwani Kumar",
+          "o": "4",
+          "r": 37,
+          "w": 2
+        },
+        {
+          "name": "Krish Bhagat",
+          "o": "2",
+          "r": 31,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Quinton de Kock",
+          "r": 7,
+          "b": 10,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Danish Malewar",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 35,
+          "b": 30,
+          "4s": 5,
+          "6s": 0
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 37,
+          "b": 29,
+          "4s": 5,
+          "6s": 0
+        },
+        {
+          "name": "Hardik Pandya",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Sherfane Rutherford",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Shardul Thakur",
+          "r": 6,
+          "b": 12,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Krish Bhagat",
+          "r": 7,
+          "b": 15,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Ashwani Kumar",
+          "r": 1,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "r": 2,
+          "b": 5,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Akeal Hosein",
+          "o": "4",
+          "r": 17,
+          "w": 4
+        },
+        {
+          "name": "Mukesh Choudhary",
+          "o": "4",
+          "r": 31,
+          "w": 1
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "3",
+          "r": 10,
+          "w": 1
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "4",
+          "r": 23,
+          "w": 2
+        },
+        {
+          "name": "Jamie Overton",
+          "o": "2",
+          "r": 14,
+          "w": 1
+        },
+        {
+          "name": "Gurjapneet Singh",
+          "o": "2",
+          "r": 7,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529276",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/mumbai-indians-vs-chennai-super-kings-33rd-match-1529276/full-scorecard",
+  "scrapedAt": "2026-04-24T00:30:13"
+}

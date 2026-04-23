@@ -223,6 +223,10 @@ def main():
         ("/series/ipl-2026-1510719/29th-match-1529272/full-scorecard", "1529272"),
         ("/series/ipl-2026-1510719/gujarat-titans-vs-mumbai-indians-30th-match-1529273/full-scorecard", "1529273"),
         ("/series/ipl-2026-1510719/sunrisers-hyderabad-vs-delhi-capitals-31st-match-1529274/full-scorecard", "1529274"),
+        ("/series/ipl-2026-1510719/lucknow-super-giants-vs-rajasthan-royals-32nd-match-1529275/full-scorecard", "1529275"),
+        ("/series/ipl-2026-1510719/mumbai-indians-vs-chennai-super-kings-33rd-match-1529276/full-scorecard", "1529276"),
+        ("/series/ipl-2026-1510719/34th-match-1529277/full-scorecard", "1529277"),
+        ("/series/ipl-2026-1510719/35th-match-1529278/full-scorecard", "1529278"),
     ]
 
     print(f"Scraping {len(known_matches)} IPL 2026 matches...\n")
