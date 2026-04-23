@@ -35,7 +35,7 @@ async function init() {
     // Load global player points
     const globalPts = await loadPointsForPlayers(team.players, allPlayers);
 
-    const { totalPoints, playerStats } = aggregateTeamPoints(team.players, globalPts);
+    const { totalPoints, top15Points, playerStats } = aggregateTeamPoints(team.players, globalPts, 15);
 
     // Budget stats
     const spentCr = (team.budgetSpent / 100).toFixed(2);
@@ -44,7 +44,7 @@ async function init() {
 
     document.getElementById('stat-spent').textContent  = spentCr;
     document.getElementById('stat-left').textContent   = leftCr;
-    document.getElementById('stat-points').textContent = totalPoints.toLocaleString();
+    document.getElementById('stat-points').textContent = top15Points.toLocaleString() + ' (All: ' + totalPoints.toLocaleString() + ')';
     document.getElementById('budget-pct').textContent  = pct + '%';
     document.getElementById('budget-bar').style.width  = pct + '%';
 
@@ -57,18 +57,22 @@ async function init() {
       .map(([role, count]) => `${roleBadge(role)} <span class="badge bg-light text-dark border">${count}</span>`)
       .join(' ');
 
-    // Player table sorted by points desc
+    // Player table sorted by points desc, top 15 highlighted
     const sorted = [...playerStats].sort((a, b) => b.points - a.points);
-    document.getElementById('squad-body').innerHTML = sorted.map((p, i) => `
-      <tr>
-        <td class="ps-3 text-muted">${i + 1}</td>
-        <td class="fw-semibold">${p.name}</td>
+    document.getElementById('squad-body').innerHTML = sorted.map((p, i) => {
+      const rowClass = !p.inTop15 ? 'table-light text-muted' : '';
+      const badge = !p.inTop15 ? ' <span class="badge bg-secondary ms-1">bench</span>' : '';
+      return `
+      <tr class="${rowClass}">
+        <td class="ps-3">${i + 1}</td>
+        <td class="fw-semibold">${p.name}${badge}</td>
         <td>${roleBadge(p.role)}</td>
         <td class="text-end">${p.price}</td>
         <td class="text-end">${p.runs ?? 0}</td>
         <td class="text-end">${p.wickets ?? 0}</td>
-        <td class="text-end pe-3 fw-bold text-primary">${p.points ?? 0}</td>
-      </tr>`).join('');
+        <td class="text-end pe-3 fw-bold ${p.inTop15 ? 'text-primary' : ''}">${p.points ?? 0}</td>
+      </tr>`;
+    }).join('');
 
     document.getElementById('loading').classList.add('d-none');
     document.getElementById('team-section').classList.remove('d-none');

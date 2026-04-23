@@ -89,19 +89,31 @@ function findPlayer(scrapedName, playerByName) {
 
 /**
  * Aggregate points across multiple scorecards for a single team's player list.
- * Returns { totalPoints, totalRuns, totalWickets, playerStats: [{...player, runs, wickets, points}] }
+ * If topN is set, only the top N players by points are counted toward team totals.
+ * Returns { totalPoints, totalRuns, totalWickets, top15Points, playerStats: [{...player, runs, wickets, points, inTop15}] }
  */
-function aggregateTeamPoints(teamPlayers, allScorecardPoints) {
-  let totalPoints = 0, totalRuns = 0, totalWickets = 0;
+function aggregateTeamPoints(teamPlayers, allScorecardPoints, topN = 0) {
   const playerStats = teamPlayers.map(p => {
-    // Try match by name (scraped data) or by cricApiPlayerId (legacy)
     const s = allScorecardPoints[p.name] ?? allScorecardPoints[p.cricApiPlayerId] ?? { runs: 0, wickets: 0, points: 0 };
-    totalPoints  += s.points;
-    totalRuns    += s.runs;
-    totalWickets += s.wickets;
     return { ...p, runs: s.runs, wickets: s.wickets, points: s.points };
   });
-  return { totalPoints, totalRuns, totalWickets, playerStats };
+
+  // Sort by points desc to determine top N
+  const sorted = [...playerStats].sort((a, b) => b.points - a.points);
+  const topSet = new Set(sorted.slice(0, topN || playerStats.length).map(p => p.name));
+
+  let totalPoints = 0, totalRuns = 0, totalWickets = 0;
+  let top15Points = 0;
+
+  for (const p of playerStats) {
+    totalPoints  += p.points;
+    totalRuns    += p.runs;
+    totalWickets += p.wickets;
+    p.inTop15 = topSet.has(p.name);
+    if (p.inTop15) top15Points += p.points;
+  }
+
+  return { totalPoints, totalRuns, totalWickets, top15Points, playerStats };
 }
 
 // ── Caching Helpers ────────────────────────────────────────────────────────

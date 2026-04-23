@@ -104,10 +104,11 @@ async function loadAllScorecards() {
 
 function renderLeaderboard() {
   const rows = teamsData.map(team => {
-    const { totalPoints } = aggregateTeamPoints(team.players, globalPlayerPoints);
-    return { team, totalPoints };
+    const agg = aggregateTeamPoints(team.players, globalPlayerPoints, 15);
+    return { team, totalPoints: agg.totalPoints, top15Points: agg.top15Points };
   });
-  rows.sort((a, b) => b.totalPoints - a.totalPoints);
+  // Sort by Best 15 points
+  rows.sort((a, b) => b.top15Points - a.top15Points);
 
   document.getElementById('leaderboard-body').innerHTML = rows.map((row, i) => {
     const rank = i + 1;
@@ -121,8 +122,8 @@ function renderLeaderboard() {
           <a href="teams.html?team=${t.teamId}" class="fw-semibold text-decoration-none text-dark">${t.teamName}</a>
           <div class="text-muted small d-md-none">${t.players.length} players</div>
         </td>
-        <td class="text-end fw-bold fs-5 text-primary">${row.totalPoints.toLocaleString()}</td>
-        <td class="text-end d-none d-md-table-cell text-muted">${liveMatchIds.length > 0 ? '<span class="badge bg-danger">LIVE</span>' : '—'}</td>
+        <td class="text-end fw-bold fs-5 text-primary">${row.top15Points.toLocaleString()}</td>
+        <td class="text-end d-none d-md-table-cell text-muted">${row.totalPoints.toLocaleString()}</td>
         <td class="text-end d-none d-md-table-cell">${t.players.length}</td>
         <td class="text-end pe-3 d-none d-sm-table-cell text-muted">${spentCr} Cr</td>
       </tr>`;
