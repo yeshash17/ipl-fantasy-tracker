@@ -1,0 +1,208 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 10,
+          "b": 8,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 103,
+          "b": 37,
+          "4s": 5,
+          "6s": 12
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 51,
+          "b": 35,
+          "4s": 8,
+          "6s": 1
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 7,
+          "b": 9,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 33,
+          "b": 16,
+          "4s": 3,
+          "6s": 3
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "r": 11,
+          "b": 10,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "r": 4,
+          "b": 3,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Jofra Archer",
+          "r": 2,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Praful Hinge",
+          "o": "4",
+          "r": 49,
+          "w": 1
+        },
+        {
+          "name": "Pat Cummins",
+          "o": "4",
+          "r": 27,
+          "w": 1
+        },
+        {
+          "name": "Eshan Malinga",
+          "o": "4",
+          "r": 38,
+          "w": 2
+        },
+        {
+          "name": "Sakib Hussain",
+          "o": "4",
+          "r": 62,
+          "w": 1
+        },
+        {
+          "name": "Shivang Kumar",
+          "o": "2",
+          "r": 31,
+          "w": 0
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "o": "2",
+          "r": 20,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Travis Head",
+          "r": 6,
+          "b": 5,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Abhishek Sharma",
+          "r": 57,
+          "b": 29,
+          "4s": 11,
+          "6s": 1
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 74,
+          "b": 31,
+          "4s": 11,
+          "6s": 3
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 29,
+          "b": 24,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "r": 36,
+          "b": 18,
+          "4s": 2,
+          "6s": 3
+        },
+        {
+          "name": "Salil Arora",
+          "r": 8,
+          "b": 3,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Aniket Verma",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 34,
+          "w": 2
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "3.3",
+          "r": 50,
+          "w": 0
+        },
+        {
+          "name": "Tushar Deshpande",
+          "o": "3",
+          "r": 43,
+          "w": 0
+        },
+        {
+          "name": "Brijesh Sharma",
+          "o": "4",
+          "r": 44,
+          "w": 2
+        },
+        {
+          "name": "Riyan Parag",
+          "o": "1",
+          "r": 12,
+          "w": 0
+        },
+        {
+          "name": "Donovan Ferreira",
+          "o": "1",
+          "r": 14,
+          "w": 1
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "o": "1",
+          "r": 16,
+          "w": 0
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "1",
+          "r": 11,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529279",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/rajasthan-royals-vs-sunrisers-hyderabad-36th-match-1529279/full-scorecard",
+  "scrapedAt": "2026-04-25T21:28:34"
+}

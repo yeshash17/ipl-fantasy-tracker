@@ -74,37 +74,88 @@
       "batting": [
         {
           "name": "Priyansh Arya",
-          "r": 8,
-          "b": 5,
-          "4s": 0,
-          "6s": 1
+          "r": 43,
+          "b": 17,
+          "4s": 2,
+          "6s": 5
         },
         {
           "name": "Prabhsimran Singh",
-          "r": 13,
-          "b": 3,
-          "4s": 0,
-          "6s": 2
+          "r": 76,
+          "b": 26,
+          "4s": 9,
+          "6s": 5
+        },
+        {
+          "name": "Cooper Connolly",
+          "r": 17,
+          "b": 10,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Shreyas Iyer",
+          "r": 71,
+          "b": 36,
+          "4s": 3,
+          "6s": 7
+        },
+        {
+          "name": "Nehal Wadhera",
+          "r": 25,
+          "b": 15,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Shashank Singh",
+          "r": 19,
+          "b": 10,
+          "4s": 2,
+          "6s": 1
         }
       ],
       "bowling": [
         {
           "name": "Auqib Nabi",
-          "o": "1",
-          "r": 14,
+          "o": "2",
+          "r": 41,
           "w": 0
         },
         {
           "name": "Mukesh Kumar",
-          "o": "0.2",
-          "r": 8,
+          "o": "3",
+          "r": 55,
           "w": 0
+        },
+        {
+          "name": "Axar Patel",
+          "o": "4",
+          "r": 44,
+          "w": 1
+        },
+        {
+          "name": "T Natarajan",
+          "o": "3.5",
+          "r": 54,
+          "w": 0
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "4",
+          "r": 46,
+          "w": 2
+        },
+        {
+          "name": "Vipraj Nigam",
+          "o": "2",
+          "r": 24,
+          "w": 1
         }
       ]
     }
   ],
   "matchId": "1529278",
-  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/35th-match-1529278/full-scorecard",
-  "scrapedAt": "2026-04-25T15:16:21",
-  "completed": true
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/delhi-capitals-vs-punjab-kings-35th-match-1529278/full-scorecard",
+  "scrapedAt": "2026-04-25T21:25:54"
 }
