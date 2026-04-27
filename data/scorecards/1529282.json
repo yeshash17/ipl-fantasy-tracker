@@ -1,0 +1,177 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Sahil Parakh",
+          "r": 0,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "KL Rahul",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Nitish Rana",
+          "r": 1,
+          "b": 9,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Sameer Rizvi",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 5,
+          "b": 3,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Axar Patel",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Abishek Porel",
+          "r": 30,
+          "b": 33,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "David Miller",
+          "r": 19,
+          "b": 18,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Kyle Jamieson",
+          "r": 12,
+          "b": 13,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "r": 3,
+          "b": 11,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Dushmantha Chameera",
+          "r": 0,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bhuvneshwar Kumar",
+          "o": "3",
+          "r": 5,
+          "w": 3
+        },
+        {
+          "name": "Josh Hazlewood",
+          "o": "3.3",
+          "r": 12,
+          "w": 4
+        },
+        {
+          "name": "Rasikh Salam",
+          "o": "2",
+          "r": 21,
+          "w": 1
+        },
+        {
+          "name": "Romario Shepherd",
+          "o": "2",
+          "r": 21,
+          "w": 0
+        },
+        {
+          "name": "Suyash Sharma",
+          "o": "4",
+          "r": 7,
+          "w": 1
+        },
+        {
+          "name": "Krunal Pandya",
+          "o": "2",
+          "r": 9,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Jacob Bethell",
+          "r": 20,
+          "b": 11,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 23,
+          "b": 15,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Devdutt Padikkal",
+          "r": 34,
+          "b": 13,
+          "4s": 3,
+          "6s": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Kyle Jamieson",
+          "o": "3",
+          "r": 42,
+          "w": 1
+        },
+        {
+          "name": "Dushmantha Chameera",
+          "o": "2",
+          "r": 18,
+          "w": 0
+        },
+        {
+          "name": "Axar Patel",
+          "o": "1",
+          "r": 5,
+          "w": 0
+        },
+        {
+          "name": "T Natarajan",
+          "o": "0.3",
+          "r": 12,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529282",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/delhi-capitals-vs-royal-challengers-bengaluru-39th-match-1529282/full-scorecard",
+  "scrapedAt": "2026-04-28T00:34:53"
+}

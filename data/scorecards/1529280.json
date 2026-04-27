@@ -1,0 +1,182 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 11,
+          "b": 15,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 74,
+          "b": 60,
+          "4s": 6,
+          "6s": 4
+        },
+        {
+          "name": "Urvil Patel",
+          "r": 4,
+          "b": 3,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Sarfaraz Khan",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Dewald Brevis",
+          "r": 2,
+          "b": 9,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Shivam Dube",
+          "r": 22,
+          "b": 17,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Kartik Sharma",
+          "r": 15,
+          "b": 9,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Jamie Overton",
+          "r": 18,
+          "b": 6,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Akeal Hosein",
+          "r": 0,
+          "b": 0,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 23,
+          "w": 1
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "4",
+          "r": 25,
+          "w": 3
+        },
+        {
+          "name": "Manav Suthar",
+          "o": "3",
+          "r": 22,
+          "w": 1
+        },
+        {
+          "name": "Jason Holder",
+          "o": "4",
+          "r": 22,
+          "w": 0
+        },
+        {
+          "name": "Arshad Khan",
+          "o": "4",
+          "r": 43,
+          "w": 2
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "1",
+          "r": 21,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 87,
+          "b": 46,
+          "4s": 4,
+          "6s": 7
+        },
+        {
+          "name": "Shubman Gill",
+          "r": 33,
+          "b": 23,
+          "4s": 1,
+          "6s": 3
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 39,
+          "b": 30,
+          "4s": 4,
+          "6s": 1
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Akeal Hosein",
+          "o": "3.4",
+          "r": 46,
+          "w": 1
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "3",
+          "r": 16,
+          "w": 0
+        },
+        {
+          "name": "Jamie Overton",
+          "o": "2",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "Gurjapneet Singh",
+          "o": "3",
+          "r": 36,
+          "w": 0
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "4",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Shivam Dube",
+          "o": "1",
+          "r": 7,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529280",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/chennai-super-kings-vs-gujarat-titans-37th-match-1529280/full-scorecard",
+  "scrapedAt": "2026-04-28T00:34:20"
+}
