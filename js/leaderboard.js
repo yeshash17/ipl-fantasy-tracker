@@ -3,12 +3,10 @@
  * renders charts, match-by-match table, MVP, role breakdown, and live-polls
  */
 
-const POLL_INTERVAL_MS = 10 * 60 * 1000;
 const TEAM_COLORS = ['#003087','#e63946','#2a9d8f','#e9c46a','#f4a261','#264653','#6a4c93','#457b9d'];
 
 let allPlayers = [];
 let teamsData  = [];
-let liveMatchIds = [];
 let globalPlayerPoints = {};
 let perMatchPoints = {}; // { matchId: { playerName: { runs, wickets, points } } }
 let matchOrder = [];     // ordered list of match IDs
@@ -35,11 +33,6 @@ async function init() {
 
     document.getElementById('loading').classList.add('d-none');
     document.getElementById('leaderboard-section').classList.remove('d-none');
-
-    if (liveMatchIds.length > 0) {
-      document.getElementById('live-badge').classList.remove('d-none');
-      schedulePoll();
-    }
   } catch (err) {
     document.getElementById('loading').classList.add('d-none');
     showError('Could not load data: ' + err.message);
@@ -76,27 +69,6 @@ async function loadAllScorecards() {
         globalPlayerPoints[name].points   += stat.points;
       }
     }
-  }
-
-  if (IPL_SERIES_ID) {
-    try {
-      const matches = await fetchSeriesMatches();
-      liveMatchIds = [];
-      for (const match of matches) {
-        if (match.matchStarted && !match.matchEnded) liveMatchIds.push(match.id);
-      }
-      const liveScorecards = await Promise.allSettled(liveMatchIds.map(id => fetchScorecard(id)));
-      for (const result of liveScorecards) {
-        if (result.status !== 'fulfilled' || !result.value) continue;
-        const pts = calcPoints(result.value, allPlayers);
-        for (const [name, stat] of Object.entries(pts)) {
-          if (!globalPlayerPoints[name]) globalPlayerPoints[name] = { runs: 0, wickets: 0, points: 0 };
-          globalPlayerPoints[name].runs     += stat.runs;
-          globalPlayerPoints[name].wickets  += stat.wickets;
-          globalPlayerPoints[name].points   += stat.points;
-        }
-      }
-    } catch (e) { console.warn('CricAPI unavailable:', e.message); }
   }
 }
 
@@ -326,24 +298,6 @@ function renderRoleBreakdown() {
       },
     },
   });
-}
-
-// ── Polling ────────────────────────────────────────────────────────────────
-
-function schedulePoll() {
-  setTimeout(async () => {
-    try {
-      await loadAllScorecards();
-      renderLeaderboard();
-      renderTopPerformers();
-      setLastUpdated();
-      if (liveMatchIds.length === 0) {
-        document.getElementById('live-badge').classList.add('d-none');
-        return;
-      }
-    } catch (e) { console.warn('Poll error:', e.message); }
-    schedulePoll();
-  }, POLL_INTERVAL_MS);
 }
 
 function showError(msg) {

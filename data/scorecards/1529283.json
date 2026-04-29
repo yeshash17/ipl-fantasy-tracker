@@ -1,0 +1,163 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Prabhsimran Singh",
+          "r": 59,
+          "b": 44,
+          "4s": 6,
+          "6s": 1
+        },
+        {
+          "name": "Priyansh Arya",
+          "r": 29,
+          "b": 11,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Cooper Connolly",
+          "r": 30,
+          "b": 14,
+          "4s": 2,
+          "6s": 3
+        },
+        {
+          "name": "Shreyas Iyer",
+          "r": 30,
+          "b": 27,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Marcus Stoinis",
+          "r": 62,
+          "b": 22,
+          "4s": 4,
+          "6s": 6
+        },
+        {
+          "name": "Suryansh Shedge",
+          "r": 3,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 40,
+          "w": 1
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "4",
+          "r": 59,
+          "w": 1
+        },
+        {
+          "name": "Brijesh Sharma",
+          "o": "4",
+          "r": 42,
+          "w": 0
+        },
+        {
+          "name": "Yash Raj Punja",
+          "o": "4",
+          "r": 41,
+          "w": 2
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "4",
+          "r": 32,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 51,
+          "b": 27,
+          "4s": 7,
+          "6s": 1
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 43,
+          "b": 16,
+          "4s": 3,
+          "6s": 5
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 16,
+          "b": 20,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 29,
+          "b": 16,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 52,
+          "b": 26,
+          "4s": 6,
+          "6s": 3
+        },
+        {
+          "name": "Shubham Dubey",
+          "r": 31,
+          "b": 12,
+          "4s": 3,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Arshdeep Singh",
+          "o": "4",
+          "r": 68,
+          "w": 1
+        },
+        {
+          "name": "Lockie Ferguson",
+          "o": "4",
+          "r": 57,
+          "w": 0
+        },
+        {
+          "name": "Marco Jansen",
+          "o": "3.2",
+          "r": 41,
+          "w": 0
+        },
+        {
+          "name": "Harpreet Brar",
+          "o": "4",
+          "r": 25,
+          "w": 0
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "o": "4",
+          "r": 36,
+          "w": 3
+        }
+      ]
+    }
+  ],
+  "matchId": "1529283",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/punjab-kings-vs-rajasthan-royals-40th-match-1529283/full-scorecard",
+  "scrapedAt": "2026-04-29T20:15:35"
+}

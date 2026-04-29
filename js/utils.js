@@ -3,10 +3,6 @@
  */
 
 // ── Constants ──────────────────────────────────────────────────────────────
-// Fill this in after calling /api/series-info and finding the IPL 2026 series.
-// Run the site once, open DevTools > Network, look for the series-info response,
-// find the entry whose name contains "Indian Premier League" or "IPL 2026", copy its id.
-const IPL_SERIES_ID = '87c62aac-bc3c-4738-ab93-19da0690488f'; // IPL 2026
 
 const TEAM_NAMES = {
   'dk':             'DK',
@@ -118,93 +114,22 @@ function aggregateTeamPoints(teamPlayers, allScorecardPoints, topN = 0) {
 
 // ── Caching Helpers ────────────────────────────────────────────────────────
 
-const SESSION_TTL_MS  = 10 * 60 * 1000;  // 10 min — for live match data
-const SERIES_INFO_KEY = 'ipl_series_info';
-const SERIES_INFO_TS  = 'ipl_series_info_ts';
-
-/** Fetch JSON from a URL, with optional sessionStorage caching (TTL in ms). */
-async function fetchJSON(url, cacheTTL = 0) {
-  if (cacheTTL > 0) {
-    const cached = sessionStorage.getItem(url);
-    const ts     = Number(sessionStorage.getItem(url + '_ts') || 0);
-    if (cached && Date.now() - ts < cacheTTL) {
-      return JSON.parse(cached);
-    }
-  }
+/** Fetch JSON from a URL. */
+async function fetchJSON(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status} fetching ${url}`);
-  const data = await res.json();
-  if (cacheTTL > 0) {
-    sessionStorage.setItem(url, JSON.stringify(data));
-    sessionStorage.setItem(url + '_ts', String(Date.now()));
-  }
-  return data;
+  return res.json();
 }
 
 /**
- * Fetch a match scorecard.
- * Priority: 1) localStorage cache  2) static file in data/scorecards/  3) API call
- * Completed matches are cached permanently. Only live matches hit the API.
+ * Fetch a match scorecard from static file only.
  */
 async function fetchScorecard(matchId) {
-  // 1. Check localStorage (browser cache from previous visits)
-  const lsKey = `sc_${matchId}`;
-  const cached = localStorage.getItem(lsKey);
-  if (cached) {
-    const parsed = JSON.parse(cached);
-    if (parsed._completed) return parsed;
-  }
-
-  // 2. Try static cached file (committed to repo — 0 API calls)
   try {
-    const staticData = await fetch(`data/scorecards/${matchId}.json`);
-    if (staticData.ok) {
-      const sc = await staticData.json();
-      sc._completed = true;
-      localStorage.setItem(lsKey, JSON.stringify(sc));
-      return sc;
-    }
-  } catch (e) { /* static file doesn't exist, fall through to API */ }
-
-  // 3. Live API call (only for matches not yet cached)
-  try {
-    const data = await fetchJSON(`/api/scorecard?matchId=${matchId}`);
-    const sc = data?.data ?? data;
-
-    if (sc?.matchEnded === true || sc?.status?.toLowerCase?.().includes('won')) {
-      sc._completed = true;
-      localStorage.setItem(lsKey, JSON.stringify(sc));
-    }
-    return sc;
-  } catch (e) {
-    console.warn(`Could not fetch scorecard for ${matchId}:`, e.message);
-    return null;
-  }
-}
-
-/** Fetch all IPL 2026 match IDs and their statuses from the series info endpoint. */
-async function fetchSeriesMatches() {
-  if (!IPL_SERIES_ID) return [];
-  try {
-    const data = await fetchJSON(`/api/series-info?seriesId=${IPL_SERIES_ID}`, SESSION_TTL_MS);
-    if (data?.status === 'failure') {
-      console.warn('Series API blocked:', data.reason);
-      // Fall back to static match list if API is rate-limited
-      try {
-        const fallback = await fetch('data/matches.json');
-        if (fallback.ok) return await fallback.json();
-      } catch (e) {}
-      return [];
-    }
-    return data?.data?.matchList ?? [];
-  } catch (e) {
-    console.warn('Series fetch error:', e.message);
-    try {
-      const fallback = await fetch('data/matches.json');
-      if (fallback.ok) return await fallback.json();
-    } catch (e2) {}
-    return [];
-  }
+    const res = await fetch(`data/scorecards/${matchId}.json`);
+    if (res.ok) return await res.json();
+  } catch (e) {}
+  return null;
 }
 
 // ── Formatting ─────────────────────────────────────────────────────────────
