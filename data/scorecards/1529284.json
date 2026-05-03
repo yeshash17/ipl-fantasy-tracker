@@ -1,0 +1,182 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Will Jacks",
+          "r": 46,
+          "b": 22,
+          "4s": 5,
+          "6s": 3
+        },
+        {
+          "name": "Ryan Rickelton",
+          "r": 123,
+          "b": 55,
+          "4s": 10,
+          "6s": 8
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 5,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 22,
+          "b": 17,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Hardik Pandya",
+          "r": 31,
+          "b": 15,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 7,
+          "b": 5,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Robin Minz",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Pat Cummins",
+          "o": "4",
+          "r": 39,
+          "w": 0
+        },
+        {
+          "name": "Praful Hinge",
+          "o": "4",
+          "r": 54,
+          "w": 2
+        },
+        {
+          "name": "Eshan Malinga",
+          "o": "4",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Harsh Dubey",
+          "o": "3",
+          "r": 50,
+          "w": 0
+        },
+        {
+          "name": "Sakib Hussain",
+          "o": "3",
+          "r": 39,
+          "w": 1
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "o": "2",
+          "r": 31,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Abhishek Sharma",
+          "r": 45,
+          "b": 24,
+          "4s": 4,
+          "6s": 3
+        },
+        {
+          "name": "Travis Head",
+          "r": 76,
+          "b": 30,
+          "4s": 4,
+          "6s": 8
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 65,
+          "b": 30,
+          "4s": 7,
+          "6s": 4
+        },
+        {
+          "name": "Nitish Kumar Reddy",
+          "r": 21,
+          "b": 17,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Salil Arora",
+          "r": 30,
+          "b": 10,
+          "4s": 2,
+          "6s": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Trent Boult",
+          "o": "4",
+          "r": 41,
+          "w": 1
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 54,
+          "w": 0
+        },
+        {
+          "name": "Will Jacks",
+          "o": "1",
+          "r": 19,
+          "w": 0
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "4",
+          "r": 51,
+          "w": 2
+        },
+        {
+          "name": "Ashwani Kumar",
+          "o": "2",
+          "r": 41,
+          "w": 0
+        },
+        {
+          "name": "Hardik Pandya",
+          "o": "3.4",
+          "r": 39,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529284",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/mumbai-indians-vs-sunrisers-hyderabad-41st-match-1529284/full-scorecard",
+  "scrapedAt": "2026-05-04T01:36:36"
+}

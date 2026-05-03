@@ -1,0 +1,224 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Priyansh Arya",
+          "r": 2,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Prabhsimran Singh",
+          "r": 15,
+          "b": 14,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Cooper Connolly",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Shreyas Iyer",
+          "r": 19,
+          "b": 21,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Nehal Wadhera",
+          "r": 0,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Suryansh Shedge",
+          "r": 57,
+          "b": 29,
+          "4s": 3,
+          "6s": 5
+        },
+        {
+          "name": "Marcus Stoinis",
+          "r": 40,
+          "b": 31,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Marco Jansen",
+          "r": 20,
+          "b": 11,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Xavier Bartlett",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Vijaykumar Vyshak",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Arshdeep Singh",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 28,
+          "w": 2
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "4",
+          "r": 22,
+          "w": 2
+        },
+        {
+          "name": "Jason Holder",
+          "o": "4",
+          "r": 24,
+          "w": 4
+        },
+        {
+          "name": "Arshad Khan",
+          "o": "3",
+          "r": 29,
+          "w": 0
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "4",
+          "r": 32,
+          "w": 1
+        },
+        {
+          "name": "Manav Suthar",
+          "o": "1",
+          "r": 27,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 57,
+          "b": 41,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Shubman Gill",
+          "r": 5,
+          "b": 4,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 26,
+          "b": 22,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Nishant Sindhu",
+          "r": 15,
+          "b": 11,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 40,
+          "b": 23,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Rahul Tewatia",
+          "r": 2,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Jason Holder",
+          "r": 5,
+          "b": 7,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Arshad Khan",
+          "r": 8,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Xavier Bartlett",
+          "o": "4",
+          "r": 38,
+          "w": 0
+        },
+        {
+          "name": "Arshdeep Singh",
+          "o": "4",
+          "r": 24,
+          "w": 2
+        },
+        {
+          "name": "Marco Jansen",
+          "o": "4",
+          "r": 33,
+          "w": 1
+        },
+        {
+          "name": "Vijaykumar Vyshak",
+          "o": "4",
+          "r": 31,
+          "w": 2
+        },
+        {
+          "name": "Marcus Stoinis",
+          "o": "2.5",
+          "r": 26,
+          "w": 1
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "o": "1",
+          "r": 13,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529289",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/gujarat-titans-vs-punjab-kings-46th-match-1529289/full-scorecard",
+  "scrapedAt": "2026-05-04T01:38:02"
+}

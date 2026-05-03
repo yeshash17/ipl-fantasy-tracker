@@ -1,0 +1,182 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Will Jacks",
+          "r": 1,
+          "b": 5,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Ryan Rickelton",
+          "r": 37,
+          "b": 24,
+          "4s": 0,
+          "6s": 5
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 57,
+          "b": 37,
+          "4s": 4,
+          "6s": 3
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 21,
+          "b": 12,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 5,
+          "b": 8,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Hardik Pandya",
+          "r": 18,
+          "b": 23,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Robin Minz",
+          "r": 5,
+          "b": 3,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Krish Bhagat",
+          "r": 3,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Trent Boult",
+          "r": 7,
+          "b": 2,
+          "4s": 0,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mukesh Choudhary",
+          "o": "3",
+          "r": 25,
+          "w": 0
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "4",
+          "r": 32,
+          "w": 3
+        },
+        {
+          "name": "Prashant Veer",
+          "o": "2",
+          "r": 25,
+          "w": 0
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "4",
+          "r": 26,
+          "w": 2
+        },
+        {
+          "name": "Ramakrishna Ghosh",
+          "o": "3",
+          "r": 24,
+          "w": 1
+        },
+        {
+          "name": "Jamie Overton",
+          "o": "4",
+          "r": 23,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 11,
+          "b": 9,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 67,
+          "b": 48,
+          "4s": 5,
+          "6s": 2
+        },
+        {
+          "name": "Urvil Patel",
+          "r": 24,
+          "b": 12,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Kartik Sharma",
+          "r": 54,
+          "b": 40,
+          "4s": 4,
+          "6s": 3
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Trent Boult",
+          "o": "3.1",
+          "r": 37,
+          "w": 0
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "3",
+          "r": 20,
+          "w": 1
+        },
+        {
+          "name": "Krish Bhagat",
+          "o": "2",
+          "r": 22,
+          "w": 0
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "4",
+          "r": 40,
+          "w": 1
+        },
+        {
+          "name": "Raghu Sharma",
+          "o": "4",
+          "r": 24,
+          "w": 0
+        },
+        {
+          "name": "Hardik Pandya",
+          "o": "2",
+          "r": 17,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529287",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/chennai-super-kings-vs-mumbai-indians-44th-match-1529287/full-scorecard",
+  "scrapedAt": "2026-05-04T01:37:29"
+}

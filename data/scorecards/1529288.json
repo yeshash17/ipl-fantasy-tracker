@@ -1,0 +1,203 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Abhishek Sharma",
+          "r": 15,
+          "b": 10,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Travis Head",
+          "r": 61,
+          "b": 28,
+          "4s": 9,
+          "6s": 3
+        },
+        {
+          "name": "Ishan Kishan",
+          "r": 42,
+          "b": 29,
+          "4s": 4,
+          "6s": 2
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "r": 11,
+          "b": 8,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Ravichandran Smaran",
+          "r": 4,
+          "b": 4,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Aniket Verma",
+          "r": 6,
+          "b": 8,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Salil Arora",
+          "r": 2,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Pat Cummins",
+          "r": 10,
+          "b": 8,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Shivang Kumar",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Harshal Patel",
+          "r": 6,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Eshan Malinga",
+          "r": 2,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Sunil Narine",
+          "o": "4",
+          "r": 31,
+          "w": 2
+        },
+        {
+          "name": "Vaibhav Arora",
+          "o": "3",
+          "r": 25,
+          "w": 1
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "4",
+          "r": 30,
+          "w": 2
+        },
+        {
+          "name": "Cameron Green",
+          "o": "3",
+          "r": 34,
+          "w": 1
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "o": "4",
+          "r": 36,
+          "w": 3
+        },
+        {
+          "name": "Anukul Roy",
+          "o": "1",
+          "r": 8,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Ajinkya Rahane",
+          "r": 43,
+          "b": 36,
+          "4s": 4,
+          "6s": 1
+        },
+        {
+          "name": "Finn Allen",
+          "r": 29,
+          "b": 13,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 59,
+          "b": 47,
+          "4s": 5,
+          "6s": 2
+        },
+        {
+          "name": "Rinku Singh",
+          "r": 22,
+          "b": 11,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Cameron Green",
+          "r": 3,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Abhishek Sharma",
+          "o": "2",
+          "r": 14,
+          "w": 0
+        },
+        {
+          "name": "Pat Cummins",
+          "o": "4",
+          "r": 47,
+          "w": 1
+        },
+        {
+          "name": "Eshan Malinga",
+          "o": "3.2",
+          "r": 42,
+          "w": 0
+        },
+        {
+          "name": "Shivang Kumar",
+          "o": "4",
+          "r": 31,
+          "w": 1
+        },
+        {
+          "name": "Harshal Patel",
+          "o": "2",
+          "r": 17,
+          "w": 0
+        },
+        {
+          "name": "Sakib Hussain",
+          "o": "3",
+          "r": 17,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529288",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/sunrisers-hyderabad-vs-kolkata-knight-riders-45th-match-1529288/full-scorecard",
+  "scrapedAt": "2026-05-04T01:37:46"
+}

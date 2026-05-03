@@ -1,0 +1,176 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 6,
+          "b": 3,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 4,
+          "b": 2,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 42,
+          "b": 30,
+          "4s": 4,
+          "6s": 1
+        },
+        {
+          "name": "Riyan Parag",
+          "r": 90,
+          "b": 50,
+          "4s": 8,
+          "6s": 5
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "r": 20,
+          "b": 14,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 47,
+          "b": 14,
+          "4s": 2,
+          "6s": 6
+        },
+        {
+          "name": "Shubham Dubey",
+          "r": 6,
+          "b": 6,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Jofra Archer",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mitchell Starc",
+          "o": "4",
+          "r": 40,
+          "w": 3
+        },
+        {
+          "name": "Kyle Jamieson",
+          "o": "4",
+          "r": 48,
+          "w": 1
+        },
+        {
+          "name": "Axar Patel",
+          "o": "4",
+          "r": 39,
+          "w": 1
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "4",
+          "r": 41,
+          "w": 0
+        },
+        {
+          "name": "T Natarajan",
+          "o": "4",
+          "r": 54,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Pathum Nissanka",
+          "r": 62,
+          "b": 33,
+          "4s": 6,
+          "6s": 3
+        },
+        {
+          "name": "KL Rahul",
+          "r": 75,
+          "b": 40,
+          "4s": 6,
+          "6s": 5
+        },
+        {
+          "name": "Nitish Rana",
+          "r": 33,
+          "b": 17,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 18,
+          "b": 11,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "r": 25,
+          "b": 15,
+          "4s": 4,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "4",
+          "r": 46,
+          "w": 1
+        },
+        {
+          "name": "Nandre Burger",
+          "o": "3",
+          "r": 41,
+          "w": 0
+        },
+        {
+          "name": "Tushar Deshpande",
+          "o": "4",
+          "r": 38,
+          "w": 1
+        },
+        {
+          "name": "Brijesh Sharma",
+          "o": "3.1",
+          "r": 35,
+          "w": 0
+        },
+        {
+          "name": "Ravi Bishnoi",
+          "o": "2",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "3",
+          "r": 33,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529286",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/rajasthan-royals-vs-delhi-capitals-43rd-match-1529286/full-scorecard",
+  "scrapedAt": "2026-05-04T01:37:12"
+}

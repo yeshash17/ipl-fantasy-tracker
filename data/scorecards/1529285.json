@@ -1,0 +1,206 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Jacob Bethell",
+          "r": 5,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 28,
+          "b": 13,
+          "4s": 5,
+          "6s": 1
+        },
+        {
+          "name": "Devdutt Padikkal",
+          "r": 40,
+          "b": 24,
+          "4s": 5,
+          "6s": 2
+        },
+        {
+          "name": "Rajat Patidar",
+          "r": 19,
+          "b": 15,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Jitesh Sharma",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tim David",
+          "r": 9,
+          "b": 6,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Krunal Pandya",
+          "r": 4,
+          "b": 4,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Romario Shepherd",
+          "r": 17,
+          "b": 15,
+          "4s": 0,
+          "6s": 2
+        },
+        {
+          "name": "Venkatesh Iyer",
+          "r": 12,
+          "b": 15,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Bhuvneshwar Kumar",
+          "r": 15,
+          "b": 15,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Josh Hazlewood",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 38,
+          "w": 1
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "4",
+          "r": 44,
+          "w": 1
+        },
+        {
+          "name": "Jason Holder",
+          "o": "4",
+          "r": 29,
+          "w": 2
+        },
+        {
+          "name": "Arshad Khan",
+          "o": "3.2",
+          "r": 22,
+          "w": 3
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "4",
+          "r": 19,
+          "w": 2
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 6,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Shubman Gill",
+          "r": 43,
+          "b": 18,
+          "4s": 4,
+          "6s": 3
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 39,
+          "b": 19,
+          "4s": 2,
+          "6s": 4
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 12,
+          "b": 12,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "M Shahrukh Khan",
+          "r": 8,
+          "b": 8,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Rahul Tewatia",
+          "r": 27,
+          "b": 17,
+          "4s": 4,
+          "6s": 0
+        },
+        {
+          "name": "Jason Holder",
+          "r": 12,
+          "b": 10,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Rashid Khan",
+          "r": 7,
+          "b": 6,
+          "4s": 1,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bhuvneshwar Kumar",
+          "o": "4",
+          "r": 28,
+          "w": 3
+        },
+        {
+          "name": "Josh Hazlewood",
+          "o": "4",
+          "r": 56,
+          "w": 0
+        },
+        {
+          "name": "Suyash Sharma",
+          "o": "3.5",
+          "r": 44,
+          "w": 1
+        },
+        {
+          "name": "Romario Shepherd",
+          "o": "4",
+          "r": 30,
+          "w": 2
+        }
+      ]
+    }
+  ],
+  "matchId": "1529285",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/gujarat-titans-vs-royal-challengers-bengaluru-42nd-match-1529285/full-scorecard",
+  "scrapedAt": "2026-05-04T01:36:53"
+}
