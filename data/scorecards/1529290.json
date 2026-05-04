@@ -1,0 +1,176 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Mitchell Marsh",
+          "r": 44,
+          "b": 25,
+          "4s": 4,
+          "6s": 3
+        },
+        {
+          "name": "Josh Inglis",
+          "r": 13,
+          "b": 5,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Nicholas Pooran",
+          "r": 63,
+          "b": 21,
+          "4s": 1,
+          "6s": 8
+        },
+        {
+          "name": "Rishabh Pant",
+          "r": 15,
+          "b": 10,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Aiden Markram",
+          "r": 31,
+          "b": 25,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Akshat Raghuwanshi",
+          "r": 11,
+          "b": 7,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Himmat Singh",
+          "r": 40,
+          "b": 31,
+          "4s": 2,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Deepak Chahar",
+          "o": "4",
+          "r": 43,
+          "w": 0
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 45,
+          "w": 0
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "4",
+          "r": 50,
+          "w": 1
+        },
+        {
+          "name": "Will Jacks",
+          "o": "2",
+          "r": 34,
+          "w": 1
+        },
+        {
+          "name": "Corbin Bosch",
+          "o": "2",
+          "r": 20,
+          "w": 2
+        },
+        {
+          "name": "Raghu Sharma",
+          "o": "4",
+          "r": 36,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Ryan Rickelton",
+          "r": 83,
+          "b": 32,
+          "4s": 6,
+          "6s": 8
+        },
+        {
+          "name": "Rohit Sharma",
+          "r": 84,
+          "b": 44,
+          "4s": 6,
+          "6s": 7
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 11,
+          "b": 13,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 12,
+          "b": 7,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 23,
+          "b": 12,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Will Jacks",
+          "r": 10,
+          "b": 4,
+          "4s": 0,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Shami",
+          "o": "4",
+          "r": 53,
+          "w": 1
+        },
+        {
+          "name": "Mohsin Khan",
+          "o": "4",
+          "r": 47,
+          "w": 1
+        },
+        {
+          "name": "Prince Yadav",
+          "o": "3",
+          "r": 24,
+          "w": 0
+        },
+        {
+          "name": "Avesh Khan",
+          "o": "3.4",
+          "r": 56,
+          "w": 0
+        },
+        {
+          "name": "Manimaran Siddharth",
+          "o": "4",
+          "r": 47,
+          "w": 2
+        }
+      ]
+    }
+  ],
+  "matchId": "1529290",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/mumbai-indians-vs-lucknow-super-giants-47th-match-1529290/full-scorecard",
+  "scrapedAt": "2026-05-05T00:47:05"
+}
