@@ -1,0 +1,176 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Pathum Nissanka",
+          "r": 19,
+          "b": 15,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "KL Rahul",
+          "r": 12,
+          "b": 13,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Nitish Rana",
+          "r": 15,
+          "b": 13,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Karun Nair",
+          "r": 13,
+          "b": 13,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Axar Patel",
+          "r": 2,
+          "b": 6,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 38,
+          "b": 31,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Sameer Rizvi",
+          "r": 40,
+          "b": 24,
+          "4s": 0,
+          "6s": 4
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "r": 14,
+          "b": 5,
+          "4s": 0,
+          "6s": 2
+        },
+        {
+          "name": "Mitchell Starc",
+          "r": 0,
+          "b": 0,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Akeal Hosein",
+          "o": "4",
+          "r": 19,
+          "w": 1
+        },
+        {
+          "name": "Mukesh Choudhary",
+          "o": "4",
+          "r": 31,
+          "w": 1
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "4",
+          "r": 49,
+          "w": 0
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "3",
+          "r": 22,
+          "w": 2
+        },
+        {
+          "name": "Gurjapneet Singh",
+          "o": "4",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Jamie Overton",
+          "o": "1",
+          "r": 5,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 87,
+          "b": 52,
+          "4s": 7,
+          "6s": 6
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 6,
+          "b": 13,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Urvil Patel",
+          "r": 17,
+          "b": 9,
+          "4s": 0,
+          "6s": 2
+        },
+        {
+          "name": "Kartik Sharma",
+          "r": 41,
+          "b": 31,
+          "4s": 4,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mitchell Starc",
+          "o": "4",
+          "r": 30,
+          "w": 0
+        },
+        {
+          "name": "Axar Patel",
+          "o": "4",
+          "r": 25,
+          "w": 1
+        },
+        {
+          "name": "Lungi Ngidi",
+          "o": "4",
+          "r": 30,
+          "w": 1
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "3",
+          "r": 34,
+          "w": 0
+        },
+        {
+          "name": "T Natarajan",
+          "o": "2.3",
+          "r": 39,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529291",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/delhi-capitals-vs-chennai-super-kings-48th-match-1529291/full-scorecard",
+  "scrapedAt": "2026-05-07T23:25:52"
+}
