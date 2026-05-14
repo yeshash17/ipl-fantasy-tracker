@@ -1,0 +1,189 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Pathum Nissanka",
+          "r": 50,
+          "b": 29,
+          "4s": 5,
+          "6s": 3
+        },
+        {
+          "name": "KL Rahul",
+          "r": 23,
+          "b": 14,
+          "4s": 4,
+          "6s": 0
+        },
+        {
+          "name": "Nitish Rana",
+          "r": 8,
+          "b": 10,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Sameer Rizvi",
+          "r": 3,
+          "b": 7,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 2,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Axar Patel",
+          "r": 11,
+          "b": 22,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "r": 39,
+          "b": 28,
+          "4s": 3,
+          "6s": 3
+        },
+        {
+          "name": "Vipraj Nigam",
+          "r": 3,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Mitchell Starc",
+          "r": 0,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Lungi Ngidi",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Anukul Roy",
+          "o": "4",
+          "r": 31,
+          "w": 2
+        },
+        {
+          "name": "Vaibhav Arora",
+          "o": "3",
+          "r": 29,
+          "w": 1
+        },
+        {
+          "name": "Sunil Narine",
+          "o": "4",
+          "r": 17,
+          "w": 1
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "4",
+          "r": 25,
+          "w": 2
+        },
+        {
+          "name": "Varun Chakravarthy",
+          "o": "4",
+          "r": 28,
+          "w": 0
+        },
+        {
+          "name": "Cameron Green",
+          "o": "1",
+          "r": 12,
+          "w": 1
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Ajinkya Rahane",
+          "r": 13,
+          "b": 9,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Finn Allen",
+          "r": 100,
+          "b": 47,
+          "4s": 5,
+          "6s": 10
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Cameron Green",
+          "r": 33,
+          "b": 27,
+          "4s": 0,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mitchell Starc",
+          "o": "3",
+          "r": 31,
+          "w": 0
+        },
+        {
+          "name": "Axar Patel",
+          "o": "4",
+          "r": 27,
+          "w": 1
+        },
+        {
+          "name": "Lungi Ngidi",
+          "o": "2",
+          "r": 7,
+          "w": 0
+        },
+        {
+          "name": "Vipraj Nigam",
+          "o": "2",
+          "r": 34,
+          "w": 0
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "o": "3",
+          "r": 41,
+          "w": 0
+        },
+        {
+          "name": "Mukesh Kumar",
+          "o": "0.2",
+          "r": 7,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529294",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/51st-match-1529294/full-scorecard",
+  "scrapedAt": "2026-05-15T00:13:41"
+}

@@ -1,0 +1,210 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Sai Sudharsan",
+          "r": 55,
+          "b": 36,
+          "4s": 6,
+          "6s": 2
+        },
+        {
+          "name": "Shubman Gill",
+          "r": 84,
+          "b": 44,
+          "4s": 9,
+          "6s": 3
+        },
+        {
+          "name": "Jos Buttler",
+          "r": 13,
+          "b": 10,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Washington Sundar",
+          "r": 37,
+          "b": 20,
+          "4s": 2,
+          "6s": 3
+        },
+        {
+          "name": "Jason Holder",
+          "r": 7,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Rahul Tewatia",
+          "r": 14,
+          "b": 4,
+          "4s": 0,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Jofra Archer",
+          "o": "3",
+          "r": 46,
+          "w": 0
+        },
+        {
+          "name": "Tushar Deshpande",
+          "o": "4",
+          "r": 52,
+          "w": 0
+        },
+        {
+          "name": "Brijesh Sharma",
+          "o": "4",
+          "r": 47,
+          "w": 2
+        },
+        {
+          "name": "Yash Raj Punja",
+          "o": "4",
+          "r": 37,
+          "w": 1
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "o": "4",
+          "r": 34,
+          "w": 1
+        },
+        {
+          "name": "Donovan Ferreira",
+          "o": "1",
+          "r": 11,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Yashasvi Jaiswal",
+          "r": 3,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Vaibhav Sooryavanshi",
+          "r": 36,
+          "b": 16,
+          "4s": 3,
+          "6s": 3
+        },
+        {
+          "name": "Dhruv Jurel",
+          "r": 24,
+          "b": 10,
+          "4s": 1,
+          "6s": 3
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "r": 6,
+          "b": 7,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "r": 38,
+          "b": 25,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Donovan Ferreira",
+          "r": 4,
+          "b": 2,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Shubham Dubey",
+          "r": 15,
+          "b": 14,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Dasun Shanaka",
+          "r": 16,
+          "b": 11,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Jofra Archer",
+          "r": 5,
+          "b": 6,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Tushar Deshpande",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Brijesh Sharma",
+          "r": 1,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Siraj",
+          "o": "4",
+          "r": 55,
+          "w": 1
+        },
+        {
+          "name": "Kagiso Rabada",
+          "o": "3",
+          "r": 33,
+          "w": 2
+        },
+        {
+          "name": "Sai Kishore",
+          "o": "1",
+          "r": 8,
+          "w": 0
+        },
+        {
+          "name": "Rashid Khan",
+          "o": "4",
+          "r": 33,
+          "w": 4
+        },
+        {
+          "name": "Washington Sundar",
+          "o": "2",
+          "r": 10,
+          "w": 0
+        },
+        {
+          "name": "Jason Holder",
+          "o": "2.3",
+          "r": 12,
+          "w": 3
+        }
+      ]
+    }
+  ],
+  "matchId": "1529295",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/52nd-match-1529295/full-scorecard",
+  "scrapedAt": "2026-05-15T00:13:58"
+}

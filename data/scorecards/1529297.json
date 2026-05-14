@@ -1,0 +1,224 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Ryan Rickelton",
+          "r": 2,
+          "b": 4,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Rohit Sharma",
+          "r": 22,
+          "b": 10,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Naman Dhir",
+          "r": 47,
+          "b": 32,
+          "4s": 5,
+          "6s": 2
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Tilak Varma",
+          "r": 57,
+          "b": 42,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Will Jacks",
+          "r": 10,
+          "b": 10,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Raj Bawa",
+          "r": 16,
+          "b": 14,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Corbin Bosch",
+          "r": 5,
+          "b": 5,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Deepak Chahar",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bhuvneshwar Kumar",
+          "o": "4",
+          "r": 23,
+          "w": 4
+        },
+        {
+          "name": "Josh Hazlewood",
+          "o": "4",
+          "r": 33,
+          "w": 1
+        },
+        {
+          "name": "Rasikh Salam",
+          "o": "4",
+          "r": 42,
+          "w": 1
+        },
+        {
+          "name": "Romario Shepherd",
+          "o": "3",
+          "r": 18,
+          "w": 1
+        },
+        {
+          "name": "Krunal Pandya",
+          "o": "3",
+          "r": 26,
+          "w": 0
+        },
+        {
+          "name": "Suyash Sharma",
+          "o": "2",
+          "r": 21,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Jacob Bethell",
+          "r": 27,
+          "b": 27,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Devdutt Padikkal",
+          "r": 12,
+          "b": 11,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Rajat Patidar",
+          "r": 8,
+          "b": 8,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Krunal Pandya",
+          "r": 73,
+          "b": 46,
+          "4s": 4,
+          "6s": 5
+        },
+        {
+          "name": "Jitesh Sharma",
+          "r": 18,
+          "b": 12,
+          "4s": 1,
+          "6s": 2
+        },
+        {
+          "name": "Tim David",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Romario Shepherd",
+          "r": 4,
+          "b": 11,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Rasikh Salam",
+          "r": 3,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Bhuvneshwar Kumar",
+          "r": 7,
+          "b": 2,
+          "4s": 0,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Deepak Chahar",
+          "o": "4",
+          "r": 33,
+          "w": 2
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "o": "4",
+          "r": 20,
+          "w": 0
+        },
+        {
+          "name": "Corbin Bosch",
+          "o": "4",
+          "r": 26,
+          "w": 4
+        },
+        {
+          "name": "Will Jacks",
+          "o": "2",
+          "r": 13,
+          "w": 0
+        },
+        {
+          "name": "AM Ghazanfar",
+          "o": "3",
+          "r": 33,
+          "w": 1
+        },
+        {
+          "name": "Raj Bawa",
+          "o": "3",
+          "r": 39,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529297",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/54th-match-1529297/full-scorecard",
+  "scrapedAt": "2026-05-15T00:14:35"
+}

@@ -1,0 +1,162 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Ajinkya Rahane",
+          "r": 19,
+          "b": 13,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Finn Allen",
+          "r": 18,
+          "b": 8,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Angkrish Raghuvanshi",
+          "r": 71,
+          "b": 46,
+          "4s": 7,
+          "6s": 3
+        },
+        {
+          "name": "Cameron Green",
+          "r": 32,
+          "b": 24,
+          "4s": 3,
+          "6s": 1
+        },
+        {
+          "name": "Rinku Singh",
+          "r": 49,
+          "b": 29,
+          "4s": 3,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Bhuvneshwar Kumar",
+          "o": "4",
+          "r": 34,
+          "w": 1
+        },
+        {
+          "name": "Jacob Duffy",
+          "o": "4",
+          "r": 48,
+          "w": 0
+        },
+        {
+          "name": "Josh Hazlewood",
+          "o": "4",
+          "r": 35,
+          "w": 1
+        },
+        {
+          "name": "Rasikh Salam",
+          "o": "4",
+          "r": 35,
+          "w": 1
+        },
+        {
+          "name": "Krunal Pandya",
+          "o": "4",
+          "r": 39,
+          "w": 0
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Jacob Bethell",
+          "r": 15,
+          "b": 12,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Virat Kohli",
+          "r": 105,
+          "b": 60,
+          "4s": 11,
+          "6s": 3
+        },
+        {
+          "name": "Devdutt Padikkal",
+          "r": 39,
+          "b": 27,
+          "4s": 7,
+          "6s": 0
+        },
+        {
+          "name": "Rajat Patidar",
+          "r": 11,
+          "b": 8,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Tim David",
+          "r": 2,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Jitesh Sharma",
+          "r": 8,
+          "b": 5,
+          "4s": 1,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Saurabh Dubey",
+          "o": "2.1",
+          "r": 21,
+          "w": 0
+        },
+        {
+          "name": "Vaibhav Arora",
+          "o": "4",
+          "r": 48,
+          "w": 0
+        },
+        {
+          "name": "Kartik Tyagi",
+          "o": "4",
+          "r": 32,
+          "w": 3
+        },
+        {
+          "name": "Sunil Narine",
+          "o": "4",
+          "r": 31,
+          "w": 1
+        },
+        {
+          "name": "Cameron Green",
+          "o": "2",
+          "r": 22,
+          "w": 0
+        },
+        {
+          "name": "Anukul Roy",
+          "o": "3",
+          "r": 36,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529300",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/57th-match-1529300/full-scorecard",
+  "scrapedAt": "2026-05-15T00:15:49"
+}

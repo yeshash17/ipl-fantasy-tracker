@@ -1,0 +1,204 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Josh Inglis",
+          "r": 85,
+          "b": 33,
+          "4s": 10,
+          "6s": 6
+        },
+        {
+          "name": "Mitchell Marsh",
+          "r": 10,
+          "b": 10,
+          "4s": 0,
+          "6s": 1
+        },
+        {
+          "name": "Nicholas Pooran",
+          "r": 1,
+          "b": 3,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Rishabh Pant",
+          "r": 15,
+          "b": 12,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Aiden Markram",
+          "r": 6,
+          "b": 7,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Akshat Raghuwanshi",
+          "r": 18,
+          "b": 18,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Shahbaz Ahmed",
+          "r": 43,
+          "b": 25,
+          "4s": 3,
+          "6s": 3
+        },
+        {
+          "name": "Himmat Singh",
+          "r": 17,
+          "b": 12,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Mohammed Shami",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Avesh Khan",
+          "r": 0,
+          "b": 0,
+          "4s": 0,
+          "6s": 0
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Akeal Hosein",
+          "o": "4",
+          "r": 49,
+          "w": 0
+        },
+        {
+          "name": "Mukesh Choudhary",
+          "o": "4",
+          "r": 45,
+          "w": 0
+        },
+        {
+          "name": "Anshul Kamboj",
+          "o": "4",
+          "r": 47,
+          "w": 2
+        },
+        {
+          "name": "Noor Ahmad",
+          "o": "4",
+          "r": 24,
+          "w": 1
+        },
+        {
+          "name": "Jamie Overton",
+          "o": "4",
+          "r": 36,
+          "w": 3
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "Sanju Samson",
+          "r": 28,
+          "b": 14,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Ruturaj Gaikwad",
+          "r": 42,
+          "b": 28,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Urvil Patel",
+          "r": 65,
+          "b": 23,
+          "4s": 2,
+          "6s": 8
+        },
+        {
+          "name": "Kartik Sharma",
+          "r": 20,
+          "b": 20,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Dewald Brevis",
+          "r": 10,
+          "b": 12,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Shivam Dube",
+          "r": 15,
+          "b": 7,
+          "4s": 0,
+          "6s": 2
+        },
+        {
+          "name": "Prashant Veer",
+          "r": 17,
+          "b": 12,
+          "4s": 0,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mohammed Shami",
+          "o": "4",
+          "r": 37,
+          "w": 0
+        },
+        {
+          "name": "Prince Yadav",
+          "o": "4",
+          "r": 36,
+          "w": 0
+        },
+        {
+          "name": "Digvesh Rathi",
+          "o": "4",
+          "r": 45,
+          "w": 2
+        },
+        {
+          "name": "Avesh Khan",
+          "o": "4",
+          "r": 44,
+          "w": 1
+        },
+        {
+          "name": "Shahbaz Ahmed",
+          "o": "3",
+          "r": 30,
+          "w": 2
+        },
+        {
+          "name": "Aiden Markram",
+          "o": "0.2",
+          "r": 14,
+          "w": 0
+        }
+      ]
+    }
+  ],
+  "matchId": "1529296",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/53rd-match-1529296/full-scorecard",
+  "scrapedAt": "2026-05-15T00:14:18"
+}

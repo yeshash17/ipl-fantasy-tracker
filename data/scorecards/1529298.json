@@ -1,0 +1,191 @@
+{
+  "innings": [
+    {
+      "batting": [
+        {
+          "name": "Priyansh Arya",
+          "r": 56,
+          "b": 33,
+          "4s": 2,
+          "6s": 6
+        },
+        {
+          "name": "Prabhsimran Singh",
+          "r": 18,
+          "b": 15,
+          "4s": 3,
+          "6s": 0
+        },
+        {
+          "name": "Shreyas Iyer",
+          "r": 59,
+          "b": 36,
+          "4s": 5,
+          "6s": 3
+        },
+        {
+          "name": "Cooper Connolly",
+          "r": 38,
+          "b": 27,
+          "4s": 3,
+          "6s": 2
+        },
+        {
+          "name": "Marcus Stoinis",
+          "r": 1,
+          "b": 2,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Shashank Singh",
+          "r": 0,
+          "b": 1,
+          "4s": 0,
+          "6s": 0
+        },
+        {
+          "name": "Suryansh Shedge",
+          "r": 21,
+          "b": 8,
+          "4s": 2,
+          "6s": 2
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Mitchell Starc",
+          "o": "4",
+          "r": 57,
+          "w": 2
+        },
+        {
+          "name": "Auqib Nabi",
+          "o": "4",
+          "r": 32,
+          "w": 0
+        },
+        {
+          "name": "Lungi Ngidi",
+          "o": "4",
+          "r": 46,
+          "w": 0
+        },
+        {
+          "name": "Mukesh Kumar",
+          "o": "4",
+          "r": 31,
+          "w": 1
+        },
+        {
+          "name": "Madhav Tiwari",
+          "o": "4",
+          "r": 40,
+          "w": 2
+        }
+      ]
+    },
+    {
+      "batting": [
+        {
+          "name": "KL Rahul",
+          "r": 9,
+          "b": 8,
+          "4s": 2,
+          "6s": 0
+        },
+        {
+          "name": "Abishek Porel",
+          "r": 5,
+          "b": 6,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Sahil Parakh",
+          "r": 13,
+          "b": 6,
+          "4s": 1,
+          "6s": 1
+        },
+        {
+          "name": "Tristan Stubbs",
+          "r": 12,
+          "b": 17,
+          "4s": 1,
+          "6s": 0
+        },
+        {
+          "name": "Axar Patel",
+          "r": 56,
+          "b": 30,
+          "4s": 8,
+          "6s": 2
+        },
+        {
+          "name": "David Miller",
+          "r": 51,
+          "b": 28,
+          "4s": 3,
+          "6s": 4
+        },
+        {
+          "name": "Ashutosh Sharma",
+          "r": 24,
+          "b": 10,
+          "4s": 2,
+          "6s": 2
+        },
+        {
+          "name": "Madhav Tiwari",
+          "r": 18,
+          "b": 8,
+          "4s": 2,
+          "6s": 1
+        },
+        {
+          "name": "Auqib Nabi",
+          "r": 10,
+          "b": 2,
+          "4s": 1,
+          "6s": 1
+        }
+      ],
+      "bowling": [
+        {
+          "name": "Arshdeep Singh",
+          "o": "4",
+          "r": 21,
+          "w": 2
+        },
+        {
+          "name": "Yash Thakur",
+          "o": "4",
+          "r": 55,
+          "w": 2
+        },
+        {
+          "name": "Marco Jansen",
+          "o": "4",
+          "r": 45,
+          "w": 0
+        },
+        {
+          "name": "Ben Dwarshuis",
+          "o": "4",
+          "r": 51,
+          "w": 1
+        },
+        {
+          "name": "Marcus Stoinis",
+          "o": "3",
+          "r": 44,
+          "w": 1
+        }
+      ]
+    }
+  ],
+  "matchId": "1529298",
+  "url": "https://www.espncricinfo.com/series/ipl-2026-1510719/55th-match-1529298/full-scorecard",
+  "scrapedAt": "2026-05-15T00:14:50"
+}
